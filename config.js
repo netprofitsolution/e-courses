@@ -1,13 +1,15 @@
 window.PORTFOLIO_CONFIG = {
   brand: {
-    name: "E-learning Course Studio",
-    eyebrow: "Interactive learning, thoughtfully built",
-    headline: "E-learning that invites people to take part.",
-    introduction: "Explore a three-part learning series on prompt engineering and human–AI communication. Each demo is the original interactive SCORM course, presented here in a browser-ready player."
+    name: "Glory Emmanuel",
+    eyebrow: "Instructional designer · Content developer · Digital innovator",
+    headline: "I make learning feel like something worth clicking next for.",
+    introduction: "I design interactive, inspiring e-learning experiences that turn complex ideas into clear journeys—and give learners a reason to stay curious."
   },
   contact: {
-    email: "",
-    subject: "E-learning project enquiry"
+    email: "iamgloryemmanuel@gmail.com",
+    phoneDisplay: "+234 703 371 6742",
+    phoneHref: "+2347033716742",
+    subject: "Let’s work together on a learning project"
   },
   courses: [
     {
