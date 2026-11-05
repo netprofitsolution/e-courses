@@ -794,6 +794,8 @@
     <course_name><![CDATA[Module 2: The Anatomy of Effective Prompts]]></course_name>
   </scorm>
   <settings>
+    <logo>images/africax-institute-logo.png</logo>
+    <menu_logo>images/africax-institute-logo.png</menu_logo>
     <status_set_to_passed>true</status_set_to_passed>
     <show_background>false</show_background>
     <title_color>21947</title_color>
