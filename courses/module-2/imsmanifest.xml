@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_v1p2" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" identifier="MANIFEST01" version="1.2" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+	<metadata>
+		<schema>ADL SCORM</schema>
+		<schemaversion>1.2</schemaversion>
+		<imsmd:lom>
+			<imsmd:general>
+				<imsmd:title>
+					<imsmd:langstring xml:lang="en">Module 2: The Anatomy of Effective Prompts</imsmd:langstring>
+				</imsmd:title>
+			<imsmd:description><imsmd:langstring xml:lang="en">Master the structural components required to build high-precision AI prompts for professional and academic environments. Learn to reduce ambiguity and drive consistent, high-quality results through proven frameworks and clear constraints.</imsmd:langstring></imsmd:description></imsmd:general>
+		</imsmd:lom>
+	</metadata>
+	<organizations default="MANIFEST01_ORG1Module_2_Th1793558548000">
+		<organization identifier="MANIFEST01_ORG1Module_2_Th1793558548000">
+				<title>Module 2: The Anatomy of Effective Prompts</title>
+				<item identifier="MI01Module_2_Th1793558548000" identifierref="Res01Module_2_Th1793558548000" isvisible="true" parameters="">
+					<title>Module 2: The Anatomy of Effective Prompts</title>
+				</item>
+		</organization>
+	</organizations>
+
+	<resources>
+		<resource identifier="Res01Module_2_Th1793558548000" type="webcontent" adlcp:scormtype="sco" href="training.htm">
+			<file href="training.htm"/>
+		</resource>
+	</resources>
+	
+	</manifest>

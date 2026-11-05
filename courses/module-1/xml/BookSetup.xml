@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<data>
+	<setup>
+		<background src="images/pixel.png" type="image"/>	
+		
+		<other>
+			<arrows state="enabled"/>
+		</other>		
+	</setup>
+	
+	<flipbook width="700" height="500" proportion="0.7" boarder="5" middleboarder="0.5" boardercolor="0x000000" boarderalpha="1" pdf="http://www.mpcreation.pl/flashden/flipbook/pdf_version.pdf" title="Features Book" load="3" bitmapsmoothing="true" doubleclick="true" resizeswf="false" reverse="false">
+		<alert>
+			<loading src="Next page is loading please wait"/>
+			<pagenumber src="There are only 18 pages"/>
+		</alert>
+		<shadows>
+			<inner src="0"/>
+			<curveglow src="0"/>
+			<pageshadow src="0"/>
+			<innerpageshadow src="0"/>
+		</shadows>
+		<page src="pages/cover.jpg" url="http://www.activeden.net?ref=mpc" targeturl="_blank"/>
+		<page src="pages/table1.jpg"/>
+		<page src="pages/table2.jpg" type="table" bgcolor="0xCCCCCC" bgalpha="0.3" textcolor="0x000000">
+			<list src="Table of Content"/>
+			<list src="Cover" number="1"/>
+			<list src="Content page" number="4"/>
+			<list src="Video support" number="6"/>
+			<list src="Amaizing Features" number="8"/>
+			<list src="Page Printing" number="10"/>
+			<list src="Great Design" number="12"/>
+			<list src="Swf support" number="14"/>
+			<list src="XML Driven" number="16"/>
+			<list src="Back Cover" number="18"/>
+		</page>	
+		<page src="pages/content1.jpg"/>
+		<page src="pages/content2.jpg" type="content" width="300" height="400">
+			<![CDATA[<img src="images/logo.png" align="left" />
+			
+			
+			
+			
+			
+			
+			
+			
+					
+<p>Welcome this is page with XML Driven content.
+To format the text you can use bacis html tags like:
+
+<li><font size="13">Font size,</font></li>
+<li><font color="#00FF00">Font color,</font></li>
+<li><b>Bold,</b></li>
+<li><i>Italic,</i></li>
+<li><u>Underline,</u></li>
+<li>Image,</li>
+<li>Link: view my <a href="http://activeden.net/user/mpc?ref=mpc">ActiveDen profile.</a></li>
+</li></p>]]>
+		</page>	
+		<page src="pages/video1.jpg"/>
+		<page src="pages/video2.jpg" type="video" videosrc="videos/organic.flv"/>
+		<page src="pages/2_3.jpg" type="double" url="http://www.activeden.net?ref=mpc" targeturl="_blank" url2="http://www.activeden.net?ref=mpc" targeturl2="=self"/>
+		<page src="pages/4_5.jpg" type="double"/>
+		<page src="pages/6_7.jpg" type="double"/>								
+		<page src="pages/8.jpg"/>
+		<page src="pages/9.swf"/>
+		<page src="pages/10_11.jpg" type="double"/>
+		<page src="pages/bcover.jpg" />  
+	</flipbook>
+</data>

@@ -1,0 +1,256 @@
+<Quizes>
+	<Quiz identifier="MI00" Type="exam">
+	<Question QuestionID="MI01" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What is the primary difference between traditional search engines and generative AI prompting?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Search engines focus on retrieval of existing information, while prompting focuses on the creation and synthesis of new content.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Search engines use logic and patterns, while generative AI uses keywords and indexing.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[There is no functional difference; both are used to find facts on the internet.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Search engines create new data, while prompting retrieves existing documents.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI02" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[According to the course content, which of the following are essential components of the 'Structural Anatomy' of an effective prompt?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Context: Background details and the persona the AI should adopt.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Indexing: The database where the AI finds its information.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Temperature: The specific randomness setting of the model.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Format: The desired structure of the output, such as a table or memo.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="5" Correct="1" Score="10" Order="5" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Task: The specific action the AI should perform.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI03" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What does the term 'engineering' imply in the context of prompt design?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[A trial-and-error approach to see what the AI says.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[The physical hardware maintenance of Large Language Models.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[The process of training a model from scratch using vast datasets.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[A structured, repeatable process applying logic and linguistics to minimize ambiguity.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI04" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[Which strategies are recommended as core best practices for professional prompting?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Keep it brief: Always use one-sentence instructions to avoid confusing the AI.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Rely on intent: Assume the AI understands your unspoken thoughts and business culture.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Be Explicit: Use direct instructions and avoid vague language.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Use Examples: Provide 'few-shot' instances of the desired output style.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="5" Correct="1" Score="10" Order="5" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Set Constraints: Define what the output should NOT include.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI05" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What is an AI 'hallucination' in a professional context?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[When the AI refuses to answer a prompt due to safety constraints.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[When the AI confidently presents false information as fact because it prioritizes language flow over database retrieval.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[When the AI processes tokens too slowly to be useful.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[When the AI generates a response in a different language than requested.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI06" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[What are the primary capabilities of Generative AI as outlined in the course?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Generation: Creating emails, reports, and articles from scratch.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Emotional Nuance: Perfectly replicating deep human empathy and complex interpersonal feelings.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Real-time Fact-Checking: Automatically verifying all external data points without human intervention.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Analysis: Summarizing long documents and identifying trends.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="5" Correct="1" Score="10" Order="5" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Transformation: Changing the format or tone of existing text.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI07" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[How should a professional view the relationship with an AI system?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[As a replacement for human critical thinking and decision-making.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[As a collaborative partnership, similar to working with a highly capable but literal-minded intern.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[As a simple chatbot that does not require structured instructions.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[As an omniscient source of truth that requires no verification.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	</Quiz>
+</Quizes>

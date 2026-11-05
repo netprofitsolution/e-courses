@@ -1,0 +1,804 @@
+<?xml version="1.0"?><screens text_autoscaled="1">
+  <screen>
+    <screen_id x="0" y="0">1</screen_id>
+    <Template>4</Template>
+    <Section>Learning Goals</Section>
+    <Content autosize="true" height="399" width="740" x="150" y="100" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Learning Goals</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; margin-bottom: 16px; font-weight: 400;">Welcome to this learning session on <span style="font-weight: 700; background: linear-gradient(90deg, #0056D2, #00AEEF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Foundations of Prompt Engineering and Human-AI Communication</span>. In this course we shall address:</p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; margin-bottom: 16px; color: #333639; line-height: 1.3; list-style: '🔹 ';"><li>Define prompt engineering and its importance.</li><li>Differentiate between searching and instructing AI.</li><li>Identify common prompting mistakes and limitations.</li><li>Understand the relationship between context and output.</li><li>Apply iterative techniques for better results.</li></ul><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">There will be a quiz at the end to test your knowledge.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    
+    <Video/>
+    <Background descr="The slide displays a minimalist white room with a blue horizontal stripe, featuring three framed images that depict various modern office environments. This clean, professional visual style suggests a corporate timeline or gallery.">images/ai-1793558576-333.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">2</screen_id>
+    <Template>4</Template>
+    <Section>Foundations of Professional Human-AI Communication</Section>
+    <Content autosize="true" height="356" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Foundations of Professional Human-AI Communication</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Prompt engineering is the systematic practice of designing and refining instructions to communicate effectively with Large Language Models. For professionals, this is not just about "talking" to a computer; it is about structuring language to unlock specific capabilities. By mastering this skill, you transform AI from a simple chatbot into a sophisticated productivity partner that understands your specific business needs and objectives.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, airy corporate lobby with large windows and a clean, minimalist aesthetic.">images/ai-1793558108-498.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">3</screen_id>
+    <Template>4</Template>
+    <Section>Defining the Core Concept of a Prompt</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Defining the Core Concept of a Prompt</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">A prompt is the primary interface between human intent and AI execution. It serves as the input—text, code, or data—that triggers the model to generate a response. In a professional context, a prompt acts as a project brief. The more precise the brief, the more likely the output will align with your quality standards and strategic goals.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A close-up of a high-end laptop on a white desk in a sunlit office, showing a clean interface.">images/ai-1793558113-274.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">4</screen_id>
+    <Template>4</Template>
+    <Section>Understanding the Engineering in Prompt Design</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Understanding the Engineering in Prompt Design</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">The term "engineering" implies a structured, repeatable process rather than a trial-and-error approach. It involves applying logic, linguistics, and domain expertise to craft inputs that minimize ambiguity. Professional prompt engineering focuses on creating templates and frameworks that consistently produce high-quality results across different tasks, from data analysis to executive reporting.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A modern glass conference room with professional people collaborating in the background.">images/ai-1793558120-623.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">401</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_401</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_401">
+        <Question qType="TFSR" QuestionID="kc01" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement as True or False.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="1" Order="1">
+              <Text><![CDATA[Prompt engineering is a systematic practice rather than a trial-and-error approach.]]></Text>
+              <Feedback><![CDATA[Engineering implies a structured, repeatable process.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="1" Order="2">
+              <Text><![CDATA[A prompt acts as the primary interface between human intent and AI execution.]]></Text>
+              <Feedback><![CDATA[The prompt serves as the input that triggers the model's response.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="0" Order="3">
+              <Text><![CDATA[Professional prompt engineering relies primarily on casual, unstructured conversation.]]></Text>
+              <Feedback><![CDATA[It involves applying logic and linguistics to minimize ambiguity.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the items below.]]></FeedbackWrong>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+        <Question qType="MDD" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[Match each term to its definition based on the course content.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" Score="1" Order="1">
+              <Text><![CDATA[Prompt Engineering]]></Text>
+              <Match><![CDATA[The systematic practice of designing and refining instructions for Large Language Models.]]></Match>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" Score="1" Order="2">
+              <Text><![CDATA[Prompt]]></Text>
+              <Match><![CDATA[The input, such as text or code, that acts as a project brief to trigger AI execution.]]></Match>
+            </Answer>
+            <Answer AnswerID="3" Correct="1" Score="1" Order="3">
+              <Text><![CDATA[Engineering]]></Text>
+              <Match><![CDATA[A structured, repeatable process that applies logic and domain expertise to minimize ambiguity.]]></Match>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[All correct!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some matches are incorrect.]]></FeedbackWrong>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+        <Question qType="MC" QuestionID="kc03" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[Why is it important for professionals to master prompt engineering?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! Structuring language effectively transforms AI into a sophisticated partner that understands specific business needs.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. The focus of prompt engineering is to structure language to unlock specific capabilities and meet business objectives.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" Score="1" Order="1">
+              <Text><![CDATA[To transform AI into a productivity partner that understands business objectives.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="0" Score="0" Order="2">
+              <Text><![CDATA[To ensure the AI produces random outputs for creative brainstorming.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0" Score="0" Order="3">
+              <Text><![CDATA[To enable the AI to function without any human input or intent.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="0" Score="0" Order="4">
+              <Text><![CDATA[To eliminate the need for human domain expertise.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">5</screen_id>
+    <Template>4</Template>
+    <Section>Comparing Traditional Search with Generative Prompting</Section>
+    <Content autosize="true" height="462" width="459" x="525" y="71" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Comparing Traditional Search with Generative Prompting</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; margin-bottom: 16px; font-weight: 400;"><span style="font-weight: 700; background: linear-gradient(90deg, #0056D2, #00AEEF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Search Engines</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; margin-bottom: 16px; font-weight: 400;">Traditional search is about retrieval. You provide keywords to find existing information indexed on the web. The goal is to locate a specific source or document that already exists.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; margin-bottom: 16px; font-weight: 400;"><span style="font-weight: 700; background: linear-gradient(90deg, #0056D2, #00AEEF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Generative AI</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Prompting is about creation. You provide instructions to generate new content, synthesize data, or solve problems. The AI does not "find" an answer; it constructs one based on patterns and logic.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A split-view diagram comparing a simple search bar with a multi-layered instruction block, using clean lines and a corporate blue accent.">images/fg-1793558333-162.jpg</Image_1>
+    <Video/>
+    <Background descr="A bright, minimalist office space with a focus on white surfaces and soft natural light.">images/ai-1793558343-547.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">6</screen_id>
+    <Template>4</Template>
+    <Section>How AI Systems Interpret User Instructions</Section>
+    <Content autosize="true" height="462" width="459" x="525" y="71" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">How AI Systems Interpret User Instructions</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Generative AI does not "understand" language in the human sense. Instead, it processes tokens and predicts the most statistically probable next sequence of information based on your input. When you provide a prompt, the AI maps your words against a massive multidimensional space of concepts. Clarity is essential because the AI follows the literal path of your words, not your unspoken thoughts.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="83" y="115" width="420" height="420">images/anim-ai-icon-3-729966.svg</Image>
+    <Video/>
+    <Background descr="An abstract representation of glowing data points connecting in a clean, white architectural space.">images/ai-1793558349-871.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">7</screen_id>
+    <Template>4</Template>
+    <Section>The Mechanics of Large Language Models</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">The Mechanics of Large Language Models</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Large Language Models (LLMs) are trained on vast datasets to recognize patterns in human communication. They function as sophisticated prediction engines. When you prompt an LLM, you are essentially providing a starting point for a pattern. The quality of your "start" determines whether the AI continues in a professional, technical, or creative direction.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A high-tech server room with a clean, bright aesthetic and blue accent lighting.">images/ai-1793558357-556.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">8</screen_id>
+    <Template>4</Template>
+    <Section>The Direct Link Between Quality and Output</Section>
+    <Content autosize="true" height="462" width="459" x="525" y="71" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">The Direct Link Between Quality and Output</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">The principle of "Garbage In, Garbage Out" is highly relevant to prompt engineering. The AI's response is a direct reflection of the prompt's quality. If an instruction is vague, the AI must make assumptions to fill the gaps. These assumptions often lead to generic or irrelevant results. High-quality output requires high-quality, structured, and detailed input.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A flow chart showing a high-quality input leading to a polished document, contrasted with a messy input leading to a blurred result.">images/fg-1793558367-72.jpg</Image_1>
+    <Video/>
+    <Background descr="A tidy, professional workspace with a tablet and a coffee cup on a white marble desk.">images/ai-1793558375-642.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">801</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_801</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_801">
+        <Question qType="TFSR" QuestionID="kc01" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement regarding Generative AI and Traditional Search as True or False.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="1" Order="1">
+              <Text><![CDATA[Traditional search engines operate by retrieving existing documents indexed on the web.]]></Text>
+              <Feedback><![CDATA[Traditional search is about locating existing sources.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="0" Order="2">
+              <Text><![CDATA[Generative AI systems understand user instructions in the same way a human does.]]></Text>
+              <Feedback><![CDATA[AI does not 'understand' language; it processes tokens and predicts sequences.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="1" Order="3">
+              <Text><![CDATA[The quality of an AI's output is directly linked to the quality of the input prompt.]]></Text>
+              <Feedback><![CDATA[High-quality output requires structured and detailed input.]]></Feedback>
+            </Statement>
+            <Statement StatementID="4" Correct="0" Order="4">
+              <Text><![CDATA[When a prompt is vague, the AI will always ask for clarification before responding.]]></Text>
+              <Feedback><![CDATA[Vague prompts force the AI to make assumptions to fill gaps.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the items below.]]></FeedbackWrong>
+          <Background>images/kcbg-801.jpg</Background>
+        </Question>
+        <Question qType="FBM" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[Large Language Models function as sophisticated {1} engines, meaning they predict the most statistically probable next sequence based on your {2}.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" BlankId="1">
+              <Text><![CDATA[prediction]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" BlankId="2">
+              <Text><![CDATA[input]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[retrieval]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! LLMs use your input as a starting point to predict sequences.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite right. Remember that LLMs are built to recognize patterns and predict content.]]></FeedbackWrong>
+          <Background>images/kcbg-801.jpg</Background>
+        </Question>
+        <Question qType="DLG" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[You are writing a prompt for an AI to help you draft a report, but your initial draft is very vague. Based on the principle of 'Garbage In, Garbage Out,' what is the best way to improve your results?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1">
+              <Text><![CDATA[Provide more detailed, structured instructions to guide the AI's logic.]]></Text>
+              <Feedback><![CDATA[High-quality, structured input prevents the AI from making generic assumptions.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Ask the AI to ignore your previous instructions and perform a search instead.]]></Text>
+              <Feedback><![CDATA[Generative AI constructs content based on patterns rather than 'finding' documents via search.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Submit the same prompt multiple times until the AI generates the desired answer.]]></Text>
+              <Feedback><![CDATA[Repeating a vague prompt will not provide the necessary structure for high-quality output.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-801.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">9</screen_id>
+    <Template>4</Template>
+    <Section>Providing Context for Highly Relevant Results</Section>
+    <Content autosize="true" height="176" width="762" x="170" y="109" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Providing Context for Highly Relevant Results</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Context is the background information that helps the AI understand the "why" and "who" behind a task. Without context, the AI lacks a frame of reference.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="Providing Context for Highly Relevant Results. Context is the background information that helps the AI understand the &quot;why&quot; and &quot;who&quot; behind a task. Without context, the AI lacks a frame of reference.">images/ai-1793558381-543.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">901</screen_id>
+    <Template>4</Template>
+    <Content autosize="true" height="221" width="762" x="86" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; margin-bottom: 16px; font-weight: 400;"><span style="font-weight: 700; background: linear-gradient(90deg, #0056D2, #00AEEF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Establishing the Frame</span> Professional prompts should include:</p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; list-style: '🔹 '"><li>The specific role the AI should adopt.</li><li>The target audience for the output.</li><li>The underlying goal of the communication.</li><li>Any relevant constraints or historical data.</li></ul>]]></Content>
+    <Narrator/>
+    <Video/>
+    <Background descr="A wide shot of a modern office with professionals working at sleek white desks.">images/ai-1793558388-45.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">10</screen_id>
+    <Template>16</Template>
+    <Section>The Structural Anatomy of an Effective Prompt</Section>
+    <Title>Task</Title>
+    <Content auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">The specific action you want the AI to perform. Use strong verbs like "Analyze," "Draft," "Summarize," or "Code" to define the primary objective clearly.</p>]]></Content>
+    <Title_1>Context</Title_1>
+    <Content_1 auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">The background details, such as the industry, the specific project goals, or the persona the AI should adopt to ensure the tone is appropriate.</p>]]></Content_1>
+    <Title_2>Format</Title_2>
+    <Content_2 auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">The desired structure of the output. Specify if you need a bulleted list, a formal memo, a CSV table, or a specific word count.</p>]]></Content_2>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, professional studio setting with clean lines and soft shadows.">images/ai-1793558394-185.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">11</screen_id>
+    <Template>4</Template>
+    <Section>Bridging Human Intent with Machine Logic</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Bridging Human Intent with Machine Logic</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">The biggest challenge in prompting is the "intent gap." This is the difference between what you want and what you actually wrote. Professionals must learn to translate abstract business goals into concrete, step-by-step instructions. Explicitly stating your requirements reduces the chance of the AI deviating from your intended path.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional person pointing at a clear glass board with light reflecting off it.">images/ai-1793558409-205.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">12</screen_id>
+    <Template>4</Template>
+    <Section>Viewing Prompting as a Collaborative Partnership</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Viewing Prompting as a Collaborative Partnership</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Effective AI use is a dialogue, not a monologue. Think of the AI as a highly capable but literal-minded intern. You wouldn't give an intern a one-sentence instruction for a complex report; you would provide guidance, examples, and feedback. This collaborative mindset encourages better instruction design and more useful AI contributions.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="Two professionals in business attire looking at a screen together in a bright office.">images/ai-1793558421-472.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">1201</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_1201</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_1201">
+        <Question qType="FBM" QuestionID="kc01" Title="Knowledge check">
+          <Text><![CDATA[To reduce the {1} gap, professionals must translate abstract business goals into {2} instructions.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" BlankId="1">
+              <Text><![CDATA[intent]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" BlankId="2">
+              <Text><![CDATA[step-by-step]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[vague]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! Providing concrete instructions helps bridge the gap between intent and outcome.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. Review the section on bridging human intent with machine logic.]]></FeedbackWrong>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+        <Question qType="TFSR" QuestionID="kc02" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement as True or False.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="1" Order="1">
+              <Text><![CDATA[Providing context gives the AI a necessary frame of reference.]]></Text>
+              <Feedback><![CDATA[Context helps the AI understand the 'why' and 'who' behind a task.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="0" Order="2">
+              <Text><![CDATA[When prompting, you should avoid using strong verbs to keep the AI's options open.]]></Text>
+              <Feedback><![CDATA[You should use strong verbs to define the primary objective clearly.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="1" Order="3">
+              <Text><![CDATA[Effective AI prompting is best viewed as a collaborative dialogue.]]></Text>
+              <Feedback><![CDATA[Viewing prompting as a partnership leads to better results.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the items below.]]></FeedbackWrong>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+        <Question qType="DLG" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[You are assigning a complex report task to an AI. Based on the collaborative partnership approach, how should you proceed?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="0">
+              <Text><![CDATA[Provide a single, brief sentence to avoid overwhelming the AI with too much information.]]></Text>
+              <Feedback><![CDATA[The content suggests treating the AI like an intern; a one-sentence instruction is insufficient for complex tasks.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="1">
+              <Text><![CDATA[Provide clear guidance, relevant examples, and ongoing feedback throughout the process.]]></Text>
+              <Feedback><![CDATA[This collaborative approach mimics how you would manage a capable intern.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Let the AI draft the report independently and only review it once it is fully completed.]]></Text>
+              <Feedback><![CDATA[Effective prompting is a dialogue, not a monologue; collaborative guidance is essential.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">13</screen_id>
+    <Template>4</Template>
+    <Section>The Importance of the Iterative Design Cycle</Section>
+    <Content autosize="true" height="393" width="459" x="525" y="106" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">The Importance of the Iterative Design Cycle</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Rarely is the first prompt perfect. Prompt engineering is an iterative process. You send a prompt, evaluate the response, identify where it fell short, and refine your instructions. This cycle helps you discover the specific phrasing and constraints that work best for your unique professional tasks.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A circular diagram showing the steps: Prompt, Evaluate, Refine, and Re-prompt.">images/fg-1793558430-318.jpg</Image_1>
+    <Video/>
+    <Background descr="A bright, modern office with a focus on a clean, organized white desk.">images/ai-1793558442-863.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">14</screen_id>
+    <Template>4</Template>
+    <Section>Avoiding the Trap of Vague Instructions</Section>
+    <Content autosize="true" height="142" width="762" x="170" y="126" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Avoiding the Trap of Vague Instructions</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Vagueness is the enemy of effective prompting. Instructions like "Write a report" or "Help me with marketing" are too broad.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="Avoiding the Trap of Vague Instructions. Vagueness is the enemy of effective prompting. Instructions like &quot;Write a report&quot; or &quot;Help me with marketing&quot; are too broad.">images/ai-1793558451-103.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">1401</screen_id>
+    <Template>4</Template>
+    <Content autosize="true" height="154" width="762" x="86" y="58" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400"><span style="font-weight: 700; background: linear-gradient(90deg, #0056D2, #00AEEF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Refining for Precision</span> Instead of "Write a report," try: "Write a three-page executive summary regarding the Q3 sales performance, focusing on the decline in the European sector and proposing three mitigation strategies." Specificity eliminates guesswork for the AI.</p>]]></Content>
+    <Narrator/>
+    <Video/>
+    <Background descr="A close-up of a professional's hands typing on a sleek, modern keyboard.">images/ai-1793558467-740.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">15</screen_id>
+    <Template>4</Template>
+    <Section>Closing the Gap in Background Information</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Closing the Gap in Background Information</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">AI does not know your company's internal culture, your specific project history, or your personal preferences unless you provide them. Missing background information is a common cause of generic AI responses. Always ask yourself: "What does the AI need to know that isn't explicitly in the task?" and include those details in your prompt.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A stack of professional documents and a digital tablet on a clean glass table.">images/ai-1793558474-460.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">16</screen_id>
+    <Template>4</Template>
+    <Section>Resolving Conflicting Requirements in Complex Tasks</Section>
+    <Content autosize="true" height="321" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Resolving Conflicting Requirements in Complex Tasks</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">When prompts contain contradictory instructions—such as "be extremely detailed" but also "keep it under 50 words"—the AI will struggle. This leads to erratic or low-quality responses. Professional prompt engineering involves auditing your instructions to ensure that every constraint is compatible with the others, ensuring a logical path for the AI to follow.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="An abstract image of light reflecting off a structured, geometric glass building.">images/ai-1793558481-198.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">1601</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_1601</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_1601">
+        <Question qType="SDD" QuestionID="kc01" Title="Knowledge check">
+          <Text><![CDATA[Order the steps of the iterative prompt engineering process.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Order="1">
+              <Text><![CDATA[Send an initial prompt.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Order="2">
+              <Text><![CDATA[Evaluate the AI response.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Order="3">
+              <Text><![CDATA[Identify where the response fell short.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Order="4">
+              <Text><![CDATA[Refine instructions based on findings.]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! This cycle helps you discover the best phrasing for your tasks.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Incorrect order. Remember that evaluation must precede refinement.]]></FeedbackWrong>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+        <Question qType="CAT" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[Sort the following prompt examples based on their effectiveness according to the guidelines.]]></Text>
+          <Categories>
+            <Category id="c1"><![CDATA[Effective Prompting]]></Category>
+            <Category id="c2"><![CDATA[Vague Prompting]]></Category>
+          </Categories>
+          <Answers>
+            <Answer AnswerID="1" Category="c1">
+              <Text><![CDATA[Provide project history and company culture context.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Category="c2">
+              <Text><![CDATA[Write a report.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Category="c1">
+              <Text><![CDATA[Audit constraints to ensure they are compatible.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Category="c2">
+              <Text><![CDATA[Help me with marketing.]]></Text>
+            </Answer>
+            <Answer AnswerID="5" Category="c1">
+              <Text><![CDATA[Include details the AI needs to know about the task.]]></Text>
+            </Answer>
+            <Answer AnswerID="6" Category="c2">
+              <Text><![CDATA[Be very broad.]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! You have successfully identified the characteristics of effective vs. vague instructions.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some items are categorized incorrectly. Review the sections on avoiding vague instructions and providing background information.]]></FeedbackWrong>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+        <Question qType="MC" QuestionID="kc03" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[Why is it important to audit your instructions when creating complex prompts?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! Auditing ensures that all constraints are compatible, preventing erratic or low-quality AI responses.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. The answer is that auditing ensures every constraint is compatible with the others to ensure a logical path for the AI to follow.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="0" Score="0" Order="1">
+              <Text><![CDATA[To ensure the prompt is under 50 words.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="0" Score="0" Order="2">
+              <Text><![CDATA[To make the prompt as vague as possible for creative freedom.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0" Score="0" Order="3">
+              <Text><![CDATA[To guarantee the AI knows your personal preferences without you needing to state them.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="1" Score="1" Order="4">
+              <Text><![CDATA[To ensure every constraint is compatible with the others.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">17</screen_id>
+    <Template>4</Template>
+    <Section>Setting Realistic Expectations for AI Performance</Section>
+    <Content autosize="true" height="462" width="459" x="35" y="71" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Setting Realistic Expectations for AI Performance</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">AI is a powerful tool, but it is not omniscient. It can struggle with complex multi-step logic, real-time data (depending on the model), and deep emotional nuance. Understanding that AI is a pattern-matcher rather than a conscious entity helps you set realistic goals and design prompts that play to the system's strengths while accounting for its weaknesses.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="527" y="115" width="420" height="420">images/anim-ai-icon-1-729964.svg</Image>
+    <Video/>
+    <Background descr="A professional looking thoughtfully out of a large window in a high-rise office.">images/ai-1793558489-145.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">18</screen_id>
+    <Template>16</Template>
+    <Section>Exploring the Diverse Capabilities of Generative AI</Section>
+    <Title>Generation</Title>
+    <Content auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Creating emails, reports, articles, and social media posts from scratch based on specific style guidelines and target audiences.</p>]]></Content>
+    <Title_1>Transformation</Title_1>
+    <Content_1 auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Changing the format or tone of existing text, such as turning meeting notes into an action plan or translating technical jargon for a general audience.</p>]]></Content_1>
+    <Title_2>Analysis</Title_2>
+    <Content_2 auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Summarizing long documents, identifying trends in qualitative data, or extracting key themes from customer feedback.</p>]]></Content_2>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, airy workspace with a minimalist design and professional atmosphere.">images/ai-1793558496-530.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">19</screen_id>
+    <Template>4</Template>
+    <Section>Distinguishing Between Reasoning and Pattern Matching</Section>
+    <Content autosize="true" height="287" width="762" x="170" y="54" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Distinguishing Between Reasoning and Pattern Matching</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">It is easy to mistake AI's fluid language for true reasoning. In reality, the AI is predicting the most logical next step in a sequence. While it can simulate logical deduction, it can also make simple errors if the pattern it follows is flawed. Professionals should use AI for drafting and synthesis while retaining the responsibility for final logical verification.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A clean, white architectural space with a focus on geometric patterns and light.">images/ai-1793558502-143.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">20</screen_id>
+    <Template>4</Template>
+    <Section>Managing Inherent Variability in AI Responses</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Managing Inherent Variability in AI Responses</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">AI models are non-deterministic, meaning the same prompt can produce different results each time. This variability is a feature that allows for creativity, but it can be a challenge for standardized business processes. Learning to use "temperature" settings or specific formatting constraints can help you manage this variability and achieve more consistent outputs.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A series of identical modern glass vases on a white shelf, with slight variations in light.">images/ai-1793558510-128.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">2001</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_2001</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_2001">
+        <Question qType="DLG" QuestionID="kc01" Title="Knowledge check">
+          <Text><![CDATA[You are using an AI to draft a report on a complex topic. You notice the AI provides a very fluid and professional-sounding explanation, but you suspect the underlying logic might be flawed. What is the most appropriate action to take?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1">
+              <Text><![CDATA[Retain responsibility for the content by manually verifying the logic before finalising the report.]]></Text>
+              <Feedback><![CDATA[Correct. Since AI predicts the next logical step rather than performing true reasoning, professionals must verify the output.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Accept the draft as is, since the AI has demonstrated its capability to generate professional content.]]></Text>
+              <Feedback><![CDATA[AI can simulate reasoning but is actually pattern matching; it can produce flawed logic that requires human verification.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Regenerate the prompt until the AI provides a response that sounds more confident and logical.]]></Text>
+              <Feedback><![CDATA[Confidence in tone does not equate to logical accuracy; you must verify the work regardless of how many times you regenerate it.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-2001.jpg</Background>
+        </Question>
+        <Question qType="TFSR" QuestionID="kc02" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement as True or False.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="1" Order="1">
+              <Text><![CDATA[AI models are non-deterministic, meaning identical prompts may yield different outputs.]]></Text>
+              <Feedback><![CDATA[This variability is a feature of AI models that allows for creativity.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="0" Order="2">
+              <Text><![CDATA[AI is a conscious entity capable of deep emotional nuance and true reasoning.]]></Text>
+              <Feedback><![CDATA[AI is a pattern-matcher, not a conscious entity; it simulates reasoning rather than performing it.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="1" Order="3">
+              <Text><![CDATA[Using temperature settings or formatting constraints can help manage output variability.]]></Text>
+              <Feedback><![CDATA[These tools help professionals achieve more consistent results in business processes.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the items below.]]></FeedbackWrong>
+          <Background>images/kcbg-2001.jpg</Background>
+        </Question>
+        <Question qType="MC" QuestionID="kc03" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[According to the course content, which of the following is a primary limitation of AI that users must account for when designing prompts?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! AI is a pattern-matcher and often struggles with complex multi-step logic or real-time data.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. The answer is that AI struggles with complex multi-step logic and deep emotional nuance.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" Score="1" Order="1">
+              <Text><![CDATA[It struggles with complex multi-step logic and emotional nuance.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="0" Score="0" Order="2">
+              <Text><![CDATA[It cannot follow style guidelines or target audience constraints.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0" Score="0" Order="3">
+              <Text><![CDATA[It is incapable of generating text from scratch.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="0" Score="0" Order="4">
+              <Text><![CDATA[It is always deterministic and provides the same answer every time.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-2001.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">21</screen_id>
+    <Template>4</Template>
+    <Section>Addressing Hallucinations and Ensuring Fact Accuracy</Section>
+    <Content autosize="true" height="427" width="459" x="525" y="89" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Addressing Hallucinations and Ensuring Fact Accuracy</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">"Hallucination" occurs when an AI confidently presents false information as fact. This happens because the model is prioritizing the flow of language over factual database retrieval. Professionals must implement a verification layer, never taking AI-generated facts, citations, or data points at face value without secondary confirmation.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A three-step verification process diagram: AI Output, Fact Check, Human Validation.">images/fg-1793558518-958.jpg</Image_1>
+    <Video/>
+    <Background descr="A clean, professional desk with a magnifying glass over a document.">images/ai-1793558527-649.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">22</screen_id>
+    <Template>4</Template>
+    <Section>Strategic Integration of AI in Leadership</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Strategic Integration of AI in Leadership</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">For managers and executives, prompt engineering is a tool for delegation. By creating standardized prompts for recurring tasks—such as weekly status summaries or sentiment analysis of team feedback—leaders can scale their impact. This allows the human element of leadership to focus on high-level strategy and interpersonal relationships.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A senior professional leading a meeting in a bright, modern boardroom.">images/ai-1793558534-373.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">23</screen_id>
+    <Template>4</Template>
+    <Section>Maximizing Professional Efficiency and Output Quality</Section>
+    <Content autosize="true" height="287" width="762" x="170" y="54" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Maximizing Professional Efficiency and Output Quality</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">The ultimate goal of prompt engineering is to increase the "Value per Minute" of your work. By reducing the time spent on first drafts and data organization, you free up cognitive resources for critical thinking and decision-making. High-quality prompting ensures that the time saved is not lost later in extensive editing or correction.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A high-end watch on a white desk next to a sleek digital device.">images/ai-1793558540-373.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">24</screen_id>
+    <Template>16</Template>
+    <Section>Core Best Practices for Professional Prompting</Section>
+    <Title>Be Explicit</Title>
+    <Content auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Avoid "maybe" or "if possible." Use direct instructions. Tell the AI exactly what to do and what to avoid.</p>]]></Content>
+    <Title_1>Use Examples</Title_1>
+    <Content_1 auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Provide "few-shot" examples. Showing the AI two or three instances of the desired output style significantly improves its ability to replicate that style.</p>]]></Content_1>
+    <Title_2>Set Constraints</Title_2>
+    <Content_2 auto_narrator="true" voice="Amina" width="630" height="400" x="360" y="110" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Define what the output should NOT include. Negative constraints are just as powerful as positive ones for narrowing the AI's focus.</p>]]></Content_2>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, organized office space with a focus on a clean white desk.">images/ai-1793558547-972.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">25</screen_id>
+    <Template>4</Template>
+    <Section>Maintaining Critical Thinking in AI Interaction</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Maintaining Critical Thinking in AI Interaction</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">As AI becomes more integrated into professional life, the value of human judgment increases. Prompt engineering is the bridge, but human critical thinking is the foundation. You must remain the "Editor-in-Chief" of all AI-generated content, ensuring it aligns with ethical standards, company values, and factual reality.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional person standing in a bright office, looking at a digital tablet with a focused expression.">images/ai-1793558553-41.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">26</screen_id>
+    <Template>4</Template>
+    <Section>Recapping Foundations of Prompt Engineering</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Recapping Foundations of Prompt Engineering</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">We have explored the transition from simple searching to sophisticated prompting. By understanding the mechanics of LLMs and the importance of structure, context, and iteration, you are now equipped to communicate more effectively with AI. Remember that the quality of the response is a direct reflection of the clarity and detail of your instruction.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A wide, bright shot of a modern office interior with soft sunlight.">images/ai-1793558559-201.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">27</screen_id>
+    <Template>4</Template>
+    <Section>Moving Toward Advanced Human-AI Collaboration</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Moving Toward Advanced Human-AI Collaboration</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">You have completed the foundational module on prompt engineering. As you move forward, continue to experiment with different prompt structures and pay close attention to how small changes in language can lead to vastly different results. The future of professional work belongs to those who can effectively direct the power of artificial intelligence.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional walking toward a bright, sunlit window in a modern glass building.">images/ai-1793558566-703.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">28</screen_id>
+    <Template>1</Template>
+    <Section>Quiz</Section>
+    <Content>Please answer these questions and pass the quiz in order to continue.</Content>
+    <Quizes>
+      <settings>
+        <quiz_title/>
+        <OK>OK</OK>
+        <Issue_Detected>Issue detected</Issue_Detected>
+        <Retake_Test>You have reached the end of the test.</Retake_Test>
+        <Ratio>Your score is</Ratio>
+        <No_Issues>Congratulations! You have scored 100%!</No_Issues>
+        <Few_Issues>Congratulations! You have passed the quiz.</Few_Issues>
+        <Some_Issues>You have not reached the pass mark required.</Some_Issues>
+        <Many_Issues>You have got many questions wrong.</Many_Issues>
+        <Most_Issues>Select below</Most_Issues>
+        <Random>1</Random>
+        <Show_Intro>1</Show_Intro>
+        <Show_Results>1</Show_Results>
+        <QuizType>0</QuizType>
+        <LoadsQuizatScreenLevel>0</LoadsQuizatScreenLevel>
+        <ShowFeedback>1</ShowFeedback>
+        <PassMark>70</PassMark>
+        <Show_Answers>1</Show_Answers>
+      </settings>
+    </Quizes>
+    <Background/>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">29</screen_id>
+    <Template>4</Template>
+    <Section>Summary</Section>
+    <Content autosize="true" height="468" width="740" x="150" y="84" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.95" borderSize="1" borderColor="#0056d2" borderAlpha="0.2" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="180" dropShadowBlur="25" dropShadowColor="#002864" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; color: #0056D2; font-weight: 700; line-height: 1.2; word-break: break-word; border-left: 6px solid #0056D2; padding-left: 15px;">Summary</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; margin-bottom: 16px; font-weight: 400;">Well done you have completed the course <span style="font-weight: 700; background: linear-gradient(90deg, #0056D2, #00AEEF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">Foundations of Prompt Engineering and Human-AI Communication</span>. You should now be familiar with:</p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; margin-bottom: 16px; color: #333639; line-height: 1.3; list-style: '🔹 ';"><li>Define prompt engineering and its importance.</li><li>Differentiate between searching and instructing AI.</li><li>Identify common prompting mistakes and limitations.</li><li>Understand the relationship between context and output.</li><li>Apply iterative techniques for better results.</li></ul><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333639; line-height: 1.3; font-weight: 400">Should you need to revisit any of the topics in this course, please use the menu at the bottom of the screen.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator x="744" y="143" start="0" stop="400" width="325" height="507" mirror="true">video/woman30s_well_done.webm</Narrator>
+    <Video/>
+    <Background descr="The slide displays a minimalist white room with a blue horizontal stripe, featuring three framed images that depict various modern office environments. This clean, professional visual style suggests a corporate timeline or gallery.">images/ai-1793558576-333.jpg</Background>
+    <navigation/>
+  </screen>
+  <video>
+    <vid/>
+    <video_file_visible>true</video_file_visible>
+    <time_visible>false</time_visible>
+    <video_streaming>false</video_streaming>
+    <server/>
+    <video_slides_in>false</video_slides_in>
+  </video>
+  <scorm>
+    <scorm_format>SVGA_1905s</scorm_format>
+    <screen_scorm_finish>29</screen_scorm_finish>
+    <scorm_frame>28</scorm_frame>
+    <xmlversion>null</xmlversion>
+    <scorm_2004>1024012</scorm_2004>
+    <scorm_2005>1144484</scorm_2005>
+    <course_name><![CDATA[Foundations of Prompt Engineering and Human-AI Communication]]></course_name>
+  </scorm>
+  <settings>
+    <status_set_to_passed>true</status_set_to_passed>
+    <show_background>false</show_background>
+    <title_color>21964</title_color>
+    <voice>Amina</voice>
+    <language>English</language>
+    <default_thumb>1.jpg</default_thumb>
+    <show_second_menu>false</show_second_menu>
+    <show_text_toggle_button>true</show_text_toggle_button>
+    <visual_style>Bright, polished corporate visual language: airy modern offices and confident professional people, lots of white and glass with one strong brand accent colour. Soft daylight, tidy compositions and an optimistic, trustworthy tone — premium B2B brand photography or clean corporate illustration.</visual_style>
+    <applied_style_id>218</applied_style_id>
+  </settings>
+  <introduction>
+    <show_intro>true</show_intro>
+  </introduction>
+  <navigation>
+    <button name="next" x="982.5" y="590" width="75" height="60"/>
+    <button name="prev" x="77.5" y="590" width="55" height="44" visible="true"/>
+    <button name="yes" x="903.6" y="576.55" width="75" height="60" visible="false"/>
+    <button name="no" x="996.95" y="576.55" width="75" height="60" visible="false"/>
+  </navigation>
+  <nav_blocks>
+    <button name="skip" asset="next" x="982.5" y="590" width="75" height="60"/>
+  </nav_blocks>
+</screens>

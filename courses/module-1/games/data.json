@@ -1,0 +1,506 @@
+{
+    "course_title": "Foundations of Prompt Engineering and Human-AI Communication",
+    "space_brain_data": {
+        "questions": [
+            {
+                "question": "What is prompt engineering?",
+                "answers": [
+                    {
+                        "text": "Designing",
+                        "icon": "\ud83d\udee0\ufe0f",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Searching data",
+                        "icon": "\ud83d\udd0d",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Writing code",
+                        "icon": "\ud83d\udcbb",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does prompt engineering unlock?",
+                "answers": [
+                    {
+                        "text": "Capabilities",
+                        "icon": "\ud83d\udd11",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Simple chatbot",
+                        "icon": "\ud83e\udd16",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Existing information",
+                        "icon": "\ud83d\udcda",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What is the primary AI interface?",
+                "answers": [
+                    {
+                        "text": "Prompt",
+                        "icon": "\u2709\ufe0f",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Project brief",
+                        "icon": "\ud83d\udcdd",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Data analysis",
+                        "icon": "\ud83d\udcca",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does prompt engineering imply?",
+                "answers": [
+                    {
+                        "text": "Process",
+                        "icon": "\ud83d\udd04",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Trial error",
+                        "icon": "\ud83c\udfb2",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Domain expertise",
+                        "icon": "\ud83e\udde0",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does traditional search do?",
+                "answers": [
+                    {
+                        "text": "Retrieval",
+                        "icon": "\ud83d\udce5",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Content creation",
+                        "icon": "\u270d\ufe0f",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Problem solving",
+                        "icon": "\ud83d\udca1",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does generative AI do?",
+                "answers": [
+                    {
+                        "text": "Creation",
+                        "icon": "\u2728",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Information retrieval",
+                        "icon": "\ud83d\udd0e",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Data synthesis",
+                        "icon": "\ud83e\uddea",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "How do AI systems interpret words?",
+                "answers": [
+                    {
+                        "text": "Tokens",
+                        "icon": "\ud83d\udd22",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Unspoken thoughts",
+                        "icon": "\ud83d\udcad",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Literal path",
+                        "icon": "\ud83d\udeb6",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What do LLMs recognize?",
+                "answers": [
+                    {
+                        "text": "Patterns",
+                        "icon": "\ud83d\udcc8",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Human intent",
+                        "icon": "\ud83c\udfaf",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Specific needs",
+                        "icon": "\u2705",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What determines AI output quality?",
+                "answers": [
+                    {
+                        "text": "Start",
+                        "icon": "\ud83d\ude80",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Massive space",
+                        "icon": "\ud83c\udf0c",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Vast datasets",
+                        "icon": "\ud83d\udcbe",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    "memory_match_data": [
+        {
+            "question": "What is prompt engineering?",
+            "answer": "Designing instructions for AI."
+        },
+        {
+            "question": "Prompt engineering's main goal?",
+            "answer": "Effective AI communication."
+        },
+        {
+            "question": "What is a prompt?",
+            "answer": "Input to AI."
+        },
+        {
+            "question": "Prompt is like a...",
+            "answer": "Project brief."
+        },
+        {
+            "question": "Prompt engineering is structured?",
+            "answer": "Yes, repeatable process."
+        },
+        {
+            "question": "Traditional search is about...",
+            "answer": "Retrieval."
+        },
+        {
+            "question": "Generative AI prompting is about...",
+            "answer": "Creation."
+        },
+        {
+            "question": "How do AI interpret instructions?",
+            "answer": "Statistical prediction."
+        },
+        {
+            "question": "AI doesn't understand human...",
+            "answer": "Unspoken thoughts."
+        },
+        {
+            "question": "LLMs are prediction engines?",
+            "answer": "Yes, sophisticated."
+        }
+    ],
+    "questris_data": [
+        {
+            "question": "Prompt engineering uses a structured process.",
+            "answer": true
+        },
+        {
+            "question": "Clarity is not essential for AI.",
+            "answer": false
+        },
+        {
+            "question": "A prompt is the input to trigger AI.",
+            "answer": true
+        },
+        {
+            "question": "AI output is guaranteed to match quality standards.",
+            "answer": false
+        },
+        {
+            "question": "Prompt engineering transforms AI into a partner.",
+            "answer": true
+        },
+        {
+            "question": "Generative AI retrieves data like search engines.",
+            "answer": false
+        },
+        {
+            "question": "LLMs are trained on vast datasets.",
+            "answer": true
+        },
+        {
+            "question": "AI output always aligns with unspoken thoughts.",
+            "answer": false
+        },
+        {
+            "question": "Prompting an LLM provides a starting point.",
+            "answer": true
+        },
+        {
+            "question": "AI understands language like humans.",
+            "answer": false
+        },
+        {
+            "question": "A prompt is the output of the AI.",
+            "answer": false
+        },
+        {
+            "question": "Prompt engineering is irrelevant for professionals.",
+            "answer": false
+        },
+        {
+            "question": "Prompt engineering is about designing AI instructions.",
+            "answer": true
+        },
+        {
+            "question": "Generative AI finds existing information.",
+            "answer": false
+        },
+        {
+            "question": "Prompt engineering helps communicate with LLMs.",
+            "answer": true
+        },
+        {
+            "question": "Prompt engineering is random trial-and-error.",
+            "answer": false
+        },
+        {
+            "question": "LLMs function as prediction engines.",
+            "answer": true
+        },
+        {
+            "question": "AI predicts the next sequence of information.",
+            "answer": true
+        },
+        {
+            "question": "Traditional search is about creation.",
+            "answer": false
+        }
+    ],
+    "fact_man_data": [
+        {
+            "question": "What is prompt engineering?",
+            "options": [
+                "Finding existing information",
+                "Designing instructions for AI",
+                "Writing computer code",
+                "Translating languages"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Why is prompt engineering important for professionals?",
+            "options": [
+                "To make AI act like a chatbot",
+                "To unlock AI's specific capabilities",
+                "To find existing documents",
+                "To reduce AI training data"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is a prompt in AI communication?",
+            "options": [
+                "The AI's response",
+                "The AI's internal code",
+                "The input that triggers AI generation",
+                "The AI's learning algorithm"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "How does a prompt act in a professional context?",
+            "options": [
+                "As a final report",
+                "As a project brief",
+                "As an error message",
+                "As a user manual"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What does 'engineering' imply in prompt design?",
+            "options": [
+                "Trial and error",
+                "A structured, repeatable process",
+                "Random guessing",
+                "Ignoring user input"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the goal of traditional search?",
+            "options": [
+                "To generate new content",
+                "To locate existing information",
+                "To solve complex problems",
+                "To synthesize data"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the goal of generative AI prompting?",
+            "options": [
+                "To retrieve existing documents",
+                "To create new content",
+                "To analyze existing data",
+                "To find specific keywords"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "How do AI systems interpret user instructions?",
+            "options": [
+                "By understanding unspoken thoughts",
+                "By predicting statistically probable sequences",
+                "By directly accessing human emotions",
+                "By ignoring literal wording"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Why is clarity essential when prompting AI?",
+            "options": [
+                "AI understands implied meanings",
+                "AI follows the literal path of words",
+                "AI can guess user intent",
+                "AI prioritizes ambiguity"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What are Large Language Models (LLMs) trained on?",
+            "options": [
+                "Specific keywords",
+                "Vast datasets",
+                "User feedback only",
+                "One type of data"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "How do LLMs function?",
+            "options": [
+                "As data storage devices",
+                "As sophisticated prediction engines",
+                "As simple calculators",
+                "As search databases"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What does prompting an LLM provide?",
+            "options": [
+                "A final answer",
+                "A starting point for a pattern",
+                "An error code",
+                "A list of websites"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What determines the AI output quality when prompting?",
+            "options": [
+                "The AI's mood",
+                "The quality of the 'start' or prompt",
+                "The user's typing speed",
+                "The time of day"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Prompt engineering transforms AI into a:",
+            "options": [
+                "Simple chatbot",
+                "Productivity partner",
+                "Search engine",
+                "Data storage device"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Prompting AI is about:",
+            "options": [
+                "Retrieval",
+                "Creation",
+                "Deletion",
+                "Modification"
+            ],
+            "correct": 1
+        }
+    ],
+    "background_images": [
+        "..\/images\/ai-1793558576-333.jpg",
+        "..\/images\/ai-1793558108-498.jpg",
+        "..\/images\/ai-1793558113-274.jpg",
+        "..\/images\/ai-1793558120-623.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/ai-1793558343-547.jpg",
+        "..\/images\/ai-1793558349-871.jpg",
+        "..\/images\/ai-1793558357-556.jpg",
+        "..\/images\/ai-1793558375-642.jpg",
+        "..\/images\/kcbg-801.jpg",
+        "..\/images\/kcbg-801.jpg",
+        "..\/images\/kcbg-801.jpg",
+        "..\/images\/ai-1793558381-543.jpg",
+        "..\/images\/ai-1793558388-45.jpg",
+        "..\/images\/ai-1793558394-185.jpg",
+        "..\/images\/ai-1793558409-205.jpg",
+        "..\/images\/ai-1793558421-472.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/ai-1793558442-863.jpg",
+        "..\/images\/ai-1793558451-103.jpg",
+        "..\/images\/ai-1793558467-740.jpg",
+        "..\/images\/ai-1793558474-460.jpg",
+        "..\/images\/ai-1793558481-198.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/ai-1793558489-145.jpg",
+        "..\/images\/ai-1793558496-530.jpg",
+        "..\/images\/ai-1793558502-143.jpg",
+        "..\/images\/ai-1793558510-128.jpg",
+        "..\/images\/kcbg-2001.jpg",
+        "..\/images\/kcbg-2001.jpg",
+        "..\/images\/kcbg-2001.jpg",
+        "..\/images\/ai-1793558527-649.jpg",
+        "..\/images\/ai-1793558534-373.jpg",
+        "..\/images\/ai-1793558540-373.jpg",
+        "..\/images\/ai-1793558547-972.jpg",
+        "..\/images\/ai-1793558553-41.jpg",
+        "..\/images\/ai-1793558559-201.jpg",
+        "..\/images\/ai-1793558566-703.jpg",
+        "..\/images\/ai-1793558576-333.jpg"
+    ]
+}

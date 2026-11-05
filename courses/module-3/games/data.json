@@ -1,0 +1,518 @@
+{
+    "course_title": "Core Prompting Techniques and Strategies",
+    "space_brain_data": {
+        "questions": [
+            {
+                "question": "What is direct prompting?",
+                "answers": [
+                    {
+                        "text": "Instruction",
+                        "icon": "\ud83d\udcdd",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Example",
+                        "icon": "\ud83d\udca1",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Context",
+                        "icon": "\ud83d\udcda",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What are imperative verbs?",
+                "answers": [
+                    {
+                        "text": "Commands",
+                        "icon": "\ud83d\udde3\ufe0f",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Questions",
+                        "icon": "\u2753",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Suggestions",
+                        "icon": "\ud83e\udd14",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What makes direct prompts effective?",
+                "answers": [
+                    {
+                        "text": "Specificity",
+                        "icon": "\ud83c\udfaf",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Vagueness",
+                        "icon": "\ud83c\udf2b\ufe0f",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Generality",
+                        "icon": "\ud83c\udf0d",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What is zero-shot prompting?",
+                "answers": [
+                    {
+                        "text": "No",
+                        "icon": "\u274c",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Example",
+                        "icon": "\ud83d\udca1",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Few",
+                        "icon": "\ud83e\udd0f",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "Zero-shot uses AI's what?",
+                "answers": [
+                    {
+                        "text": "Knowledge",
+                        "icon": "\ud83e\udde0",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Examples",
+                        "icon": "\ud83d\udcda",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Instructions",
+                        "icon": "\ud83d\udcdd",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "When is zero-shot ideal?",
+                "answers": [
+                    {
+                        "text": "Standard",
+                        "icon": "\u2705",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Unique",
+                        "icon": "\u2728",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Complex",
+                        "icon": "\ud83e\udde9",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What is few-shot prompting?",
+                "answers": [
+                    {
+                        "text": "Examples",
+                        "icon": "\ud83d\udcda",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Instructions",
+                        "icon": "\ud83d\udcdd",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Knowledge",
+                        "icon": "\ud83e\udde0",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "Few-shot primes the model with?",
+                "answers": [
+                    {
+                        "text": "Pattern",
+                        "icon": "\ud83d\udd04",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Questions",
+                        "icon": "\u2753",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Commands",
+                        "icon": "\ud83d\udde3\ufe0f",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What is vital in few-shot?",
+                "answers": [
+                    {
+                        "text": "Consistency",
+                        "icon": "\u2696\ufe0f",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Variation",
+                        "icon": "\ud83c\udfa2",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Ambiguity",
+                        "icon": "\ud83c\udf2b\ufe0f",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does prompting determine for AI?",
+                "answers": [
+                    {
+                        "text": "Quality",
+                        "icon": "\ud83c\udf1f",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Speed",
+                        "icon": "\u26a1",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Size",
+                        "icon": "\ud83d\udccf",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    "memory_match_data": [
+        {
+            "question": "What is direct prompting?",
+            "answer": "Clear, concise instruction"
+        },
+        {
+            "question": "Use imperative verbs in direct prompts?",
+            "answer": "Yes"
+        },
+        {
+            "question": "What is zero-shot prompting?",
+            "answer": "No examples provided"
+        },
+        {
+            "question": "Zero-shot is ideal for what tasks?",
+            "answer": "Standard tasks"
+        },
+        {
+            "question": "What is few-shot prompting?",
+            "answer": "Few examples given"
+        },
+        {
+            "question": "Few-shot prompting primes the model?",
+            "answer": "Yes"
+        },
+        {
+            "question": "What does few-shot prompting increase?",
+            "answer": "Likelihood of matching"
+        },
+        {
+            "question": "Consistency is vital in few-shot?",
+            "answer": "Yes"
+        },
+        {
+            "question": "What does prompting transform AI into?",
+            "answer": "Professional assistant"
+        },
+        {
+            "question": "Direct prompts need specific constraints?",
+            "answer": "Yes"
+        }
+    ],
+    "questris_data": [
+        {
+            "question": "Prompting transforms AI into an assistant.",
+            "answer": true
+        },
+        {
+            "question": "Imperative verbs improve direct prompts.",
+            "answer": true
+        },
+        {
+            "question": "Zero-shot prompting uses AI examples.",
+            "answer": false
+        },
+        {
+            "question": "Direct prompts work for complex tasks.",
+            "answer": false
+        },
+        {
+            "question": "AI models learn without examples.",
+            "answer": true
+        },
+        {
+            "question": "Direct prompts need vague instructions.",
+            "answer": false
+        },
+        {
+            "question": "Consistent examples are vital for few-shot.",
+            "answer": true
+        },
+        {
+            "question": "AI outputs are always reliable.",
+            "answer": false
+        },
+        {
+            "question": "Multi-stage prompt chains are advanced.",
+            "answer": true
+        },
+        {
+            "question": "Zero-shot is for specialized formats.",
+            "answer": false
+        },
+        {
+            "question": "Few-shot prompting primes the model.",
+            "answer": true
+        },
+        {
+            "question": "Task decomposition is a core technique.",
+            "answer": true
+        },
+        {
+            "question": "Few-shot prompting is always efficient.",
+            "answer": false
+        },
+        {
+            "question": "Prompting is just writing requests.",
+            "answer": false
+        },
+        {
+            "question": "Few-shot prompting requires AI examples.",
+            "answer": true
+        },
+        {
+            "question": "Iterative refinement improves AI output.",
+            "answer": true
+        },
+        {
+            "question": "Direct prompting is complex.",
+            "answer": false
+        },
+        {
+            "question": "Zero-shot relies on pre-existing knowledge.",
+            "answer": true
+        }
+    ],
+    "fact_man_data": [
+        {
+            "question": "What is the primary goal of mastering core prompting techniques?",
+            "options": [
+                "To make AI more entertaining",
+                "To transform AI into a professional assistant",
+                "To reduce AI's processing speed",
+                "To create more complex AI models"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Direct prompting is best for which type of tasks?",
+            "options": [
+                "Highly specialized and unique tasks",
+                "Tasks requiring extensive examples",
+                "Simple, well-defined tasks",
+                "Tasks needing a specific brand voice"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is recommended for effective direct prompts?",
+            "options": [
+                "Asking open-ended questions",
+                "Using imperative verbs and clear constraints",
+                "Providing many irrelevant details",
+                "Avoiding any specific instructions"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which is a better direct prompt example?",
+            "options": [
+                "Can you write a summary?",
+                "Summarize this report into three bullet points.",
+                "Tell me about this document.",
+                "Make a summary of this."
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What should professionals define in direct prompts?",
+            "options": [
+                "The AI's personality",
+                "The desired format, length, and audience",
+                "The AI's learning history",
+                "The cost of AI usage"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is zero-shot prompting?",
+            "options": [
+                "Prompting with many examples",
+                "Prompting with no examples",
+                "Prompting with a single example",
+                "Prompting with complex instructions"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "In zero-shot prompting, the model relies on what?",
+            "options": [
+                "User-provided examples",
+                "Pre-existing knowledge and internal logic",
+                "External research data",
+                "Specific task demonstrations"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Zero-shot prompting is ideal for which tasks?",
+            "options": [
+                "Highly specialized formats",
+                "Unique brand voices",
+                "Standard tasks like drafting emails",
+                "Tasks needing precise pattern matching"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "When might zero-shot prompting struggle?",
+            "options": [
+                "For simple general inquiries",
+                "For generating creative ideas",
+                "With highly specialized formats",
+                "For summarizing common knowledge"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What does few-shot prompting involve?",
+            "options": [
+                "Asking the AI to learn from scratch",
+                "Providing the model with a few examples",
+                "Giving a single, detailed instruction",
+                "Asking the AI to guess the pattern"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Few-shot prompting helps the AI by:",
+            "options": [
+                "Reducing its processing power",
+                "Priming it to follow a specific pattern",
+                "Ignoring its existing knowledge",
+                "Limiting its creativity"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is vital when formatting few-shot examples?",
+            "options": [
+                "Using different labels for each example",
+                "Ensuring consistency in your examples",
+                "Making the examples very long",
+                "Providing only input without output"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Few-shot prompting increases the likelihood of:",
+            "options": [
+                "The AI ignoring instructions",
+                "The AI generating irrelevant content",
+                "The AI matching requirements on the first attempt",
+                "The AI needing more clarification"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of 'task decomposition'?",
+            "options": [
+                "To combine simple tasks into one",
+                "To break down complex tasks into smaller parts",
+                "To eliminate the need for prompts",
+                "To make prompts more confusing"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Iterative refinement in prompting means:",
+            "options": [
+                "Making one perfect prompt initially",
+                "Improving prompts through repeated adjustments",
+                "Using a single, complex prompt",
+                "Skipping the refinement process"
+            ],
+            "correct": 1
+        }
+    ],
+    "background_images": [
+        "..\/images\/ai-1793720626-746.jpg",
+        "..\/images\/ai-1793720286-366.jpg",
+        "..\/images\/ai-1793720292-971.jpg",
+        "..\/images\/ai-1793720309-200.jpg",
+        "..\/images\/ai-1793720315-108.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/ai-1793720322-127.jpg",
+        "..\/images\/ai-1793720329-445.jpg",
+        "..\/images\/ai-1793720359-415.jpg",
+        "..\/images\/ai-1793720366-298.jpg",
+        "..\/images\/ai-1793720373-817.jpg",
+        "..\/images\/ai-1793720379-9.jpg",
+        "..\/images\/ai-1793720396-603.jpg",
+        "..\/images\/ai-1793720402-905.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/ai-1793720410-413.jpg",
+        "..\/images\/ai-1793720427-149.jpg",
+        "..\/images\/ai-1793720466-453.jpg",
+        "..\/images\/ai-1793720483-646.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/ai-1793720500-299.jpg",
+        "..\/images\/ai-1793720507-129.jpg",
+        "..\/images\/ai-1793720514-17.jpg",
+        "..\/images\/ai-1793720531-894.jpg",
+        "..\/images\/kcbg-2001.jpg",
+        "..\/images\/kcbg-2001.jpg",
+        "..\/images\/kcbg-2001.jpg",
+        "..\/images\/ai-1793720537-732.jpg",
+        "..\/images\/ai-1793720557-372.jpg",
+        "..\/images\/ai-1793720563-395.jpg",
+        "..\/images\/ai-1793720569-958.jpg",
+        "..\/images\/ai-1793720586-172.jpg",
+        "..\/images\/ai-1793720593-589.jpg",
+        "..\/images\/ai-1793720599-251.jpg",
+        "..\/images\/ai-1793720626-746.jpg"
+    ]
+}

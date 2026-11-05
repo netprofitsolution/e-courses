@@ -1,0 +1,34 @@
+{
+    "version": 1,
+    "source_hash": "19a4f1ea6307893d5f56500b0ff04f1a",
+    "generated": {
+        "gamification": {
+            "state": "ready",
+            "hash": "19a4f1ea6307893d5f56500b0ff04f1a",
+            "at": 1793559083
+        }
+    },
+    "image_describe": {
+        "state": "done",
+        "done": 34,
+        "total": 34,
+        "at": 1793558624,
+        "result": {
+            "ok": true,
+            "described": 2,
+            "skipped": 32,
+            "failed": 0,
+            "total": 34
+        }
+    },
+    "narration": {
+        "state": "done",
+        "done": 34,
+        "total": 34,
+        "at": 1793719750,
+        "result": {
+            "generated": 0,
+            "failed": 0
+        }
+    }
+}

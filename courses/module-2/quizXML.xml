@@ -1,0 +1,256 @@
+<Quizes>
+	<Quiz identifier="MI00" Type="exam">
+	<Question QuestionID="MI01" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[According to the course content, which of the following are considered foundational layers of a well-structured prompt?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Constraints]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Objective]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Context]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Emotional Intelligence]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="5" Correct="0" Score="0" Order="5" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Hardware Specifications]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI02" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What is the primary benefit of 'Data Grounding' when supplying background information to an AI?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[It allows the AI to ignore the provided text in favor of its training data.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[It significantly reduces the chance of generating incorrect or generic information.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[It forces the AI to use more creative and abstract language.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[It increases the speed of the AI's response.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI03" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[Which components are part of the RTF framework used for structuring quick, professional prompts?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Task]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Review]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Format]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Role]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="5" Correct="0" Score="0" Order="5" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Reasoning]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI04" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[Which prompting strategy involves providing one or two 'gold standard' examples to give the AI a template to follow?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Zero-Shot Prompting]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Few-Shot Prompting]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Negative Constraint Prompting]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Chain of Thought Prompting]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI05" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[When setting boundaries and constraints, what are examples of 'Stylistic Constraints'?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[A maximum of 150 words.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Using an 'authoritative yet accessible' tone.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Including exactly three bullet points.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Specifying a 'strictly professional' voice.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="5" Correct="1" Score="10" Order="5" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Adopting an 'enthusiastic and persuasive' linguistic choice.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI06" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What does the 'A' stand for in the CARE framework?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Action]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Analysis]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Audience]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Ambiguity]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI07" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What is the purpose of 'Chain of Thought' prompting in advanced strategies?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To provide the AI with a specific persona like a CFO.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To reduce the word count of the final output.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To eliminate the need for any context or background information.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To ask the AI to 'think step-by-step' to verify its logical reasoning.]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	</Quiz>
+</Quizes>

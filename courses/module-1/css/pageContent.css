@@ -1,0 +1,33 @@
+p {
+    	font-family: "Myriad Pro";
+		color: #FFFFFF;
+    	font-size: 12px;
+}
+
+h1 {
+    	font-family:"Myriad Pro Bold";
+    	font-size: 12px;
+    	font-weight: bold;
+}
+a:link{
+   	text-decoration:underline;
+}
+a:hover{
+   	text-decoration:none;
+}	
+.bold{
+	font-family:"Myriad Pro Bold";
+   	font-weight:bold;
+}
+.italic{
+	font-family:"Myriad Pro Italic";
+	font-style:italic;
+}
+.underline{
+	font-family:"Myriad Pro";
+	text-decoration:underline;
+}
+li { 
+	margin: 0 5px; 
+	padding: 0;
+}

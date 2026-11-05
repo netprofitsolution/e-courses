@@ -1,0 +1,820 @@
+<?xml version="1.0"?><screens text_autoscaled="1">
+  <screen>
+    <screen_id x="0" y="0">1</screen_id>
+    <Template>4</Template>
+    <Section>Learning Goals</Section>
+    <Content autosize="true" height="364" width="740" x="150" y="100" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Learning Goals</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Welcome to this learning session on <span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Module 2: The Anatomy of Effective Prompts</span>. In this course we shall address:</p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px; list-style: '🔷 ';"><li>Define clear objectives and tasks</li><li>Provide relevant context and background</li><li>Set constraints and quality boundaries</li><li>Use examples for expected results</li><li>Apply reusable prompt frameworks</li></ul><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">There will be a quiz at the end to test your knowledge.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    
+    <Video/>
+    <Background descr="This e-learning slide features a minimalist, empty white room with a window visible in the upper right. Strong natural light casts geometric shadows across the back wall and floor, creating a clean and bright aesthetic.">images/ai-1793558546-537.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">2</screen_id>
+    <Template>4</Template>
+    <Section>Mastering the Architecture of Prompts</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Mastering the Architecture of Prompts</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Welcome to the second module of our journey into generative AI. While the first module introduced the basics, we now shift our focus to the structural precision required for professional-grade outputs.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">Effective prompting is not about "talking" to a machine; it is about engineering a clear set of instructions. By understanding the anatomy of a prompt, you can transform vague requests into actionable, high-value business assets.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional woman in a bright, airy office standing by a glass wall, looking thoughtfully at a clean digital tablet.">images/ai-1793558242-267.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">3</screen_id>
+    <Template>4</Template>
+    <Section>The Core Components of a Prompt</Section>
+    <Content autosize="true" height="468" width="459" x="525" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">The Core Components of a Prompt</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">A well-structured prompt is rarely a single sentence. It is a composite of several layers that work together to guide the AI’s logic.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">The Foundational Layers</span></p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; list-style: '🔷 '"><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Objective:</span> What are we trying to achieve?</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Task:</span> What specific action should the AI take?</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Context:</span> What background information is relevant?</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Constraints:</span> What are the boundaries and rules?</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Output:</span> What should the final result look like?</li></ul>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A clean circular diagram showing five interlocking segments: Objective, Context, Constraints, Examples, and Format. Polished corporate style with blue and white tones.">images/fg-1793558251-365.jpg</Image_1>
+    <Video/>
+    <Background descr="The Core Components of a Prompt. A well-structured prompt is rarely a single sentence. It is a composite of several layers that work together to guide the AI’s logic. **The Foundational Layers** - **Objective:** What are we trying to">images/ai-1793558274-357.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">301</screen_id>
+    <Template>4</Template>
+    <Content autosize="true" height="189" width="762" x="86" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">When these components are missing, the AI is forced to make assumptions. These assumptions often lead to "hallucinations" or irrelevant content. By providing a complete anatomy, you ensure the AI’s response is grounded in your specific needs rather than generic patterns.</p>]]></Content>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, minimalist office space with a large white desk and a single designer lamp, soft daylight streaming through glass.">images/ai-1793558281-601.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">4</screen_id>
+    <Template>4</Template>
+    <Section>Defining the Clear Objective</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Defining the Clear Objective</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Before typing a single word, you must identify the primary goal. An objective provides the "why" behind the prompt, helping the AI prioritize certain types of information over others.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Strategic Alignment</span> Instead of asking to "write a report," define the objective as "creating a persuasive summary to secure budget approval from the executive board." This shift in objective changes the tone, focus, and depth of the response immediately.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="Two professionals in business casual attire discussing a project in a bright, modern lobby with glass partitions.">images/ai-1793558287-266.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">401</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_401</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_401">
+        <Question qType="FBM" QuestionID="kc01" Title="Knowledge check">
+          <Text><![CDATA[To ensure professional-grade outputs, you should define the {1} of your prompt to explain the 'why' behind your request, and establish {2} to dictate the rules and boundaries for the AI's response.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" BlankId="1">
+              <Text><![CDATA[objective]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" BlankId="2">
+              <Text><![CDATA[constraints]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[background]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! Defining the objective provides strategic alignment, while constraints set the necessary boundaries.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite right. Review the core components of a prompt in Section 3.]]></FeedbackWrong>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+        <Question qType="MC" QuestionID="kc02" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[Why is it recommended to define a specific objective rather than using a vague request like 'write a report'?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! A clear objective provides the 'why' behind the prompt, which shifts the AI's tone, focus, and depth to match your specific goal.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. The answer is that a specific objective helps the AI prioritize information and aligns the response with your intended outcome.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="0" Score="0" Order="1">
+              <Text><![CDATA[It prevents the AI from using background information provided in the context.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="0" Score="0" Order="2">
+              <Text><![CDATA[It reduces the total number of words required in the prompt.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0" Score="0" Order="3">
+              <Text><![CDATA[It ensures the AI uses a specific format like a spreadsheet or email.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="1" Score="1" Order="4">
+              <Text><![CDATA[It defines the 'why' behind the prompt, immediately changing the tone, focus, and depth of the response.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+        <Question qType="DLG" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[You are drafting a prompt to get a summary for a project update. Which approach best follows the principles of effective prompt architecture?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1">
+              <Text><![CDATA[Create a persuasive project summary for the executive board to secure budget approval, keeping it under 300 words.]]></Text>
+              <Feedback><![CDATA[This is excellent as it includes the objective, the task, the target audience, and a constraint.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Tell the AI to talk to the executive board about the project budget.]]></Text>
+              <Feedback><![CDATA[This treats the AI like a conversational partner rather than an engineering tool for specific instructions.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Write a short summary of the project.]]></Text>
+              <Feedback><![CDATA[This is too vague and lacks the 'why' or specific task parameters.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">5</screen_id>
+    <Template>4</Template>
+    <Section>Crafting the Task Instruction</Section>
+    <Content autosize="true" height="468" width="459" x="35" y="52" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Crafting the Task Instruction</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Strategic Tasks</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Focus on high-level analysis, synthesis of complex data, or long-term planning. These require the AI to look for patterns and provide recommendations based on broad datasets.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Operational Tasks</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Focus on execution, such as drafting emails, summarizing meeting notes, or creating project timelines. These tasks require high precision and adherence to specific procedural steps.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Creative Tasks</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">Focus on ideation, brainstorming, or drafting narrative content. These prompts should encourage the AI to explore diverse perspectives while staying within a defined thematic boundary.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="527" y="115" width="420" height="420">images/anim-action-plan-blue-729960.svg</Image>
+    <Video/>
+    <Background descr="A sleek, modern workspace with multiple monitors showing clean data visualizations and professional documents.">images/ai-1793558293-926.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">6</screen_id>
+    <Template>4</Template>
+    <Section>Context: Setting the Stage</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Context: Setting the Stage</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Context provides the AI with the environment in which the task exists. Without context, the AI treats every request as a vacuum.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">The Power of Background</span> If you ask for a "marketing strategy," the AI might give you a generic plan. If you provide context—"We are a boutique law firm in London targeting high-net-worth individuals for estate planning"—the response becomes specialized and relevant.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A blurred background of a bustling, high-end corporate office with glass walls and professional people moving in the distance.">images/ai-1793558298-368.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">7</screen_id>
+    <Template>4</Template>
+    <Section>Identifying the Target Audience</Section>
+    <Content autosize="true" height="468" width="459" x="35" y="49" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Identifying the Target Audience</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">To produce effective content, the AI must know who the recipient is. The audience dictates the complexity of language, the use of technical jargon, and the overall perspective of the output.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Audience Profiles</span></p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; list-style: '🔷 '"><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Executives:</span> High-level summaries, ROI-focused, concise.</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Technical Teams:</span> Detailed specifications, data-heavy, precise.</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">General Public:</span> Accessible language, relatable examples, clear calls to action.</li></ul>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="527" y="115" width="420" height="420">images/anim-ai-icon-1-729964.svg</Image>
+    <Video/>
+    <Background descr="A diverse group of professional people sitting in a bright, modern seminar room, focused on a presentation.">images/ai-1793558305-183.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">8</screen_id>
+    <Template>4</Template>
+    <Section>Supplying Background Information</Section>
+    <Content autosize="true" height="468" width="459" x="525" y="54" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Supplying Background Information</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">The quality of the AI's output is directly proportional to the quality of the data you provide. Background information can include previous reports, company values, specific product details, or industry trends.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Data Grounding</span> When you supply specific facts or documents within your prompt, you "ground" the AI. This significantly reduces the chance of the AI generating incorrect or generic information, as it must prioritize the provided text.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="83" y="115" width="420" height="420">images/anim-data-a-19-730141.svg</Image>
+    <Video/>
+    <Background descr="A close-up of a tidy desk with a laptop, a notebook, and a coffee cup in a bright, sunlit professional setting.">images/ai-1793558319-818.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">801</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_801</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_801">
+        <Question qType="CAT" QuestionID="kc01" Title="Knowledge check">
+          <Text><![CDATA[Sort the following task examples into their corresponding categories based on their primary function.]]></Text>
+          <Categories>
+            <Category id="c1"><![CDATA[Strategic Tasks]]></Category>
+            <Category id="c2"><![CDATA[Operational Tasks]]></Category>
+          </Categories>
+          <Answers>
+            <Answer AnswerID="1" Category="c1">
+              <Text><![CDATA[Synthesizing complex market data]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Category="c2">
+              <Text><![CDATA[Drafting a project timeline]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Category="c1">
+              <Text><![CDATA[Conducting long-term planning]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Category="c2">
+              <Text><![CDATA[Summarizing meeting notes]]></Text>
+            </Answer>
+            <Answer AnswerID="5" Category="c1">
+              <Text><![CDATA[Identifying patterns in broad datasets]]></Text>
+            </Answer>
+            <Answer AnswerID="6" Category="c2">
+              <Text><![CDATA[Drafting an email]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! You have successfully distinguished between high-level strategic analysis and procedural operational execution.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some items are incorrectly categorised. Review the focus of strategic tasks versus operational execution.]]></FeedbackWrong>
+          <Background>images/kcbg-801.jpg</Background>
+        </Question>
+        <Question qType="DLG" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[You are prompting an AI to draft a technical manual for a new software release. Which approach best aligns with the guidelines for identifying the target audience?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1">
+              <Text><![CDATA[Provide detailed specifications and data-heavy content to ensure the technical team has the precision they require.]]></Text>
+              <Feedback><![CDATA[Correct. Technical teams require detailed, precise, and data-heavy information to perform effectively.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Focus purely on the high-level ROI of the software to ensure the executives are impressed.]]></Text>
+              <Feedback><![CDATA[While executives value ROI, a technical manual requires specific technical data rather than high-level business summaries.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Keep the language simple and use broad examples to ensure the general public can understand the software.]]></Text>
+              <Feedback><![CDATA[This ignores the requirement for technical teams to receive detailed, data-heavy, and precise specifications.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-801.jpg</Background>
+        </Question>
+        <Question qType="TFSR" QuestionID="kc03" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement regarding context and data grounding as True or False.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="1" Order="1">
+              <Text><![CDATA[Providing context prevents the AI from treating a request as a vacuum.]]></Text>
+              <Feedback><![CDATA[Correct. Context provides the environment for the task.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="0" Order="2">
+              <Text><![CDATA[Grounding an AI increases the likelihood of it generating generic information.]]></Text>
+              <Feedback><![CDATA[Incorrect. Grounding actually reduces the chance of generic or incorrect output.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="0" Order="3">
+              <Text><![CDATA[Background information should be limited to company values and cannot include specific product details.]]></Text>
+              <Feedback><![CDATA[Incorrect. Background information can include reports, values, product details, and trends.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the principles of context and data grounding.]]></FeedbackWrong>
+          <Background>images/kcbg-801.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">9</screen_id>
+    <Template>4</Template>
+    <Section>Setting Boundaries and Constraints</Section>
+    <Content autosize="true" height="468" width="459" x="35" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Setting Boundaries and Constraints</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Structural Constraints</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Define the physical limits of the output. This includes word counts, number of bullet points, or specific section headings that must be included in the final document.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Stylistic Constraints</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Specify the tone of voice. Use descriptors like "authoritative yet accessible," "strictly professional," or "enthusiastic and persuasive" to guide the AI's linguistic choices.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Negative Constraints</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">Clearly state what the AI should NOT do. For example, "do not use jargon," "avoid mentioning competitors," or "do not include an introductory paragraph."</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="527" y="115" width="420" height="420">images/anim-document-topics-730190.svg</Image>
+    <Video/>
+    <Background descr="A minimalist office interior with clean lines, white walls, and a single large window looking out onto a modern cityscape.">images/ai-1793558324-960.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">10</screen_id>
+    <Template>4</Template>
+    <Section>Managing Scope and Length</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Managing Scope and Length</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">One of the most common issues in AI generation is "verbosity"—the tendency for the AI to write more than necessary. Setting strict length constraints is essential for executive-level communication.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Precision over Volume</span> Requesting "a three-bullet summary" or "a maximum of 150 words" forces the AI to prioritize the most impactful information. This saves you time in the editing phase and ensures your message remains punchy and direct.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional hand holding a sleek stylus, pointing at a clean digital screen showing a concise list of items.">images/ai-1793558334-664.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">11</screen_id>
+    <Template>4</Template>
+    <Section>Establishing Tone and Voice</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Establishing Tone and Voice</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Tone is the emotional quality of the communication. In a professional setting, the wrong tone can undermine your message.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Defining the Voice</span> You can direct the AI to adopt a specific persona, such as "a seasoned Chief Financial Officer" or "a empathetic Human Resources Manager." This persona helps the AI select the appropriate vocabulary and sentence structures for the intended professional context.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, modern office lounge with comfortable seating and glass walls, reflecting a calm and professional atmosphere.">images/ai-1793558340-808.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">12</screen_id>
+    <Template>4</Template>
+    <Section>The Power of Examples</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">The Power of Examples</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Examples are the most effective way to communicate complex requirements. By providing one or two "gold standard" examples of what you want, you give the AI a template to follow.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Show, Don't Just Tell</span> If you want a specific style of email, paste a previous successful email into the prompt. The AI will analyze the structure, tone, and formatting of your example and replicate it for the new task.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="Two professionals looking at a large wall-mounted screen displaying clean, well-organized document templates.">images/ai-1793558349-581.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">1201</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_1201</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_1201">
+        <Question qType="DLG" QuestionID="kc01" Title="Knowledge check">
+          <Text><![CDATA[You are drafting a prompt for an AI to generate a report for your CEO. You want to ensure the response is concise and avoids unnecessary filler. Which approach is best?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="0">
+              <Text><![CDATA[Provide no length instructions and edit the content yourself after the AI finishes.]]></Text>
+              <Feedback><![CDATA[Setting constraints upfront saves time in the editing phase and improves the quality of the initial output.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Ask the AI to write as much as possible to ensure all details are covered.]]></Text>
+              <Feedback><![CDATA[Verbosity is a common issue; requesting more volume often leads to unnecessary filler.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="1">
+              <Text><![CDATA[Set strict length constraints, such as a maximum word count or a specific number of bullets.]]></Text>
+              <Feedback><![CDATA[Setting strict length constraints forces the AI to prioritize impactful information and avoid verbosity.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+        <Question qType="FBM" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[To effectively communicate complex requirements to an AI, you should provide one or two {1} examples, as this strategy is more effective than simply {2} the AI what to do.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" BlankId="1">
+              <Text><![CDATA[gold standard]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" BlankId="2">
+              <Text><![CDATA[telling]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[jargon]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! Providing examples acts as a template for the AI to follow.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite right. Review the section on 'The Power of Examples'.]]></FeedbackWrong>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+        <Question qType="MC" QuestionID="kc03" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[When defining constraints for AI generation, which of the following is an example of a 'Negative Constraint'?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! Negative constraints explicitly define what the AI must avoid.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. Negative constraints focus on what the AI should NOT do, such as avoiding specific topics or styles.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="0" Score="0" Order="1">
+              <Text><![CDATA[Limit the response to 200 words.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" Score="1" Order="2">
+              <Text><![CDATA[Do not mention competitors.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0" Score="0" Order="3">
+              <Text><![CDATA[Include three bullet points.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="0" Score="0" Order="4">
+              <Text><![CDATA[Use an authoritative tone.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">13</screen_id>
+    <Template>4</Template>
+    <Section>Few-Shot vs. Zero-Shot Prompting</Section>
+    <Content autosize="true" height="462" width="459" x="525" y="71" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Few-Shot vs. Zero-Shot Prompting</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Zero-Shot Prompting</span> This is a prompt with no examples. It relies entirely on the AI's internal training. It is best for simple, common tasks where the standard approach is sufficient.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Few-Shot Prompting</span> This involves providing a few examples within the prompt. This is significantly more effective for specialized tasks, unique formatting, or when you need the AI to follow a very specific logic.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A side-by-side comparison diagram. On the left, 'Zero-Shot' shows a single arrow to a target. On the right, 'Few-Shot' shows several example arrows leading to a bullseye.">images/fg-1793558358-151.jpg</Image_1>
+    <Video/>
+    <Background descr="A bright, clean laboratory or high-tech office environment with white surfaces and blue accents.">images/ai-1793558366-571.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">14</screen_id>
+    <Template>4</Template>
+    <Section>Specifying Output Formats</Section>
+    <Content autosize="true" height="468" width="459" x="525" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Specifying Output Formats</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Tabular Data</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Ask the AI to present information in a table for easy comparison. Specify the column headers to ensure the data is organized exactly how you need it for your reports.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Structured Text</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Request specific formats like Markdown, JSON, or bulleted lists. This is particularly useful if you intend to move the AI's output into other software or presentations.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Narrative Flow</span></p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">For speeches or articles, specify the narrative structure, such as "Problem-Agitation-Solution" or "The Hero's Journey," to ensure a compelling flow of ideas.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="83" y="115" width="420" height="420">images/anim-data-a-1-730131.svg</Image>
+    <Video/>
+    <Background descr="A clean, high-resolution display of a digital spreadsheet and a structured document side-by-side on a modern monitor.">images/ai-1793558372-101.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">15</screen_id>
+    <Template>4</Template>
+    <Section>Structure and Hierarchy</Section>
+    <Content autosize="true" height="456" width="459" x="35" y="75" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Structure and Hierarchy</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">A professional document requires a logical flow. You can dictate this hierarchy within your prompt to ensure the AI doesn't bury the lead.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Directing the Flow</span> Instruct the AI to "start with the most critical finding," followed by "supporting evidence," and ending with "clear next steps." Using headers like # Executive Summary and ## Technical Details within your prompt helps the AI understand the desired organization.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="527" y="115" width="420" height="420">images/anim-site-team-blue-730750.svg</Image>
+    <Video/>
+    <Background descr="A wide shot of a bright, airy office with a long white table and professional people collaborating in the background.">images/ai-1793558379-739.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">16</screen_id>
+    <Template>4</Template>
+    <Section>Quality and Success Criteria</Section>
+    <Content autosize="true" height="456" width="459" x="525" y="75" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Quality and Success Criteria</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">How will you know if the AI has succeeded? By including success criteria in your prompt, you give the AI a "rubric" to grade its own work before presenting it to you.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Defining Success</span> Tell the AI: "A successful response will be under 200 words, include three actionable recommendations, and use a tone appropriate for a board of directors." This level of detail ensures the AI aims for a high standard of quality.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A checklist infographic with items like 'Accuracy', 'Clarity', 'Tone Alignment', and 'Constraint Adherence'. Polished corporate style.">images/fg-1793558387-510.jpg</Image_1>
+    <Video/>
+    <Background descr="A close-up of a professional person's hands typing on a clean, white laptop keyboard in a bright office.">images/ai-1793558397-642.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">1601</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_1601</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_1601">
+        <Question qType="MC" QuestionID="kc01" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[When should you prefer Few-Shot prompting over Zero-Shot prompting?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! Few-Shot prompting provides examples, making it significantly more effective for specialized tasks or unique formatting requirements.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. The answer is when you are working on specialized tasks or need the AI to follow specific logic, which is better handled by providing examples.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="0" Score="0" Order="1">
+              <Text><![CDATA[When the task is simple and common.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="0" Score="0" Order="2">
+              <Text><![CDATA[When you do not have any examples to provide.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="1" Score="1" Order="3">
+              <Text><![CDATA[When you have a specialized task or need the AI to follow unique logic.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="0" Score="0" Order="4">
+              <Text><![CDATA[When you want the AI to rely entirely on its internal training.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+        <Question qType="DLG" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[You are writing a prompt for a technical report and want to ensure the AI prioritizes the most important information first. Which instruction is best?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="0">
+              <Text><![CDATA[Use a random order so the reader stays engaged throughout the document.]]></Text>
+              <Feedback><![CDATA[A professional document requires a logical hierarchy, not a random one.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Write a long narrative about the history of the project before stating the findings.]]></Text>
+              <Feedback><![CDATA[This risks burying the lead, which contradicts the goal of logical flow.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="1">
+              <Text><![CDATA[Start with the most critical finding, followed by supporting evidence, and ending with clear next steps.]]></Text>
+              <Feedback><![CDATA[This structure ensures a logical flow and prevents the AI from burying the lead.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+        <Question qType="CAT" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[Sort the following output requirements into the correct categories.]]></Text>
+          <Categories>
+            <Category id="c1"><![CDATA[Tabular Data]]></Category>
+            <Category id="c2"><![CDATA[Structured Text]]></Category>
+          </Categories>
+          <Answers>
+            <Answer AnswerID="1" Category="c1">
+              <Text><![CDATA[Column headers for comparison]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Category="c2">
+              <Text><![CDATA[JSON format]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Category="c1">
+              <Text><![CDATA[Organized report data]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Category="c2">
+              <Text><![CDATA[Markdown output]]></Text>
+            </Answer>
+            <Answer AnswerID="5" Category="c1">
+              <Text><![CDATA[Easy-to-read table]]></Text>
+            </Answer>
+            <Answer AnswerID="6" Category="c2">
+              <Text><![CDATA[Bulleted lists]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! You have accurately categorized the output format requirements.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some are in the wrong category. Review the methods for specifying output formats.]]></FeedbackWrong>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">17</screen_id>
+    <Template>4</Template>
+    <Section>Reducing Ambiguity</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Reducing Ambiguity</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Ambiguity is the enemy of effective prompting. Vague words like "better," "some," or "fast" are subjective and interpreted differently by the AI every time.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Quantifying Requests</span> Replace "Write a long report" with "Write a 1,500-word report." Replace "Use some examples" with "Include exactly three case studies from the healthcare industry." Quantifying your requirements removes the guesswork and leads to consistent results.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, minimalist office hallway with glass walls and clean architectural lines.">images/ai-1793558403-45.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">18</screen_id>
+    <Template>4</Template>
+    <Section>Efficiency in Communication</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Efficiency in Communication</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">The goal of effective prompting is to get the right result on the first try. This reduces "prompt fatigue" and saves valuable time in your professional workflow.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">The One-Shot Goal</span> By including all the anatomical components—Objective, Task, Context, Constraints, and Format—in your initial prompt, you minimize the need for follow-up corrections. This "one-shot" approach is the hallmark of an expert AI user.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional person standing in a bright, modern office, looking confidently at a large digital screen.">images/ai-1793558410-29.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">19</screen_id>
+    <Template>4</Template>
+    <Section>Reusable Prompt Frameworks</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Reusable Prompt Frameworks</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">You don't need to reinvent the wheel for every task. Frameworks are mental models or templates that ensure you include all necessary components every time you interact with an AI.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Consistency at Scale</span> Using a framework ensures that everyone in an organization produces similar quality outputs. It turns prompting from a "creative art" into a repeatable, professional process that can be documented and shared across teams.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A clean, modern office library with white shelves and a few well-placed professional books and plants.">images/ai-1793558417-332.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">20</screen_id>
+    <Template>4</Template>
+    <Section>The RTF Framework</Section>
+    <Content autosize="true" height="437" width="459" x="525" y="84" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">The RTF Framework</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">The RTF framework is one of the simplest and most effective ways to structure a quick, professional prompt.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Role, Task, Format</span></p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; list-style: '🔷 '"><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Role:</span> Who is the AI being? (e.g., "You are a Senior Project Manager.")</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Task:</span> What is it doing? (e.g., "Create a risk mitigation plan for a software launch.")</li><li><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Format:</span> How should it look? (e.g., "Present this as a 5-column table.")</li></ul>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A simple, bold diagram showing three boxes: Role, Task, and Format. Bright corporate colors, clean lines.">images/fg-1793558426-967.jpg</Image_1>
+    <Video/>
+    <Background descr="The RTF Framework. The RTF framework is one of the simplest and most effective ways to structure a quick, professional prompt. **Role, Task, Format** - **Role:** Who is the AI being? (e.g., &quot;You are a Senior Project Man">images/ai-1793558435-728.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">2001</screen_id>
+    <Template>4</Template>
+    <Content autosize="true" height="119" width="762" x="86" y="75" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">RTF is perfect for everyday tasks where you need a quick but structured response. It covers the "who," the "what," and the "how," which are the three most critical pillars of any instruction.</p>]]></Content>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, airy workspace with a clean white desk and a large window showing a clear blue sky.">images/ai-1793558442-206.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">2002</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_2002</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_2002">
+        <Question qType="TFSR" QuestionID="kc01" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement as True or False based on the principles of effective prompting.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="0" Order="1">
+              <Text><![CDATA[Using vague terms like 'fast' or 'better' helps the AI interpret your intent more creatively.]]></Text>
+              <Feedback><![CDATA[Subjective terms lead to inconsistent results; you should quantify your requests instead.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="1" Order="2">
+              <Text><![CDATA[The 'one-shot' approach involves including the Objective, Task, Context, Constraints, and Format in the initial prompt.]]></Text>
+              <Feedback><![CDATA[Providing all components upfront minimizes the need for follow-up corrections.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="1" Order="3">
+              <Text><![CDATA[Prompt frameworks allow organizations to turn prompting into a repeatable, professional process.]]></Text>
+              <Feedback><![CDATA[Frameworks ensure consistency across teams and scale output quality.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the items below.]]></FeedbackWrong>
+          <Background>images/kcbg-2002.jpg</Background>
+        </Question>
+        <Question qType="CAT" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[Sort the following prompt elements into the correct category based on the RTF framework.]]></Text>
+          <Categories>
+            <Category id="c1"><![CDATA[Role]]></Category>
+            <Category id="c2"><![CDATA[Task]]></Category>
+            <Category id="c3"><![CDATA[Format]]></Category>
+          </Categories>
+          <Answers>
+            <Answer AnswerID="1" Category="c1">
+              <Text><![CDATA[You are a Senior Project Manager]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Category="c2">
+              <Text><![CDATA[Create a risk mitigation plan]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Category="c3">
+              <Text><![CDATA[Present this as a 5-column table]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Category="c1">
+              <Text><![CDATA[Act as a professional copywriter]]></Text>
+            </Answer>
+            <Answer AnswerID="5" Category="c2">
+              <Text><![CDATA[Draft an email summary]]></Text>
+            </Answer>
+            <Answer AnswerID="6" Category="c3">
+              <Text><![CDATA[Output as a bulleted list]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! You have correctly identified the components of the RTF framework.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some items are in the wrong category. Please review the definitions of Role, Task, and Format.]]></FeedbackWrong>
+          <Background>images/kcbg-2002.jpg</Background>
+        </Question>
+        <Question qType="MDD" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[Match the term to its correct description.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" Score="1" Order="1">
+              <Text><![CDATA[Ambiguity]]></Text>
+              <Match><![CDATA[The enemy of effective prompting that leads to subjective AI interpretations.]]></Match>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" Score="1" Order="2">
+              <Text><![CDATA[Quantifying]]></Text>
+              <Match><![CDATA[Replacing vague words with specific metrics to remove guesswork.]]></Match>
+            </Answer>
+            <Answer AnswerID="3" Correct="1" Score="1" Order="3">
+              <Text><![CDATA[Prompt fatigue]]></Text>
+              <Match><![CDATA[A state caused by repeated follow-up corrections that can be reduced by one-shot prompting.]]></Match>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[All correct!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some matches are incorrect.]]></FeedbackWrong>
+          <Background>images/kcbg-2002.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">21</screen_id>
+    <Template>17</Template>
+    <Section>The CARE Framework</Section>
+    <Preface auto_narrator="true" voice="Amina" width="810" height="62" x="100" y="60" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">The CARE framework is designed for more complex tasks that require deep context and specific results.</p>]]></Preface>
+    <Title>Context</Title>
+    <Content auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Describe the situation, the background, and the specific environment. Who is involved? What has happened so far? What is the current challenge?</p>]]></Content>
+    <Title_1>Action</Title_1>
+    <Content_1 auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Define the specific work to be done. Use strong command verbs like "Analyze," "Draft," "Synthesize," or "Evaluate."</p>]]></Content_1>
+    <Title_2>Result</Title_2>
+    <Content_2 auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Describe the desired outcome. What is the goal of this action? What should the reader feel or do after reading the output?</p>]]></Content_2>
+    <Title_3>Example</Title_3>
+    <Content_3 auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Provide a template, a previous piece of work, or a specific style guide for the AI to emulate. This ensures the output matches your expectations.</p>]]></Content_3>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional group in a bright, glass-walled meeting room, looking at a clean white board with organized notes.">images/ai-1793558454-956.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">22</screen_id>
+    <Template>4</Template>
+    <Section>Business Case Application</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Business Case Application</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">In a business context, prompts often focus on efficiency and decision support. Effective prompts can turn raw data into executive summaries or transform meeting transcripts into action items.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Professional Utility</span> Imagine a manager prompting: "Using the attached transcript, identify the three key decisions made and the five assigned tasks, including owners and deadlines. Format as a memo to the department head." This level of structure ensures the AI provides immediate value.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A sleek, modern office setting with a focus on a high-end coffee machine and a clean lounge area.">images/ai-1793558461-931.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">23</screen_id>
+    <Template>4</Template>
+    <Section>Academic and Research Use</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Academic and Research Use</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">For students and researchers, the anatomy of a prompt shifts toward synthesis, citation, and critical analysis. Constraints here often revolve around academic integrity and source grounding.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Rigorous Prompting</span> A researcher might prompt: "Compare the findings of these three papers regarding renewable energy storage. Identify areas of consensus and conflict. Use a formal academic tone and ensure all claims are mapped to the provided texts."</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, modern university library with clean white tables and students working on laptops.">images/ai-1793558467-643.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">24</screen_id>
+    <Template>4</Template>
+    <Section>Creative Workflow Integration</Section>
+    <Content autosize="true" height="468" width="459" x="525" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Creative Workflow Integration</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Creative professionals use prompts to overcome "blank page syndrome" or to iterate on ideas quickly. Here, the "Constraints" and "Examples" components are vital to maintain brand voice.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Guided Creativity</span> A designer might use AI to generate copy: "Write five catchy headlines for a new sustainable fashion line. The tone should be 'rebellious yet premium.' Avoid clichés like 'green' or 'eco-friendly.' Reference the attached brand guidelines."</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="83" y="115" width="420" height="420">images/anim-ai-icon-3-729966.svg</Image>
+    <Video/>
+    <Background descr="A bright, creative studio with large windows, mood boards on the walls, and a clean, modern aesthetic.">images/ai-1793558474-237.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">25</screen_id>
+    <Template>4</Template>
+    <Section>The Refinement Cycle</Section>
+    <Content autosize="true" height="456" width="459" x="525" y="75" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">The Refinement Cycle</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Even with a perfect anatomy, the first output may need a slight adjustment. This is not a failure of the prompt, but a natural part of the iterative process.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Iterative Improvement</span> If the output is too long, don't start over. Simply prompt: "Keep the same content but reduce the word count by 30%." If the tone is too formal, ask the AI to "make the tone more conversational while keeping the professional vocabulary."</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A circular arrow diagram showing a continuous loop: Prompt -&gt; Output -&gt; Review -&gt; Refine -&gt; Prompt. Polished corporate style.">images/fg-1793558494-300.jpg</Image_1>
+    <Video/>
+    <Background descr="A professional person adjusting settings on a large, clean touchscreen in a bright office.">images/ai-1793558513-362.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">26</screen_id>
+    <Template>4</Template>
+    <Section>Advanced Prompting Strategies</Section>
+    <Content autosize="true" height="315" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Advanced Prompting Strategies</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">As you become more comfortable with the anatomy of a prompt, you can begin to use "Chain of Thought" prompting. This involves asking the AI to "think step-by-step" before providing the final answer.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Logical Transparency</span> By forcing the AI to explain its reasoning, you can verify the logic it used to reach a conclusion. This is particularly useful for complex financial analysis or strategic planning where the "how" is just as important as the "what."</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A modern, high-tech office with glowing blue accents and clean, white architectural features.">images/ai-1793558519-628.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">27</screen_id>
+    <Template>4</Template>
+    <Section>Summary and Next Steps</Section>
+    <Content autosize="true" height="399" width="762" x="170" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Summary and Next Steps</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">In this module, we have dissected the essential components of a professional prompt. You now have the tools to build instructions that are clear, contextual, and constrained for high-quality results.</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;"><span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Key Takeaways</span></p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; list-style: '🔷 '"><li>Always define the objective and the specific task.</li><li>Provide deep context and ground the AI in your data.</li><li>Use frameworks like RTF and CARE for consistency.</li><li>Set strict constraints on tone, length, and format.</li><li>Use examples to show the AI exactly what you need.</li></ul>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A wide, optimistic shot of a modern city skyline seen through the clean glass windows of a high-rise office.">images/ai-1793558525-712.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">28</screen_id>
+    <Template>1</Template>
+    <Section>Quiz</Section>
+    <Content>Please answer these questions and pass the quiz in order to continue.</Content>
+    <Quizes>
+      <settings>
+        <quiz_title/>
+        <OK>OK</OK>
+        <Issue_Detected>Issue detected</Issue_Detected>
+        <Retake_Test>You have reached the end of the test.</Retake_Test>
+        <Ratio>Your score is</Ratio>
+        <No_Issues>Congratulations! You have scored 100%!</No_Issues>
+        <Few_Issues>Congratulations! You have passed the quiz.</Few_Issues>
+        <Some_Issues>You have not reached the pass mark required.</Some_Issues>
+        <Many_Issues>You have got many questions wrong.</Many_Issues>
+        <Most_Issues>Select below</Most_Issues>
+        <Random>1</Random>
+        <Show_Intro>1</Show_Intro>
+        <Show_Results>1</Show_Results>
+        <QuizType>0</QuizType>
+        <LoadsQuizatScreenLevel>0</LoadsQuizatScreenLevel>
+        <ShowFeedback>1</ShowFeedback>
+        <PassMark>70</PassMark>
+        <Show_Answers>1</Show_Answers>
+      </settings>
+    </Quizes>
+    <Background/>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">29</screen_id>
+    <Template>4</Template>
+    <Section>Summary</Section>
+    <Content autosize="true" height="399" width="740" x="150" y="100" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.96" borderSize="1" borderColor="#007aff" borderAlpha="0.3" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="10" dropShadowAngle="90" dropShadowBlur="20" dropShadowColor="#000000" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 16px; font-weight: 700; line-height: 1.2; word-break: break-word; background: linear-gradient(90deg, #004a99, #007AFF); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; border-bottom: 3px solid rgba(0, 122, 255, 0.1); padding-bottom: 8px;">Summary</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px;">Well done you have completed the course <span style="color: #007AFF; font-weight: 600; border-bottom: 2px solid rgba(0, 122, 255, 0.3);">Module 2: The Anatomy of Effective Prompts</span>. You should now be familiar with:</p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3; margin-bottom: 16px; list-style: '🔷 ';"><li>Define clear objectives and tasks</li><li>Provide relevant context and background</li><li>Set constraints and quality boundaries</li><li>Use examples for expected results</li><li>Apply reusable prompt frameworks</li></ul><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #333a40; line-height: 1.3">Should you need to revisit any of the topics in this course, please use the menu at the bottom of the screen.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator x="729" y="143" start="0" stop="400" width="340" height="507" mirror="true">video/woman20s_well_done.webm</Narrator>
+    <Video/>
+    <Background descr="This e-learning slide features a minimalist, empty white room with a window visible in the upper right. Strong natural light casts geometric shadows across the back wall and floor, creating a clean and bright aesthetic.">images/ai-1793558546-537.jpg</Background>
+    <navigation/>
+  </screen>
+  <video>
+    <vid/>
+    <video_file_visible>true</video_file_visible>
+    <time_visible>false</time_visible>
+    <video_streaming>false</video_streaming>
+    <server/>
+    <video_slides_in>false</video_slides_in>
+  </video>
+  <scorm>
+    <scorm_format>SVGA_1905s</scorm_format>
+    <screen_scorm_finish>29</screen_scorm_finish>
+    <scorm_frame>28</scorm_frame>
+    <xmlversion>null</xmlversion>
+    <scorm_2004>1024012</scorm_2004>
+    <scorm_2005>1144484</scorm_2005>
+    <course_name><![CDATA[Module 2: The Anatomy of Effective Prompts]]></course_name>
+  </scorm>
+  <settings>
+    <status_set_to_passed>true</status_set_to_passed>
+    <show_background>false</show_background>
+    <title_color>21947</title_color>
+    <voice>Amina</voice>
+    <language>English</language>
+    <default_thumb>1.jpg</default_thumb>
+    <show_second_menu>false</show_second_menu>
+    <show_text_toggle_button>true</show_text_toggle_button>
+    <visual_style>Bright, polished corporate visual language: airy modern offices and confident professional people, lots of white and glass with one strong brand accent colour. Soft daylight, tidy compositions and an optimistic, trustworthy tone — premium B2B brand photography or clean corporate illustration.</visual_style>
+    <applied_style_id>217</applied_style_id>
+  </settings>
+  <introduction>
+    <show_intro>true</show_intro>
+  </introduction>
+  <navigation>
+    <button name="next" x="982.5" y="590" width="75" height="60"/>
+    <button name="prev" x="77.5" y="590" width="55" height="44" visible="true"/>
+    <button name="yes" x="903.6" y="576.55" width="75" height="60" visible="false"/>
+    <button name="no" x="996.95" y="576.55" width="75" height="60" visible="false"/>
+  </navigation>
+  <nav_blocks>
+    <button name="skip" asset="next" x="982.5" y="590" width="75" height="60"/>
+  </nav_blocks>
+</screens>

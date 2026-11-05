@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<VirtualGallery>
+
+	<options 
+		imagesFolder="images" 
+		thumbsFolder="images/thumbs" 
+		viewportMaxWidth="1170" 
+		viewportMaxHeight="650" 
+		sfx="no"
+		/>
+		
+	<room 
+		width="300" 
+		depth="200" 
+		height="100" 
+		floorTexU="2" 
+		floorTexV="2" 
+		wallTexU="3" 
+		wallTexV="1"
+		/>
+
+	<pictures>
+		<picture file="2.jpg"> </picture>
+	</pictures>
+
+</VirtualGallery>

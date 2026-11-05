@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<title>Game Console</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --console-bg:  #e4e5e7;
+    --console-mid: #d8d9db;
+    --console-drk: #c8c9cb;
+    --screen-bg:   #0d1117;
+    --bezel:       14px;
+    --dpad-bg:     #22224400;
+    --dpad-btn:    #d0d1d3;
+    --text:        #606060;
+    --accent:      #58a6ff;
+    --dim:         #999aab;
+  }
+
+  html, body {
+    width: 100%; height: 100%;
+    background: #f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Courier New', monospace;
+  }
+
+  /* ── Console body ────────────────────────────────── */
+  #console {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(160deg, var(--console-bg) 0%, var(--console-mid) 60%, var(--console-drk) 100%);
+    border-radius: 20px;
+    overflow: hidden;  /* clips grill lines at rounded edge */
+    box-shadow:
+      0 0 0 1px #aaaaaa,
+      0 16px 48px rgba(0,0,0,0.18),
+      inset 0 1px 0 rgba(255,255,255,0.9),
+      inset 0 0 3px 0 #CECFD1;
+  }
+
+  /* ── Screen bezel ────────────────────────────────── */
+  #screen-bezel {
+    flex-shrink: 0;
+    background: #0a0a0f;
+    border-radius: 8px;
+    padding: var(--bezel);
+    box-shadow: inset 0 2px 8px rgba(0,0,0,0.9), 0 0 0 1px #888899;
+  }
+
+  #screen-wrap {
+    position: relative;
+    width: 320px;
+    height: 240px;
+    background: var(--screen-bg);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  #game-canvas {
+    display: block;
+    width: 100%; height: 100%;
+    image-rendering: pixelated;
+  }
+
+  /* Hi-res text overlay — same CSS size, 2× pixel density → crisp text */
+  #text-canvas {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+  }
+
+  /* scanlines */
+  #screen-wrap::after {
+    content: '';
+    position: absolute; inset: 0;
+    background: repeating-linear-gradient(
+      0deg, transparent, transparent 2px,
+      rgba(0,0,0,0.04) 2px, rgba(0,0,0,0.04) 4px
+    );
+    pointer-events: none;
+    border-radius: 4px;
+  }
+
+  /* screen glow */
+  #screen-wrap::before {
+    content: '';
+    position: absolute; inset: -4px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(88,166,255,0.15);
+    pointer-events: none;
+    z-index: -1;
+  }
+
+  /* ── D-pad ───────────────────────────────────────── */
+  #dpad-wrap {
+    flex-shrink: 0;
+  }
+
+  #dpad {
+    display: block;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid #8F9092;
+    box-shadow:
+      0 4px 3px 1px #EFEFEF,
+      0 6px 8px #C9CACC,
+      0 -4px 4px #C1C2C4,
+      0 -6px 4px #F1F1F1,
+      inset 0 0 3px 0 #C1C2C4;
+  }
+
+  /* Base disc — same gradient direction as A/B buttons */
+  #dpad::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    background: linear-gradient(to top, #D8D9DB 0%, #f8f9fb 70%, #ffffff 100%);
+    box-shadow: inset 0 0 3px 0 #C1C2C4;
+    pointer-events: none;
+  }
+
+  /* Dome specular highlight — convex lens effect on top of everything */
+  #dpad::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    border-radius: 50%;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse 72% 52% at 50% 18%,
+      rgba(255,255,255,0.62) 0%,
+      rgba(255,255,255,0.10) 55%,
+      transparent 70%
+    );
+  }
+
+  /* Directional gradient overlay — shown by JS when a direction is held */
+  #dpad-overlay {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.12s ease;
+    z-index: 2;
+  }
+  #dpad.dir-up    #dpad-overlay { opacity: 1; background: linear-gradient(to bottom, rgba(0,0,0,0.18) 0%, transparent 60%); }
+  #dpad.dir-down  #dpad-overlay { opacity: 1; background: linear-gradient(to top,    rgba(0,0,0,0.18) 0%, transparent 60%); }
+  #dpad.dir-left  #dpad-overlay { opacity: 1; background: linear-gradient(to right,  rgba(0,0,0,0.18) 0%, transparent 60%); }
+  #dpad.dir-right #dpad-overlay { opacity: 1; background: linear-gradient(to left,   rgba(0,0,0,0.18) 0%, transparent 60%); }
+
+  .dpad-btn {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+    font-size: 14px;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    touch-action: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    z-index: 4;
+  }
+  .dpad-btn > span {
+    display: inline-block;
+    pointer-events: none;
+    transition: transform 0.2s ease;
+  }
+  .dpad-btn.pressed > span,
+  .dpad-btn:active > span { transform: scale(0.82); }
+
+  /* Divide the square into 4 non-overlapping triangles via polygon().
+     Each triangle is then clipped to the container circle → clean equal pie sector.
+     Pointer events are also restricted to the triangle, so no sector steals clicks. */
+  .dpad-btn[data-code="ArrowUp"] {
+    clip-path: polygon(0% 0%, 100% 0%, 50% 50%);
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 14%;
+  }
+  .dpad-btn[data-code="ArrowDown"] {
+    clip-path: polygon(0% 100%, 100% 100%, 50% 50%);
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 14%;
+  }
+  .dpad-btn[data-code="ArrowLeft"] {
+    clip-path: polygon(0% 0%, 0% 100%, 50% 50%);
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 14%;
+  }
+  .dpad-btn[data-code="ArrowRight"] {
+    clip-path: polygon(100% 0%, 100% 100%, 50% 50%);
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 14%;
+  }
+
+  #dpad-hub {
+    position: absolute;
+    width: 20%; height: 20%;
+    border-radius: 50%;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+    pointer-events: none;
+    background: radial-gradient(circle at 40% 35%, #e8e8e8, #c8c9cb);
+    border: 1px solid #b0b1b3;
+    box-shadow:
+      inset 0 2px 4px rgba(0,0,0,0.18),
+      inset 0 -1px 2px rgba(255,255,255,0.6),
+      0 1px 2px rgba(255,255,255,0.7);
+  }
+
+  /* ── Action buttons ──────────────────────────────── */
+  #action-btns {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .action-btn {
+    background: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border: 1px solid #8F9092;
+    border-radius: 50%;
+    cursor: pointer;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+    font-family: 'Courier New', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    touch-action: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    box-shadow:
+      0 4px 3px 1px #EFEFEF,
+      0 6px 8px #C9CACC,
+      0 -4px 4px #C1C2C4,
+      0 -6px 4px #F1F1F1,
+      inset 0 0 3px 0 #C1C2C4;
+    transition: box-shadow 0.2s ease;
+  }
+  .action-btn > span {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+  .action-btn.pressed > span,
+  .action-btn:active > span {
+    transform: scale(0.82);
+  }
+  .action-btn.pressed, .action-btn:active {
+    box-shadow:
+      0 4px 3px 1px #EFEFEF,
+      0 6px 8px #C9CACC,
+      0 -4px 4px #C1C2C4,
+      0 -6px 4px #F1F1F1,
+      inset 0 0 5px 3px #999,
+      inset 0 0 30px #aaa;
+  }
+
+  /* ── Speaker grill ───────────────────────────────── */
+  #grill {
+    display: none;    /* shown per orientation below */
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 8px 0;
+  }
+
+  .grill-bar {
+    height: 7px;
+    border-radius: 3px;
+    background: #b8b9bb;
+    box-shadow:
+      inset 0 2px 3px rgba(0,0,0,0.18),
+      inset 0 -1px 2px rgba(255,255,255,0.7),
+      0 1px 1px rgba(255,255,255,0.6);
+  }
+
+  /* ── Right panel (grill + action buttons) ────────── */
+  #right-panel {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ── Close button ────────────────────────────────── */
+  #close-btn {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border: 1px solid #8F9092;
+    border-radius: 50%;
+    color: #606060;
+    font-size: 18px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow:
+      0 3px 3px 1px #FCFCFC,
+      0 4px 6px #D6D7D9,
+      0 -3px 3px #CECFD1,
+      0 -4px 3px #FEFEFE,
+      inset 0 0 3px 0 #CECFD1;
+    transition: box-shadow 0.15s;
+  }
+  #close-btn:hover {
+    box-shadow:
+      0 3px 3px 1px #FCFCFC,
+      0 4px 6px #D6D7D9,
+      0 -3px 3px #CECFD1,
+      0 -4px 3px #FEFEFE,
+      inset 0 0 3px 3px #CECFD1;
+  }
+
+  /* ── Game selector overlay ───────────────────────── */
+  #game-selector {
+    position: absolute; inset: 0;
+    background: var(--screen-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 12px;
+    z-index: 10;
+  }
+  #game-selector h2 {
+    color: var(--accent);
+    font-size: 13.2px;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+  }
+  .game-option {
+    width: 100%;
+    background: rgba(88,166,255,0.1);
+    border: 1px solid rgba(88,166,255,0.35);
+    border-radius: 4px;
+    color: #c9d1d9;
+    font-size: 10.8px;
+    font-family: 'Courier New', monospace;
+    letter-spacing: 1px;
+    padding: 5px 8px;
+    cursor: pointer;
+    text-align: left;
+    transition: background 0.1s, border-color 0.1s;
+  }
+  .game-option:hover {
+    background: rgba(88,166,255,0.2);
+    border-color: var(--accent);
+    color: #fff;
+  }
+
+  /* ═══════════════════════════════════════════════════
+     PORTRAIT  —  screen top, controls row below
+     controls row:  [dpad]  [grill fills middle]  [A/B]
+  ═══════════════════════════════════════════════════ */
+  @media (orientation: portrait) {
+    #console {
+      flex-direction: column;
+      justify-content: center;
+      padding: 16px 16px 22px;
+      gap: 14px;
+    }
+    #screen-bezel { align-self: center; }
+
+    #controls-row {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      width: 100%;
+      gap: 12px;
+    }
+
+    /* right-panel = flex row: grill fills middle, buttons on right */
+    #right-panel {
+      flex: 1;
+      flex-direction: row;
+      align-items: center;
+      gap: 12px;
+    }
+
+    /* grill fills horizontal space between dpad and action-btns */
+    #grill {
+      display: flex;
+      flex: 1;
+      height: 80px;
+      min-width: 20px;
+      padding: 4px 18px;
+      gap: 8px;
+    }
+
+    #grill .grill-bar { width: 100%; }
+
+    #dpad-wrap  { width: 120px; height: 120px; }
+    #dpad       { width: 120px; height: 120px; }
+    #action-btns { gap: 10px; }
+    .action-btn  { width: 54px; height: 54px; font-size: 16.8px; }
+  }
+
+  /* ═══════════════════════════════════════════════════
+     LANDSCAPE  —  dpad | screen | right-panel
+     right-panel:  grill (top, overflows right)
+                   A/B buttons (bottom)
+  ═══════════════════════════════════════════════════ */
+  @media (orientation: landscape) {
+    #console {
+      flex-direction: row;
+      align-items: stretch;
+      padding: 20px 0 20px 20px;  /* no right padding → right-panel goes to edge */
+      gap: 16px;
+    }
+
+    /* dissolve controls-row so children join console flex directly */
+    #controls-row { display: contents; }
+
+    #dpad-wrap { order: -1; align-self: center; width: 108px; height: 108px; }
+    #dpad      { width: 108px; height: 108px; }
+
+    /* right-panel: full console height, right at the edge */
+    #right-panel {
+      order: 1;
+      position: relative;
+      align-self: stretch;
+      width: 86px;
+      overflow: visible;  /* let grill bleed past; console clips it */
+    }
+
+    /* grill: absolute, fills top, overflows right edge into console wall */
+    #grill {
+      display: flex;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: -80px;     /* bleed into console's right curved wall */
+      bottom: 120px;    /* leave room for buttons */
+      padding: 12px 0;
+    }
+
+    #grill .grill-bar { width: 100%; }
+
+    /* buttons: absolute, centred at bottom */
+    #action-btns {
+      position: absolute;
+      bottom: 16px;
+      left: 0; right: 0;
+      gap: 10px;
+    }
+
+    .action-btn { width: 50px; height: 50px; font-size: 15.6px; }
+  }
+</style>
+</head>
+<body>
+
+<button id="close-btn" onclick="closeGameWindow()" title="Close">&#x2715;</button>
+
+<div id="console">
+
+  <div id="screen-bezel">
+    <div id="screen-wrap">
+      <canvas id="game-canvas" width="320" height="240"></canvas>
+      <canvas id="text-canvas" width="640" height="480"></canvas>
+      <div id="game-selector" style="display:none">
+        <h2>SELECT GAME</h2>
+      </div>
+    </div>
+  </div>
+
+  <div id="controls-row">
+
+    <div id="dpad-wrap">
+      <div id="dpad">
+        <div id="dpad-overlay"></div>
+        <button class="dpad-btn" data-key="ArrowUp"    data-code="ArrowUp"    data-keycode="38"><span>▲</span></button>
+        <button class="dpad-btn" data-key="ArrowRight" data-code="ArrowRight" data-keycode="39"><span>▶</span></button>
+        <button class="dpad-btn" data-key="ArrowDown"  data-code="ArrowDown"  data-keycode="40"><span>▼</span></button>
+        <button class="dpad-btn" data-key="ArrowLeft"  data-code="ArrowLeft"  data-keycode="37"><span>◀</span></button>
+        <div id="dpad-hub"></div>
+      </div>
+    </div>
+
+    <div id="right-panel">
+      <div id="grill">
+        <div class="grill-bar"></div>
+        <div class="grill-bar"></div>
+        <div class="grill-bar"></div>
+        <div class="grill-bar"></div>
+        <div class="grill-bar"></div>
+        <div class="grill-bar"></div>
+        <div class="grill-bar"></div>
+      </div>
+      <div id="action-btns">
+        <button class="action-btn" id="btn-a" data-key=" "     data-code="Space" data-keycode="32"><span>A</span></button>
+        <button class="action-btn" id="btn-b" data-key="Enter" data-code="Enter" data-keycode="13"><span>B</span></button>
+      </div>
+    </div>
+
+  </div>
+
+</div><!-- #console -->
+
+<script>
+/* ── Close game window / iframe ─────────────────────────────────── */
+function closeGameWindow() {
+  if (window.parent !== window && typeof window.parent.closeGame === 'function') {
+    window.parent.closeGame();
+  } else {
+    window.close();
+  }
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeGameWindow();
+});
+
+/* ── Scale console to fill available space (up to 1070×650) ─────── */
+function resizeConsole() {
+  var con = document.getElementById('console');
+  con.style.zoom = '';
+  requestAnimationFrame(function () {
+    var natW  = con.offsetWidth;
+    var natH  = con.offsetHeight;
+    var maxW  = Math.min(window.innerWidth  * 0.97, 1070);
+    var maxH  = Math.min(window.innerHeight * 0.97, 650);
+    var scale = Math.min(maxW / natW, maxH / natH);
+    con.style.zoom = scale;
+  });
+}
+window.addEventListener('resize', resizeConsole);
+window.addEventListener('orientationchange', resizeConsole);
+resizeConsole();
+
+/* ── Controller bridge: touch/mouse → KeyboardEvent + visual ────── */
+(function () {
+  var dpad = document.getElementById('dpad');
+  var dirClass = { ArrowUp: 'dir-up', ArrowDown: 'dir-down', ArrowLeft: 'dir-left', ArrowRight: 'dir-right' };
+
+  function fire(type, btn) {
+    document.dispatchEvent(new KeyboardEvent(type, {
+      key:     btn.dataset.key,
+      code:    btn.dataset.code,
+      keyCode: +btn.dataset.keycode,
+      which:   +btn.dataset.keycode,
+      bubbles: true, cancelable: true,
+    }));
+  }
+
+  document.querySelectorAll('.dpad-btn, .action-btn').forEach(function (btn) {
+    var held = false, iv;
+    var isDpad = btn.classList.contains('dpad-btn');
+
+    function press(e) {
+      e.preventDefault();
+      if (held) return;
+      held = true;
+      btn.classList.add('pressed');
+      if (isDpad && dirClass[btn.dataset.code]) dpad.classList.add(dirClass[btn.dataset.code]);
+      fire('keydown', btn);
+      if (isDpad) iv = setInterval(function () { fire('keydown', btn); }, 100);
+    }
+    function release(e) {
+      e.preventDefault();
+      if (!held) return;
+      held = false;
+      btn.classList.remove('pressed');
+      if (isDpad && dirClass[btn.dataset.code]) dpad.classList.remove(dirClass[btn.dataset.code]);
+      clearInterval(iv);
+      fire('keyup', btn);
+    }
+
+    btn.addEventListener('touchstart',  press,   { passive: false });
+    btn.addEventListener('touchend',    release, { passive: false });
+    btn.addEventListener('touchcancel', release, { passive: false });
+    btn.addEventListener('mousedown',   press);
+    btn.addEventListener('mouseup',     release);
+    btn.addEventListener('mouseleave',  release);
+  });
+})();
+
+/* ── Physical keyboard → button visual highlight ─────────────────── */
+(function () {
+  var dpad = document.getElementById('dpad');
+  var dirClass = { ArrowUp: 'dir-up', ArrowDown: 'dir-down', ArrowLeft: 'dir-left', ArrowRight: 'dir-right' };
+  var codeMap = {};
+  document.querySelectorAll('[data-code]').forEach(function (btn) {
+    codeMap[btn.dataset.code] = btn;
+  });
+  document.addEventListener('keydown', function (e) {
+    var btn = codeMap[e.code];
+    if (btn) {
+      btn.classList.add('pressed');
+      if (btn.classList.contains('dpad-btn') && dirClass[e.code]) dpad.classList.add(dirClass[e.code]);
+    }
+  });
+  document.addEventListener('keyup', function (e) {
+    var btn = codeMap[e.code];
+    if (btn) {
+      btn.classList.remove('pressed');
+      if (btn.classList.contains('dpad-btn') && dirClass[e.code]) dpad.classList.remove(dirClass[e.code]);
+    }
+  });
+})();
+
+/* ── Game loader ─────────────────────────────────────────────────── */
+var canvas     = document.getElementById('game-canvas');
+var textCanvas = document.getElementById('text-canvas');
+var textCtx    = textCanvas.getContext('2d');
+var ctx      = canvas.getContext('2d');
+var selector = document.getElementById('game-selector');
+
+var GAMES = {
+  space_invaders: 'space_invaders_v2.js',
+  fact_man:       'fact_man_v2.js',
+  questris:       'questris_v2.js',
+  block_blast:    'block_blast_v2.js',
+  memory_match:   'memory_match_v2.js',
+  flip_cards:     'flip_cards_v2.js',
+  space_brains:   'space_brains_v2.js',
+};
+
+var GAME_LABELS = {
+  space_invaders: 'SPACE INVADERS',
+  fact_man:       'FACT MAN',
+  questris:       'QUESTRIS',
+  block_blast:    'BLOCK BLAST',
+  memory_match:   'MEMORY MATCH',
+  flip_cards:     'FLIP CARDS',
+  space_brains:   'SPACE BRAINS',
+};
+
+var currentGame = null;
+
+function stopCurrentGame() {
+  if (currentGame && typeof currentGame.destroy === 'function') currentGame.destroy();
+  currentGame = null;
+  textCtx.clearRect(0, 0, 640, 480);
+}
+
+function loadData() {
+  return fetch('data.json?' + Math.round(Math.random() * 9999))
+    .then(function (r) { return r.json(); })
+    .catch(function () { return {}; });
+}
+
+function launchGame(gameKey) {
+  stopCurrentGame();
+  selector.style.display = 'none';
+  return loadData().then(function (data) {
+    return new Promise(function (resolve, reject) {
+      var script   = document.createElement('script');
+      script.src   = GAMES[gameKey] + '?' + Date.now();
+      script.onload = function () {
+        var GameClass = window['Game_' + gameKey];
+        if (!GameClass) { reject(new Error('Game class missing: Game_' + gameKey)); return; }
+        textCtx.clearRect(0, 0, 640, 480);
+        currentGame = new GameClass(canvas, ctx, data, textCtx);
+        currentGame.start();
+        resolve();
+      };
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+  });
+}
+
+function showSelector() {
+  selector.style.display = 'flex';
+  selector.innerHTML = '<h2>SELECT GAME</h2>';
+  Object.keys(GAMES).forEach(function (key) {
+    var btn = document.createElement('button');
+    btn.className   = 'game-option';
+    btn.textContent = '▶ ' + (GAME_LABELS[key] || key.toUpperCase());
+    btn.onclick = function () { launchGame(key).catch(console.error); };
+    selector.appendChild(btn);
+  });
+}
+
+/* ── Boot ────────────────────────────────────────────────────────── */
+(function boot() {
+  var gameKey = new URLSearchParams(location.search).get('game');
+  if (gameKey && GAMES[gameKey]) {
+    launchGame(gameKey).catch(function (err) { console.error(err); showSelector(); });
+  } else {
+    showSelector();
+  }
+})();
+</script>
+</body>
+</html>

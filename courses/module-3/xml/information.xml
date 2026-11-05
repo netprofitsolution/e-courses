@@ -1,0 +1,712 @@
+<?xml version="1.0"?><screens text_autoscaled="1">
+  <screen>
+    <screen_id x="0" y="0">1</screen_id>
+    <Template>4</Template>
+    <Section>Learning Goals</Section>
+    <Content autosize="true" height="364" width="740" x="150" y="100" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Learning Goals</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; margin-bottom: 16px; color: #3E4246; line-height: 1.3;">Welcome to this learning session on <span style="color: #0055FF; font-weight: 600; background-color: rgba(0, 85, 255, 0.05); padding: 0 4px;">Core Prompting Techniques and Strategies</span>. In this course we shall address:</p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; margin-bottom: 14px; color: #3E4246; line-height: 1.3; list-style: '🔹 ';"><li>Apply zero-shot and few-shot logic</li><li>Implement task decomposition strategies</li><li>Master iterative refinement processes</li><li>Architect multi-stage prompt chains</li><li>Select techniques based on complexity</li></ul><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">There will be a quiz at the end to test your knowledge.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    
+    <Video/>
+    <Background descr="This e-learning slide features a clean, minimalist empty room with white walls and a light grey floor. Sunlight streams in from the left, casting distinct window-pane shadows across the floor, creating a bright and serene visual style.">images/ai-1793720626-746.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">2</screen_id>
+    <Template>4</Template>
+    <Section>Mastering Core Prompting Techniques</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Mastering Core Prompting Techniques</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Effective prompting is more than just writing requests; it is a strategic discipline that determines the quality and reliability of AI outputs. By mastering core techniques, you can transform a generative model from a simple chatbot into a sophisticated professional assistant. This module explores the spectrum of prompting, from direct instructions to complex multi-stage workflows.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, airy modern office lobby with glass walls and professional people walking in the distance, soft daylight.">images/ai-1793720286-366.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">3</screen_id>
+    <Template>4</Template>
+    <Section>Foundations of Direct Prompting</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Foundations of Direct Prompting</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Direct prompting is the most straightforward method of interacting with AI. It involves providing a clear, concise instruction to achieve a specific result. This technique works best for simple, well-defined tasks where the model already has sufficient training data to understand the requirements without additional context.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A clean, minimalist white desk with a high-end laptop and a single cup of coffee, bright corporate setting.">images/ai-1793720292-971.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">301</screen_id>
+    <Template>4</Template>
+    <Content autosize="true" height="189" width="762" x="86" y="48" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">To maximize the effectiveness of direct prompts, use imperative verbs and clear constraints. Instead of asking "Can you write a summary?", use "Summarize this report into three key bullet points for a senior executive." This reduces ambiguity and ensures the model focuses on the desired outcome immediately.</p>]]></Content>
+    <Narrator/>
+    <Video/>
+    <Background descr="Close-up of a professional person's hands typing on a sleek, silver keyboard in a bright office.">images/ai-1793720309-200.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">4</screen_id>
+    <Template>4</Template>
+    <Section>Precision in Direct Prompting</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Precision in Direct Prompting</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">The success of a direct prompt depends on the specificity of the constraints provided. Professionals should define the format, length, and intended audience within the initial instruction. This prevents the need for unnecessary follow-up prompts and ensures the output is ready for immediate use in a business context.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A modern glass-walled office with a view of a clean city skyline, soft morning light.">images/ai-1793720315-108.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">401</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_401</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_401">
+        <Question qType="DLG" QuestionID="kc01" Title="Knowledge check">
+          <Text><![CDATA[You need the AI to draft a short email to a client explaining a project delay. Based on the principles of precision in direct prompting, how should you structure your request?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1">
+              <Text><![CDATA[Provide a clear instruction specifying the email format, the required length, and the professional tone for the client.]]></Text>
+              <Feedback><![CDATA[Correct. Defining constraints like format, length, and audience ensures the output is ready for immediate business use.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Ask the AI to 'write an email about a delay' and see what it produces first.]]></Text>
+              <Feedback><![CDATA[This is too vague and likely leads to unnecessary follow-up prompts.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Paste the entire project history and tell the AI to summarize it into an email without further guidance.]]></Text>
+              <Feedback><![CDATA[This lacks the specific constraints needed to ensure the output meets your professional requirements.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+        <Question qType="SDD" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[To ensure a high-quality professional output using direct prompting, order these steps logically:]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Order="1">
+              <Text><![CDATA[Identify the task and ensure it is well-defined.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Order="2">
+              <Text><![CDATA[Define specific constraints such as format, length, and audience.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Order="3">
+              <Text><![CDATA[Submit the concise instruction to the model.]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct! Following this sequence ensures the model has the necessary parameters to provide an immediately usable result.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Incorrect order. You must identify the task before setting constraints and submitting the instruction.]]></FeedbackWrong>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+        <Question qType="MDD" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[Match the prompting concept to its correct description.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" Score="1" Order="1">
+              <Text><![CDATA[Direct Prompting]]></Text>
+              <Match><![CDATA[Providing a clear, concise instruction for simple, well-defined tasks.]]></Match>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" Score="1" Order="2">
+              <Text><![CDATA[Precision]]></Text>
+              <Match><![CDATA[Defining format, length, and audience to prevent unnecessary follow-up.]]></Match>
+            </Answer>
+            <Answer AnswerID="3" Correct="1" Score="1" Order="3">
+              <Text><![CDATA[Strategic Discipline]]></Text>
+              <Match><![CDATA[The approach of mastering core techniques to transform AI into a professional assistant.]]></Match>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[All correct!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some matches are incorrect. Please review the definitions of these core prompting foundations.]]></FeedbackWrong>
+          <Background>images/kcbg-401.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">5</screen_id>
+    <Template>4</Template>
+    <Section>Zero-Shot Prompting Fundamentals</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Zero-Shot Prompting Fundamentals</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Zero-shot prompting occurs when you ask the AI to perform a task without providing any examples or prior demonstrations. The model relies entirely on its pre-existing knowledge and internal logic to generate a response. This is the most common form of interaction for general inquiries and standard content generation.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A wide shot of a bright, contemporary workspace with white furniture and green plants.">images/ai-1793720322-127.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">6</screen_id>
+    <Template>4</Template>
+    <Section>When to Use Zero-Shot</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">When to Use Zero-Shot</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Zero-shot is ideal for tasks that are standard across industries, such as drafting basic emails, summarizing common knowledge, or generating creative ideas. It is highly efficient for quick tasks where the "how" is less important than the "what." However, it may struggle with highly specialized formats or unique brand voices.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional woman in a white blazer looking at a digital tablet in a sunlit office.">images/ai-1793720329-445.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">7</screen_id>
+    <Template>4</Template>
+    <Section>Few-Shot Prompting Mechanics</Section>
+    <Content autosize="true" height="352" width="459" x="525" y="127" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Few-Shot Prompting Mechanics</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Few-shot prompting involves providing the model with a few examples of the desired input-output relationship. This "primes" the model to follow a specific pattern, tone, or structure. By showing rather than just telling, you significantly increase the likelihood of the AI matching your exact requirements on the first attempt.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A diagram showing a prompt box containing three example pairs of input and output, leading to a final question.">images/fg-1793720350-813.jpg</Image_1>
+    <Video/>
+    <Background descr="A blurred background of a modern tech office with clean lines and blue accents.">images/ai-1793720359-415.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">8</screen_id>
+    <Template>4</Template>
+    <Section>Formatting Few-Shot Examples</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Formatting Few-Shot Examples</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">When using few-shot prompting, consistency in your examples is vital. Use a clear label for the input and the output, such as "Input:" and "Output:" or "Query:" and "Response:". This structural clarity helps the model identify the underlying pattern and apply it to the new data you provide at the end of the prompt.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A sleek digital interface on a monitor showing organized blocks of data and text.">images/ai-1793720366-298.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">9</screen_id>
+    <Template>4</Template>
+    <Section>The Power of Pattern Matching</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">The Power of Pattern Matching</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Few-shot prompting is particularly effective for sentiment analysis, data extraction, and maintaining a specific brand voice. When the model sees three examples of a professional, empathetic customer service response, it is much more likely to replicate that specific nuance than if it were given a general instruction to "be professional."</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="Two professionals in business attire talking in a bright, modern corridor.">images/ai-1793720373-817.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">10</screen_id>
+    <Template>4</Template>
+    <Section>Instruction-Based Prompting Strategies</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Instruction-Based Prompting Strategies</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Instruction-based prompting focuses on giving the AI a set of "rules" or a "persona" to follow. This goes beyond a simple request by defining the boundaries of the model's behavior. For example, telling the AI to "act as a senior financial analyst" provides a framework for the depth and tone of its subsequent analysis.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A high-end corporate boardroom with a large glass table and modern chairs.">images/ai-1793720379-9.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">11</screen_id>
+    <Template>4</Template>
+    <Section>Clarity Through Directives</Section>
+    <Content autosize="true" height="352" width="459" x="525" y="127" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Clarity Through Directives</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Using delimiters like triple quotes, XML tags, or brackets helps the AI distinguish between instructions and the content it needs to process. This structural technique is essential when dealing with long documents, ensuring the model doesn't confuse the text of a report with the instructions on how to summarize it.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A visual layout of a prompt using brackets and quotes to separate instruction blocks from data blocks.">images/fg-1793720388-789.jpg</Image_1>
+    <Video/>
+    <Background descr="A close-up of a glass surface reflecting a bright office ceiling.">images/ai-1793720396-603.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">12</screen_id>
+    <Template>4</Template>
+    <Section>Example-Driven Output Control</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Example-Driven Output Control</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Example-driven prompting is a subset of few-shot prompting that focuses specifically on the format of the output. If you need data returned in a specific JSON structure or a specific table format, providing a template example ensures the AI adheres to the technical requirements of your downstream systems or reports.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A modern office desk with multiple monitors displaying clean data visualizations.">images/ai-1793720402-905.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">1201</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_1201</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_1201">
+        <Question qType="TFSR" QuestionID="kc01" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement about prompting strategies as True or False.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="1" Order="1">
+              <Text><![CDATA[Few-shot prompting is effective for maintaining a specific brand voice.]]></Text>
+              <Feedback><![CDATA[Providing examples helps the model replicate specific nuances.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="0" Order="2">
+              <Text><![CDATA[Instruction-based prompting is only used for data extraction tasks.]]></Text>
+              <Feedback><![CDATA[It is used to define personas and behavioral boundaries.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="1" Order="3">
+              <Text><![CDATA[Delimiters help the AI distinguish between instructions and content.]]></Text>
+              <Feedback><![CDATA[Structural techniques prevent the model from confusing text with instructions.]]></Feedback>
+            </Statement>
+            <Statement StatementID="4" Correct="0" Order="4">
+              <Text><![CDATA[Example-driven prompting is intended to increase the length of responses.]]></Text>
+              <Feedback><![CDATA[It focuses on controlling the format of the output.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the items below.]]></FeedbackWrong>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+        <Question qType="FBM" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[To ensure the AI produces data in a specific format, you should use {1} prompting to provide a {2} of the required output structure.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" BlankId="1">
+              <Text><![CDATA[example-driven]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" BlankId="2">
+              <Text><![CDATA[template]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[fictional]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite right.]]></FeedbackWrong>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+        <Question qType="DLG" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[You are processing a long report and find the AI is confusing your instructions with the text of the report itself. What is the best solution?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1">
+              <Text><![CDATA[Use delimiters such as XML tags or triple quotes to separate the instructions from the report content.]]></Text>
+              <Feedback><![CDATA[Delimiters are essential for helping the model distinguish between processing instructions and the content being processed.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Provide more few-shot examples of the report summary.]]></Text>
+              <Feedback><![CDATA[Examples help with voice and format, but not with separating instructions from source content.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Assign a professional persona to the AI to improve its focus.]]></Text>
+              <Feedback><![CDATA[While personas define tone, they do not solve the structural issue of separating content from instructions.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1201.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">13</screen_id>
+    <Template>17</Template>
+    <Section>Applications of Example-Driven Prompting</Section>
+    <Preface auto_narrator="true" voice="Amina" width="810" height="62" x="100" y="60" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Example-driven approaches allow for precise control over the output's structural facets.</p>]]></Preface>
+    <Title>Style</Title>
+    <Content auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Provide a paragraph of your own writing to help the AI mimic your specific sentence structure, vocabulary, and professional flair.</p>]]></Content>
+    <Title_1>Structure</Title_1>
+    <Content_1 auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Show the AI exactly how a meeting agenda should be laid out, including specific headers and time-slot formats you prefer.</p>]]></Content_1>
+    <Title_2>Tone</Title_2>
+    <Content_2 auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Use examples to demonstrate the difference between a "persuasive" tone for a sales pitch and a "neutral" tone for a technical report.</p>]]></Content_2>
+    <Narrator/>
+    <Video/>
+    <Background descr="A bright, airy office with a focus on a clean, organized bookshelf and white furniture.">images/ai-1793720410-413.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">14</screen_id>
+    <Template>4</Template>
+    <Section>Task Decomposition Principles</Section>
+    <Content autosize="true" height="352" width="459" x="525" y="127" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Task Decomposition Principles</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Complex requests often lead to mediocre AI responses because the model tries to do too much at once. Task decomposition is the process of breaking a large, multi-faceted goal into smaller, manageable sub-tasks. This allows the AI to focus its "attention" on one specific logic step at a time.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A flowchart showing a large central task breaking into four smaller, connected sub-tasks.">images/fg-1793720419-208.jpg</Image_1>
+    <Video/>
+    <Background descr="A wide-angle shot of a modern architectural office with white models and blueprints.">images/ai-1793720427-149.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">15</screen_id>
+    <Template>4</Template>
+    <Section>Chain of Thought Reasoning</Section>
+    <Content autosize="true" height="352" width="459" x="525" y="127" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Chain of Thought Reasoning</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Chain of Thought (CoT) prompting encourages the AI to "think step-by-step." By explicitly asking the model to explain its reasoning before providing a final answer, you improve its performance on logical, mathematical, and strategic tasks. This transparency also makes it easier for you to spot errors in its logic.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A linear timeline showing a brain icon processing three distinct logical steps to reach a final lightbulb icon.">images/fg-1793720449-810.jpg</Image_1>
+    <Video/>
+    <Background descr="A professional man in a light blue shirt pointing at a clean whiteboard in a sunlit room.">images/ai-1793720466-453.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">16</screen_id>
+    <Template>4</Template>
+    <Section>Designing Multi-Step Workflows</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Designing Multi-Step Workflows</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">For complex professional projects, design a workflow where each step is a separate prompt. For example, first ask the AI to outline a report, then ask it to research specific points, and finally ask it to write each section based on the research. This modular approach ensures high quality at every stage.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A tidy workspace with a laptop, a notebook, and a designer pen, very bright and professional.">images/ai-1793720483-646.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">1601</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_1601</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_1601">
+        <Question qType="TFSR" QuestionID="kc01" Title="Knowledge check" timer="10">
+          <Text><![CDATA[Sort each statement as True or False regarding AI prompting strategies.]]></Text>
+          <Statements>
+            <Statement StatementID="1" Correct="1" Order="1">
+              <Text><![CDATA[Providing a sample paragraph helps the AI mimic your writing style and vocabulary.]]></Text>
+              <Feedback><![CDATA[This is a key application of example-driven prompting.]]></Feedback>
+            </Statement>
+            <Statement StatementID="2" Correct="0" Order="2">
+              <Text><![CDATA[Task decomposition involves asking the AI to complete all facets of a complex request simultaneously.]]></Text>
+              <Feedback><![CDATA[Decomposition requires breaking a large goal into smaller, manageable sub-tasks.]]></Feedback>
+            </Statement>
+            <Statement StatementID="3" Correct="1" Order="3">
+              <Text><![CDATA[Asking an AI to 'think step-by-step' can improve its performance on logical tasks.]]></Text>
+              <Feedback><![CDATA[This is the core principle of Chain of Thought reasoning.]]></Feedback>
+            </Statement>
+            <Statement StatementID="4" Correct="0" Order="4">
+              <Text><![CDATA[In multi-step workflows, it is best to provide the entire project requirements in one single prompt.]]></Text>
+              <Feedback><![CDATA[A modular approach using separate prompts for each step ensures higher quality.]]></Feedback>
+            </Statement>
+          </Statements>
+          <FeedbackCorrect><![CDATA[All sorted correctly!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Review the items below.]]></FeedbackWrong>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+        <Question qType="FBM" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[By explicitly asking the model to explain its {1} before providing an answer, you improve performance on {2} tasks.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" BlankId="1">
+              <Text><![CDATA[reasoning]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" BlankId="2">
+              <Text><![CDATA[strategic]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[mediocre]]></Text>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[Correct!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite right.]]></FeedbackWrong>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+        <Question qType="MC" QuestionID="kc03" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[What is the primary benefit of designing a multi-step workflow using separate prompts for complex projects?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! Breaking a project into separate prompts allows for higher quality control at every stage.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. A modular approach is intended to improve quality, not necessarily to reduce the number of prompts or eliminate the need for AI.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="0" Score="0" Order="1">
+              <Text><![CDATA[It minimizes the amount of information the user needs to provide.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" Score="1" Order="2">
+              <Text><![CDATA[It ensures high quality at every stage of the project.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0" Score="0" Order="3">
+              <Text><![CDATA[It allows the model to process the entire project in a single step.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="0" Score="0" Order="4">
+              <Text><![CDATA[It eliminates the need for human review of the final output.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-1601.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">17</screen_id>
+    <Template>4</Template>
+    <Section>Iterative Prompting and Refinement</Section>
+    <Content autosize="true" height="358" width="459" x="525" y="123" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Iterative Prompting and Refinement</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Rarely is the first AI response perfect. Iterative prompting is the process of refining the output through a series of follow-up instructions. Instead of starting over, you provide feedback on what the AI did well and what needs to change, guiding it toward the ideal final version.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A circular arrow diagram representing the loop of prompt, output, evaluation, and refinement.">images/fg-1793720492-867.jpg</Image_1>
+    <Video/>
+    <Background descr="A blurred office background with a focus on a bright, green indoor plant.">images/ai-1793720500-299.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">18</screen_id>
+    <Template>4</Template>
+    <Section>The Refinement Feedback Loop</Section>
+    <Content autosize="true" height="352" width="459" x="525" y="127" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">The Refinement Feedback Loop</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">When refining, be specific about the changes required. Use instructions like "make the second paragraph more concise" or "add a concluding sentence that summarizes the financial impact." This targeted feedback is more effective than general comments like "make it better," which give the AI no clear direction.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="83" y="115" width="420" height="420">images/anim-document-topics-730190.svg</Image>
+    <Video/>
+    <Background descr="A professional woman smiling while looking at a laptop screen in a bright, glass-walled office.">images/ai-1793720507-129.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">19</screen_id>
+    <Template>4</Template>
+    <Section>Handling Imperfect AI Responses</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Handling Imperfect AI Responses</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">If an AI provides an incorrect or irrelevant response, use the iterative process to troubleshoot. Ask the AI why it chose a certain path or point out the specific error. Often, clarifying a single constraint or providing one missing piece of context can pivot the model back to the correct track.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A clean, modern office lounge with comfortable white chairs and large windows.">images/ai-1793720514-17.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">20</screen_id>
+    <Template>4</Template>
+    <Section>Comparative Prompting for Innovation</Section>
+    <Content autosize="true" height="393" width="459" x="525" y="106" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Comparative Prompting for Innovation</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Comparative prompting involves asking the AI to generate multiple versions of a response or to compare different approaches to a problem. This is highly effective for brainstorming, where you might ask for "three different taglines for a new product, each targeting a different demographic."</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A split-screen diagram showing one prompt branching into three different creative output options.">images/fg-1793720522-108.jpg</Image_1>
+    <Video/>
+    <Background descr="A bright creative studio space with white walls and modern art.">images/ai-1793720531-894.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">2001</screen_id>
+    <Template>18</Template>
+    <Section>Knowledge Check</Section>
+    <Quizes>
+      <settings>
+        <quiz_identifier>kc_2001</quiz_identifier>
+        <QuizType>0</QuizType>
+        <ShowFeedback>1</ShowFeedback>
+        <Show_Answers>1</Show_Answers>
+        <LoadsQuizatScreenLevel>1</LoadsQuizatScreenLevel>
+      </settings>
+      <Quiz identifier="kc_2001">
+        <Question qType="MC" QuestionID="kc01" Title="Knowledge check" randomize_answers="true">
+          <Text><![CDATA[What is the most effective approach when an AI response does not meet your expectations?]]></Text>
+          <FeedbackCorrect><![CDATA[Correct! Iterative prompting allows you to guide the AI toward the desired output by providing specific feedback rather than starting over.]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Not quite. The answer is to use iterative prompting to provide specific feedback and guidance to refine the existing output.]]></FeedbackWrong>
+          <Answers>
+            <Answer AnswerID="1" Correct="0" Score="0" Order="1">
+              <Text><![CDATA[Ask the AI to 'make it better' so it can independently identify your preferences.]]></Text>
+            </Answer>
+            <Answer AnswerID="2" Correct="0" Score="0" Order="2">
+              <Text><![CDATA[Discard the current output and start a brand new conversation from scratch.]]></Text>
+            </Answer>
+            <Answer AnswerID="3" Correct="0" Score="0" Order="3">
+              <Text><![CDATA[Accept the response as is, as AI models cannot be corrected once they have generated text.]]></Text>
+            </Answer>
+            <Answer AnswerID="4" Correct="1" Score="1" Order="4">
+              <Text><![CDATA[Provide specific feedback on what needs to change to guide the AI toward the ideal version.]]></Text>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-2001.jpg</Background>
+        </Question>
+        <Question qType="DLG" QuestionID="kc02" Title="Knowledge check">
+          <Text><![CDATA[You are working with an AI to write a report, but the current draft is too wordy. Which instruction would be most effective for the AI to follow?]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1">
+              <Text><![CDATA[Make the second paragraph more concise.]]></Text>
+              <Feedback><![CDATA[This is a specific, actionable instruction that tells the AI exactly what needs to change.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="2" Correct="0">
+              <Text><![CDATA[Rewrite the entire report from the beginning.]]></Text>
+              <Feedback><![CDATA[Iterative prompting is more efficient than starting over when only a specific section needs refinement.]]></Feedback>
+            </Answer>
+            <Answer AnswerID="3" Correct="0">
+              <Text><![CDATA[Make this better.]]></Text>
+              <Feedback><![CDATA[This is too general and does not provide the AI with clear direction.]]></Feedback>
+            </Answer>
+          </Answers>
+          <Background>images/kcbg-2001.jpg</Background>
+        </Question>
+        <Question qType="MDD" QuestionID="kc03" Title="Knowledge check">
+          <Text><![CDATA[Match each prompting technique to its primary purpose.]]></Text>
+          <Answers>
+            <Answer AnswerID="1" Correct="1" Score="1" Order="1">
+              <Text><![CDATA[Iterative Prompting]]></Text>
+              <Match><![CDATA[Refining an output through a series of follow-up instructions.]]></Match>
+            </Answer>
+            <Answer AnswerID="2" Correct="1" Score="1" Order="2">
+              <Text><![CDATA[Comparative Prompting]]></Text>
+              <Match><![CDATA[Generating multiple versions or approaches to aid in brainstorming.]]></Match>
+            </Answer>
+            <Answer AnswerID="3" Correct="1" Score="1" Order="3">
+              <Text><![CDATA[Troubleshooting]]></Text>
+              <Match><![CDATA[Pointing out specific errors or clarifying constraints to pivot the AI back on track.]]></Match>
+            </Answer>
+          </Answers>
+          <FeedbackCorrect><![CDATA[All correct!]]></FeedbackCorrect>
+          <FeedbackWrong><![CDATA[Some matches are incorrect.]]></FeedbackWrong>
+          <Background>images/kcbg-2001.jpg</Background>
+        </Question>
+      </Quiz>
+    </Quizes>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">21</screen_id>
+    <Template>4</Template>
+    <Section>Evaluating Generated Alternatives</Section>
+    <Content autosize="true" height="393" width="459" x="35" y="106" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Evaluating Generated Alternatives</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Once the AI provides multiple options, you can ask it to evaluate them based on specific criteria. For example, "Analyze these three marketing strategies and rank them based on cost-effectiveness and reach." This uses the AI as a strategic partner to help you make informed decisions.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="527" y="115" width="420" height="420">images/anim-icon-business-decisions-730381.svg</Image>
+    <Video/>
+    <Background descr="A group of professionals in a bright meeting room looking at a large screen.">images/ai-1793720537-732.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">22</screen_id>
+    <Template>4</Template>
+    <Section>Introduction to Prompt Chaining</Section>
+    <Content autosize="true" height="352" width="459" x="525" y="127" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Introduction to Prompt Chaining</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Prompt chaining is an advanced technique where the output of one prompt is used as the input for the next. This creates a sequence of operations that can handle extremely complex tasks, such as turning a raw interview transcript into a polished executive summary and a series of social media posts.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A series of three connected boxes where an arrow flows from the output of one box into the input of the next.">images/fg-1793720548-696.jpg</Image_1>
+    <Video/>
+    <Background descr="A high-tech office environment with subtle blue lighting and glass surfaces.">images/ai-1793720557-372.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">23</screen_id>
+    <Template>4</Template>
+    <Section>Architecting Chained Workflows</Section>
+    <Content autosize="true" height="352" width="459" x="35" y="127" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Architecting Chained Workflows</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">To build a chain, identify the dependencies between tasks. If task B requires the results of task A, they must be chained. This modularity allows you to swap out or improve individual prompts in the chain without redesigning the entire process, making your AI workflows more robust and scalable.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image x="527" y="115" width="420" height="420">images/anim-data-a-23-730146.svg</Image>
+    <Video/>
+    <Background descr="A close-up of a sleek tablet showing a workflow diagram in a bright office.">images/ai-1793720563-395.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">24</screen_id>
+    <Template>4</Template>
+    <Section>Advanced Chaining Use Cases</Section>
+    <Content autosize="true" height="246" width="762" x="170" y="74" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Advanced Chaining Use Cases</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Chaining is essential for long-form content creation, deep technical research, and data-heavy analysis. By breaking a 2,000-word report into a chain of six prompts—outline, research, section drafting, editing, and formatting—you ensure the AI maintains coherence and detail throughout the entire document.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A professional library or research room with white shelves and modern furniture.">images/ai-1793720569-958.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">25</screen_id>
+    <Template>4</Template>
+    <Section>Selecting the Optimal Technique</Section>
+    <Content autosize="true" height="386" width="459" x="525" y="109" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Selecting the Optimal Technique</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Choosing the right technique depends on the task's complexity and the required accuracy. Simple tasks benefit from the speed of zero-shot prompting, while high-stakes professional work often requires a combination of few-shot examples, task decomposition, and iterative refinement to meet quality standards.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Image_1 x="21" y="75" width="500" height="500" descr="A 2x2 matrix comparing task complexity on one axis and the required prompting technique on the other.">images/fg-1793720578-254.jpg</Image_1>
+    <Video/>
+    <Background descr="A bright, sunlit office with a clean desk and a view of a green park.">images/ai-1793720586-172.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">26</screen_id>
+    <Template>17</Template>
+    <Section>Choosing Your Strategy</Section>
+    <Preface auto_narrator="true" voice="Amina" width="810" height="31" x="100" y="60" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Match your prompting approach to the specific demands of your project.</p>]]></Preface>
+    <Title>Simple Tasks</Title>
+    <Content auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Use Zero-Shot or Direct Prompting for emails, basic definitions, and quick brainstorming where the model's default behavior is sufficient.</p>]]></Content>
+    <Title_1>Moderate Complexity</Title_1>
+    <Content_1 auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Use Few-Shot or Instruction-Based Prompting when you need a specific tone, format, or style that deviates from the AI's standard output.</p>]]></Content_1>
+    <Title_2>Complex Workflows</Title_2>
+    <Content_2 auto_narrator="true" voice="Amina" width="550" height="270" x="360" y="220" padding="20" hasBackground="true" bgColor="#ffffff" bgAlpha="0.9"><![CDATA[<p style="font-family: SANS-SERIF; font-size: 24px; color:#404448">Use Task Decomposition and Prompt Chaining for multi-stage projects, technical reports, and logic-heavy strategic planning.</p>]]></Content_2>
+    <Narrator/>
+    <Video/>
+    <Background descr="A modern, airy office workspace with professional people collaborating in the background.">images/ai-1793720593-589.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">27</screen_id>
+    <Template>4</Template>
+    <Section>Course Summary and Key Takeaways</Section>
+    <Content autosize="true" height="280" width="762" x="170" y="57" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" auto_narrator="true" voice="Amina" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Course Summary and Key Takeaways</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">You have explored the core strategies that define professional AI interaction. From the simplicity of direct prompts to the sophisticated architecture of prompt chains, these techniques allow you to control AI output with precision. Remember that prompting is an iterative skill; the more you refine your instructions and structure your workflows, the more valuable AI becomes as a professional tool.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator/>
+    <Video/>
+    <Background descr="A confident professional standing in a bright, modern office, looking out a large window at a city.">images/ai-1793720599-251.jpg</Background>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">28</screen_id>
+    <Template>1</Template>
+    <Section>Quiz</Section>
+    <Content>Please answer these questions and pass the quiz in order to continue.</Content>
+    <Quizes>
+      <settings>
+        <quiz_title/>
+        <OK>OK</OK>
+        <Issue_Detected>Issue detected</Issue_Detected>
+        <Retake_Test>You have reached the end of the test.</Retake_Test>
+        <Ratio>Your score is</Ratio>
+        <No_Issues>Congratulations! You have scored 100%!</No_Issues>
+        <Few_Issues>Congratulations! You have passed the quiz.</Few_Issues>
+        <Some_Issues>You have not reached the pass mark required.</Some_Issues>
+        <Many_Issues>You have got many questions wrong.</Many_Issues>
+        <Most_Issues>Select below</Most_Issues>
+        <Random>1</Random>
+        <Show_Intro>1</Show_Intro>
+        <Show_Results>1</Show_Results>
+        <QuizType>0</QuizType>
+        <LoadsQuizatScreenLevel>0</LoadsQuizatScreenLevel>
+        <ShowFeedback>1</ShowFeedback>
+        <PassMark>70</PassMark>
+        <Show_Answers>1</Show_Answers>
+      </settings>
+    </Quizes>
+    <Background/>
+    <navigation/>
+  </screen>
+  <screen>
+    <screen_id x="0" y="0">29</screen_id>
+    <Template>4</Template>
+    <Section>Summary</Section>
+    <Content autosize="true" height="399" width="740" x="150" y="100" padding="30" hasBackground="true" bgColor="#ffffff" bgAlpha="0.92" borderSize="1" borderColor="#d1d9e0" borderAlpha="1" borderStyle="solid" borderRadius="12" dropShadow="true" dropShadowDistance="5" dropShadowAngle="90" dropShadowBlur="25" dropShadowColor="#002850" dropShadowAlpha="0.1" alpha="1"><![CDATA[<p style="font-family: Helvetica, Arial, sans-serif; font-size: 34px; margin-bottom: 18px; color: #1A1C1E; font-weight: 700; word-break: break-word; line-height: 1.2; border-left: 6px solid #0055FF; padding-left: 15px;">Summary</p><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; margin-bottom: 16px; color: #3E4246; line-height: 1.3;">Well done you have completed the course <span style="color: #0055FF; font-weight: 600; background-color: rgba(0, 85, 255, 0.05); padding: 0 4px;">Core Prompting Techniques and Strategies</span>. You should now be familiar with:</p><ul style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; margin-bottom: 14px; color: #3E4246; line-height: 1.3; list-style: '🔹 ';"><li>Apply zero-shot and few-shot logic</li><li>Implement task decomposition strategies</li><li>Master iterative refinement processes</li><li>Architect multi-stage prompt chains</li><li>Select techniques based on complexity</li></ul><p style="font-family: Helvetica, Arial, sans-serif; font-size: 24px; color: #3E4246; line-height: 1.3">Should you need to revisit any of the topics in this course, please use the menu at the bottom of the screen.</p>]]></Content>
+    <Flash x="" y="" width="" height="" targetId="" text="" textColor="#000000">swf/empty_1.swf</Flash>
+    <Narrator x="729" y="143" start="0" stop="400" width="340" height="507" mirror="true">video/woman20s_well_done.webm</Narrator>
+    <Video/>
+    <Background descr="This e-learning slide features a clean, minimalist empty room with white walls and a light grey floor. Sunlight streams in from the left, casting distinct window-pane shadows across the floor, creating a bright and serene visual style.">images/ai-1793720626-746.jpg</Background>
+    <navigation/>
+  </screen>
+  <video>
+    <vid/>
+    <video_file_visible>true</video_file_visible>
+    <time_visible>false</time_visible>
+    <video_streaming>false</video_streaming>
+    <server/>
+    <video_slides_in>false</video_slides_in>
+  </video>
+  <scorm>
+    <scorm_format>SVGA_1905s</scorm_format>
+    <screen_scorm_finish>29</screen_scorm_finish>
+    <scorm_frame>28</scorm_frame>
+    <xmlversion>null</xmlversion>
+    <scorm_2004>1024012</scorm_2004>
+    <scorm_2005>1144484</scorm_2005>
+    <course_name><![CDATA[Core Prompting Techniques and Strategies]]></course_name>
+  </scorm>
+  <settings>
+    <status_set_to_passed>true</status_set_to_passed>
+    <show_background>false</show_background>
+    <title_color>22015</title_color>
+    <voice>Amina</voice>
+    <language>English</language>
+    <default_thumb>1.jpg</default_thumb>
+    <show_second_menu>false</show_second_menu>
+    <show_text_toggle_button>true</show_text_toggle_button>
+    <visual_style>Bright, polished corporate visual language: airy modern offices and confident professional people, lots of white and glass with one strong brand accent colour. Soft daylight, tidy compositions and an optimistic, trustworthy tone — premium B2B brand photography or clean corporate illustration.</visual_style>
+    <applied_style_id>225</applied_style_id>
+  </settings>
+  <introduction>
+    <show_intro>true</show_intro>
+  </introduction>
+  <navigation>
+    <button name="next" x="982.5" y="590" width="75" height="60"/>
+    <button name="prev" x="77.5" y="590" width="55" height="44" visible="true"/>
+    <button name="yes" x="903.6" y="576.55" width="75" height="60" visible="false"/>
+    <button name="no" x="996.95" y="576.55" width="75" height="60" visible="false"/>
+  </navigation>
+  <nav_blocks>
+    <button name="skip" asset="next" x="982.5" y="590" width="75" height="60"/>
+  </nav_blocks>
+</screens>

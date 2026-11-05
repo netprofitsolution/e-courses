@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style type="text/css">
+        #content {
+            max-width: 50rem;
+            margin: 5rem auto;
+            font-family: sans-serif;
+        }
+        @media print {
+            #content {
+                margin: auto;
+            }
+        }
+        text {
+            display: block;
+            font-weight: bold;
+            margin: .5rem auto;
+        }
+        answer text{
+            font-weight: normal;
+        }
+        answer {
+            display: list-item;
+        }
+        answer[correct="1"]::before {
+            content: "(+)";
+            display: inline;
+            float: left;
+            margin-right: 0.2rem;
+            font-weight: 900;
+            color: darkcyan;
+        }
+        answers {
+            display: block;
+            padding-left: 2rem;
+            margin-bottom: 2rem;
+        }
+        feedback {
+            color:darkgray;
+        }
+
+    </style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <title>Transcript</title>
+</head>
+
+<body onload="onLoadThis();">
+    <div id="content"></div>
+    <noscript>This webpage makes extensive use of JavaScript. Please enable JavaScript in your web browser to view this page.</noscript>
+    <script type="text/javascript" defer>
+        <!--
+        const convertEntities = (t) =>
+        {
+            var ret = t.replace(/&nbsp;/gmi, " ");
+            ret = ret.replace(/&lt;/gmi, "<");
+            ret = ret.replace(/&gt;/gmi, ">");
+            ret = ret.replace(/&amp;/gmi, "&");
+            ret = ret.replace(/&quot;/gmi, "\"");
+            ret = ret.replace(/&apos;/gmi, "'");
+            ret = ret.replace(/(<!\[CDATA\[)|(\]\]>)/gmi, "");
+            ret = ret.replace(/<p[^<]+?>/gmi, "<p>");
+            ret = ret.replace(/<ul[^<]+?>/gmi, "<ul>");
+            ret = ret.replace(/<li[^<]+?>/gmi, "<li>");
+            ret = ret.replace(/(<font[^<]+?>)|(<\/font>)/gmi, "");
+            ret = ret.replace(/(<span[^<]+?>)|(<\/span>)/gmi, "");
+            return ret;
+        };
+        const onLoadThis = () =>
+        {
+            const params = new URLSearchParams(new URL(window.location.toLocaleString()).search);
+            const xhr = new XMLHttpRequest();
+            xhr.onload = () =>
+            {
+                var root = xhr.responseXML.documentElement;
+                var doc = document.getElementById('content');
+                var courseTitle = convertEntities(root.getElementsByTagName('course_name')[0]?.innerHTML);
+                document.title = "\"" + courseTitle + "\" Transcript";
+                var showMore = params.get('var') == btoa(courseTitle);
+                var showQuiz = false;
+                doc.innerHTML += "<h1>" + courseTitle + "</h1>";
+                [...root.getElementsByTagName('screen')].forEach(e =>
+                {
+                    if(e.getElementsByTagName('Quizes').length == 0)
+                    {
+                        if (e.getElementsByTagName('Section')[0]?.innerHTML) doc.innerHTML += "<h2>" + convertEntities(e.getElementsByTagName('Section')[0]?.innerHTML) + "</h2>";
+                        let content = convertEntities(e.getElementsByTagName('Content')[0]?.innerHTML);
+                        doc.innerHTML += content;
+                    }
+                    else if (showMore) showQuiz = true;
+                });
+                if (showQuiz) doShowQuiz();
+            };
+            xhr.onerror = (e) => console.error("Error while getting XML.\n" + e);
+            xhr.open("GET", "xml/information.xml");
+            xhr.responseType = "document";
+            xhr.send();
+        };
+        const doShowQuiz = () =>
+        {
+            const qxhr = new XMLHttpRequest();
+            qxhr.onload = () =>
+            {
+                var root = qxhr.responseXML.documentElement;
+                var doc = document.getElementById('content');
+                doc.innerHTML += "<h1>Quiz</h1>";
+                [...root.getElementsByTagName('Question')].forEach(e =>
+                {
+                    doc.innerHTML += e.innerHTML?.replace(/(<!\[CDATA\[)|(\]\]>)/gmi, "");
+                });
+            };
+            qxhr.onerror = (e) => console.error("Error while getting XML.\n" + e);
+            qxhr.open("GET", "quizXML.xml");
+            qxhr.responseType = "document";
+            qxhr.send();
+        };
+        //-->
+    </script>
+</body>
+</html>

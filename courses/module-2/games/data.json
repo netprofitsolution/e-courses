@@ -1,0 +1,526 @@
+{
+    "course_title": "Module 2: The Anatomy of Effective Prompts",
+    "space_brain_data": {
+        "questions": [
+            {
+                "question": "What is Module 2 about?",
+                "answers": [
+                    {
+                        "text": "Prompts",
+                        "icon": "\u270d\ufe0f",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Generative ai",
+                        "icon": "\ud83e\udd16",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Learning goals",
+                        "icon": "\ud83c\udfaf",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "Prompts engineer what?",
+                "answers": [
+                    {
+                        "text": "Instructions",
+                        "icon": "\ud83d\udcdd",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Business assets",
+                        "icon": "\ud83d\udcbc",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Clear objectives",
+                        "icon": "\ud83d\udca1",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What is a prompt's core?",
+                "answers": [
+                    {
+                        "text": "Components",
+                        "icon": "\ud83e\udde9",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Single sentence",
+                        "icon": "\ud83d\udcac",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "AI logic",
+                        "icon": "\ud83e\udde0",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does objective provide?",
+                "answers": [
+                    {
+                        "text": "Why",
+                        "icon": "\u2753",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "The goal",
+                        "icon": "\ud83c\udfc6",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Strategic alignment",
+                        "icon": "\u2194\ufe0f",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does task instruction focus?",
+                "answers": [
+                    {
+                        "text": "Action",
+                        "icon": "\ud83d\ude80",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "High-level analysis",
+                        "icon": "\ud83d\udcca",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Creative tasks",
+                        "icon": "\ud83c\udfa8",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does context provide?",
+                "answers": [
+                    {
+                        "text": "Environment",
+                        "icon": "\ud83c\udf0d",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Background information",
+                        "icon": "\u2139\ufe0f",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Specific needs",
+                        "icon": "\ud83d\udccd",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does a prompt set?",
+                "answers": [
+                    {
+                        "text": "Boundaries",
+                        "icon": "\ud83d\udea7",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Quality standards",
+                        "icon": "\u2b50",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Expected results",
+                        "icon": "\u2705",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What do examples provide?",
+                "answers": [
+                    {
+                        "text": "Results",
+                        "icon": "\ud83d\uddbc\ufe0f",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Expected outputs",
+                        "icon": "\ud83c\udfaf",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Reusable frameworks",
+                        "icon": "\ud83c\udfd7\ufe0f",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What are AI assumptions bad?",
+                "answers": [
+                    {
+                        "text": "Hallucinations",
+                        "icon": "\ud83d\udc7b",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Irrelevant content",
+                        "icon": "\u274c",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Generic patterns",
+                        "icon": "\ud83d\udd20",
+                        "isCorrect": false
+                    }
+                ]
+            },
+            {
+                "question": "What does strategic task require?",
+                "answers": [
+                    {
+                        "text": "Analysis",
+                        "icon": "\ud83d\udd0d",
+                        "isCorrect": true
+                    },
+                    {
+                        "text": "Broad datasets",
+                        "icon": "\ud83d\uddc2\ufe0f",
+                        "isCorrect": false
+                    },
+                    {
+                        "text": "Complex data",
+                        "icon": "\ud83d\udd22",
+                        "isCorrect": false
+                    }
+                ]
+            }
+        ]
+    },
+    "memory_match_data": [
+        {
+            "question": "What is the goal of a prompt?",
+            "answer": "Define objectives"
+        },
+        {
+            "question": "What layer defines the 'why'?",
+            "answer": "Objective"
+        },
+        {
+            "question": "What specific action should AI take?",
+            "answer": "Task"
+        },
+        {
+            "question": "What is relevant background information?",
+            "answer": "Context"
+        },
+        {
+            "question": "What are prompt boundaries and rules?",
+            "answer": "Constraints"
+        },
+        {
+            "question": "What guides AI logic in prompts?",
+            "answer": "Layers"
+        },
+        {
+            "question": "What results from missing prompt components?",
+            "answer": "Assumptions"
+        },
+        {
+            "question": "What is the AI equivalent of 'why'?",
+            "answer": "Objective"
+        },
+        {
+            "question": "What type of AI task is brainstorming?",
+            "answer": "Creative"
+        },
+        {
+            "question": "What does context prevent AI from doing?",
+            "answer": "Making assumptions"
+        }
+    ],
+    "questris_data": [
+        {
+            "question": "Background information is essential context.",
+            "answer": true
+        },
+        {
+            "question": "Prompt anatomy guides AI logic.",
+            "answer": true
+        },
+        {
+            "question": "Generic plans are ideal for specific needs.",
+            "answer": false
+        },
+        {
+            "question": "Creative tasks avoid thematic boundaries.",
+            "answer": false
+        },
+        {
+            "question": "AI assumes needs without prompt context.",
+            "answer": true
+        },
+        {
+            "question": "Strategic tasks focus on broad datasets.",
+            "answer": true
+        },
+        {
+            "question": "Context is irrelevant for AI requests.",
+            "answer": false
+        },
+        {
+            "question": "Task is the specific action for AI.",
+            "answer": true
+        },
+        {
+            "question": "Output defines the desired AI result.",
+            "answer": true
+        },
+        {
+            "question": "AI needs assumptions to function well.",
+            "answer": false
+        },
+        {
+            "question": "High-net-worth individuals are a target audience.",
+            "answer": true
+        },
+        {
+            "question": "Writing a report is a clear objective.",
+            "answer": false
+        },
+        {
+            "question": "Prompts engineer clear instructions for AI.",
+            "answer": true
+        },
+        {
+            "question": "Hallucinations stem from missing prompt parts.",
+            "answer": true
+        },
+        {
+            "question": "Operational tasks require creative thinking.",
+            "answer": false
+        },
+        {
+            "question": "A vague prompt leads to precise outputs.",
+            "answer": false
+        },
+        {
+            "question": "A prompt is usually one sentence.",
+            "answer": false
+        },
+        {
+            "question": "Constraints are optional in prompt design.",
+            "answer": false
+        },
+        {
+            "question": "Objective defines the 'why' of a prompt.",
+            "answer": true
+        }
+    ],
+    "fact_man_data": [
+        {
+            "question": "What is the main focus of Module 2?",
+            "options": [
+                "Basic AI concepts",
+                "Generative AI history",
+                "Prompt engineering anatomy",
+                "AI ethics"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Effective prompting is described as what?",
+            "options": [
+                "Talking to a machine",
+                "Engineering clear instructions",
+                "Guessing AI's intent",
+                "Random text generation"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What is the 'Objective' layer of a prompt?",
+            "options": [
+                "Specific action to take",
+                "Background information",
+                "What to achieve",
+                "Final result appearance"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "The 'Task' layer of a prompt defines what?",
+            "options": [
+                "The primary goal",
+                "The boundaries and rules",
+                "The specific action",
+                "The relevant background"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What is the purpose of the 'Context' layer?",
+            "options": [
+                "To define the task",
+                "To set the environment",
+                "To outline the output",
+                "To specify constraints"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What does the 'Constraints' layer provide?",
+            "options": [
+                "The goal of the prompt",
+                "The AI's specific action",
+                "The boundaries and rules",
+                "The background information"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What does the 'Output' layer specify?",
+            "options": [
+                "The objective",
+                "The task",
+                "The constraints",
+                "The final result"
+            ],
+            "correct": 3
+        },
+        {
+            "question": "Missing prompt components can lead to what?",
+            "options": [
+                "Precise answers",
+                "Relevant content",
+                "Hallucinations or irrelevant content",
+                "Strategic alignment"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What does an 'Objective' provide for a prompt?",
+            "options": [
+                "The specific action",
+                "The 'why' behind the prompt",
+                "The background information",
+                "The output format"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Which is an example of a Strategic Task?",
+            "options": [
+                "Drafting emails",
+                "Summarizing notes",
+                "High-level analysis",
+                "Creating timelines"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "What kind of tasks focus on execution?",
+            "options": [
+                "Strategic Tasks",
+                "Operational Tasks",
+                "Creative Tasks",
+                "Analysis Tasks"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Drafting emails falls under which task type?",
+            "options": [
+                "Strategic",
+                "Operational",
+                "Creative",
+                "Contextual"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "What do 'Creative Tasks' focus on?",
+            "options": [
+                "Execution and precision",
+                "High-level analysis",
+                "Ideation and brainstorming",
+                "Data synthesis"
+            ],
+            "correct": 2
+        },
+        {
+            "question": "Without context, AI treats requests as what?",
+            "options": [
+                "Specific instructions",
+                "A vacuum",
+                "High-value assets",
+                "Strategic plans"
+            ],
+            "correct": 1
+        },
+        {
+            "question": "Providing context for a prompt ensures what?",
+            "options": [
+                "Generic responses",
+                "AI making assumptions",
+                "Response grounded in needs",
+                "Random output"
+            ],
+            "correct": 2
+        }
+    ],
+    "background_images": [
+        "..\/images\/ai-1793558546-537.jpg",
+        "..\/images\/ai-1793558242-267.jpg",
+        "..\/images\/ai-1793558274-357.jpg",
+        "..\/images\/ai-1793558281-601.jpg",
+        "..\/images\/ai-1793558287-266.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/kcbg-401.jpg",
+        "..\/images\/ai-1793558293-926.jpg",
+        "..\/images\/ai-1793558298-368.jpg",
+        "..\/images\/ai-1793558305-183.jpg",
+        "..\/images\/ai-1793558319-818.jpg",
+        "..\/images\/kcbg-801.jpg",
+        "..\/images\/kcbg-801.jpg",
+        "..\/images\/kcbg-801.jpg",
+        "..\/images\/ai-1793558324-960.jpg",
+        "..\/images\/ai-1793558334-664.jpg",
+        "..\/images\/ai-1793558340-808.jpg",
+        "..\/images\/ai-1793558349-581.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/kcbg-1201.jpg",
+        "..\/images\/ai-1793558366-571.jpg",
+        "..\/images\/ai-1793558372-101.jpg",
+        "..\/images\/ai-1793558379-739.jpg",
+        "..\/images\/ai-1793558397-642.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/kcbg-1601.jpg",
+        "..\/images\/ai-1793558403-45.jpg",
+        "..\/images\/ai-1793558410-29.jpg",
+        "..\/images\/ai-1793558417-332.jpg",
+        "..\/images\/ai-1793558435-728.jpg",
+        "..\/images\/ai-1793558442-206.jpg",
+        "..\/images\/kcbg-2002.jpg",
+        "..\/images\/kcbg-2002.jpg",
+        "..\/images\/kcbg-2002.jpg",
+        "..\/images\/ai-1793558454-956.jpg",
+        "..\/images\/ai-1793558461-931.jpg",
+        "..\/images\/ai-1793558467-643.jpg",
+        "..\/images\/ai-1793558474-237.jpg",
+        "..\/images\/ai-1793558513-362.jpg",
+        "..\/images\/ai-1793558519-628.jpg",
+        "..\/images\/ai-1793558525-712.jpg",
+        "..\/images\/ai-1793558546-537.jpg"
+    ]
+}

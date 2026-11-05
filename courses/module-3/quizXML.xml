@@ -1,0 +1,235 @@
+<Quizes>
+	<Quiz identifier="MI00" Type="exam">
+	<Question QuestionID="MI01" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[Which prompting technique is most appropriate for a standard task where the model already has sufficient training data and no examples are provided?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Chain of Thought reasoning]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Prompt chaining]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Zero-shot prompting]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Few-shot prompting]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI02" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[When using few-shot prompting, which of the following are considered best practices for formatting examples?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Maintain consistency in the structure of the examples provided]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Avoid using delimiters like triple quotes]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Show the desired tone or pattern rather than just describing it]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Use clear labels like 'Input:' and 'Output:' to distinguish data]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI03" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What is the primary purpose of 'Task Decomposition' in professional AI workflows?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To allow the AI to generate multiple creative taglines simultaneously]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To break a large, multi-faceted goal into smaller, manageable sub-tasks]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To reduce the number of tokens used by the model]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[To provide the model with a specific persona like a financial analyst]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI04" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[Which of the following scenarios would benefit most from using 'Chain of Thought' (CoT) prompting?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Troubleshooting a logic error in a technical report]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="1" Score="10" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Solving a complex strategic problem that requires logical steps]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Performing a mathematical calculation where the reasoning process is important]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Drafting a simple one-sentence email response]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI05" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[In the context of advanced workflows, what defines 'Prompt Chaining'?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Providing three different examples of a brand voice in a single prompt]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Comparing two different outputs to see which one is more accurate]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Using the output of one prompt as the input for the next prompt]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Asking the AI to repeat the same prompt multiple times for consistency]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI06" QuestionType="exam" Title="" CommentBox="0" qType="MR" image="" randomize_answers="true">
+		<Text><![CDATA[Which techniques are recommended for handling moderate complexity tasks that require a specific tone or format?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="0" Score="0" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Direct prompting without constraints]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Zero-shot prompting with general instructions]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="1" Score="10" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Few-shot prompting with example-driven output control]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="1" Score="10" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Instruction-based prompting using specific personas]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	<Question QuestionID="MI07" QuestionType="exam" Title="" CommentBox="0" qType="MC" image="" randomize_answers="true">
+		<Text><![CDATA[What is the most effective way to handle an imperfect AI response during the iterative refinement process?]]></Text>
+		<Answers>
+			<Answer AnswerID="1" Correct="1" Score="10" Order="1" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Provide specific feedback on what to change, such as 'make the second paragraph more concise']]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="2" Correct="0" Score="0" Order="2" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Discard the response and start over with a completely new prompt]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="3" Correct="0" Score="0" Order="3" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Switch immediately to zero-shot prompting to simplify the task]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+			<Answer AnswerID="4" Correct="0" Score="0" Order="4" TaskSeverity="0" ActionByID="0">
+				<Text><![CDATA[Use a general comment like 'make it better' to encourage the AI]]></Text>
+				<TaskName/>
+				<Feedback></Feedback>
+				<Match/>
+				<TaskDescription/>
+			</Answer>
+		</Answers>
+	</Question>
+	</Quiz>
+</Quizes>

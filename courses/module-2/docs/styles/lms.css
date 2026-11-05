@@ -1,0 +1,1098 @@
+	body {
+	/*background-color: #f2f2f2;*/
+		margin-top: 0px;
+	padding-top: 0px;
+	position: relative;
+	left: auto;
+	right: auto;
+	background-image: url(../images/BG_bigone2.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	}
+	
+	p {
+		font-family:Tahoma, Geneva, sans-serif;
+		font-size: 11px;
+		color: #333;
+		line-height: 18px;
+		text-align: justify;
+		font-weight: normal;
+	}
+	H1 {
+	color: #222222;
+	margin: 0px;
+	font-size: 21px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top: 5px;
+	font-weight: normal;
+	}
+	
+	h2 {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 18px;
+		color: #222222;
+		margin: 0px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		font-weight: normal;
+		text-align: left;
+	}
+	
+	h3 {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 16px;
+		color: #222222;
+		margin: 0px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+		font-weight: normal;
+		text-align: left;
+	}
+	
+	H4 {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		color: #222222;
+		margin: 0px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	
+	H5 {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 12px;
+		color: #222222;
+		margin: 0px;
+		padding-bottom: 0px;
+	}
+	
+	H6 {
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 11px;
+		color: #222222;
+		margin: 0px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	
+	form
+	{
+		margin: 0px;
+	}
+	
+	
+	a {
+		color: #0076EC;
+		font-family: Verdana;
+		font-size: 11px;
+		text-decoration: none;
+	}
+	a:Hover
+	{
+	text-decoration: underline;
+	font-size: 18px;
+	}
+	/* Our wrapper will be 940px wide, fixed and centered */
+#wrapper {
+	width: 940px;
+	height: auto;
+	margin: 0 auto;
+}
+
+/* This is used to obtain 10px gap between "real content" and footer */
+
+#wrapper-content {
+	margin-bottom: 10px;
+}
+
+/* These three following classes are used for top text, the one over header */
+#top-text-left {
+	margin-top: 10px;
+	margin-bottom:10px;
+	float: left;
+	padding-left: 20px;
+}
+
+#top-text-right {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	float: right;
+	padding-right: 20px;
+}
+
+.top-text  {
+	font-size: 12px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #333;
+}
+
+/*******************/
+/* START OF HEADER */
+/*******************/
+
+/* Rounded corners left */
+#header-bg-left {
+	background-image: url(../images/header_left.png);
+	width: 10px;
+	height: 500px;
+	float: left;
+}
+
+/* Main, 920px wide section of header */
+#header-main {
+	width: 920px;
+	height: 500px;
+	float: left;
+	background-image: url(../images/main_bg_header.jpg);
+	background-repeat: repeat-x;
+}
+
+/* Rounded corners right */
+#header-bg-right {
+	float: right;
+	width: 10px;
+	height: 500px;
+	background-image: url(../images/header_right.png);
+}
+
+/* Image with logo, to change it just open header.psd, change your content and use premade slices */
+#header-logo {
+	width: 305px;
+	height: 480px;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+.logo {
+	margin-left: 0px;
+	margin-top: 20px;
+}
+
+.header-about {
+	margin-top: 0px;
+	margin-left: 0px;
+}
+.bigpic{
+	padding-top:10px;
+}
+
+/* This styles desctiption of slogan */
+
+.header-description {
+	text-align: justify;
+}
+
+.arrow-left {
+	float: left;
+	padding-left: 10px;
+	margin-top: 110px;
+	width: 30px;
+}
+
+
+.arrow-right {
+	float: right;
+	padding-right: 10px;
+	width: 30px;
+	margin-top: -90px;
+}
+
+.header-icon {
+	padding-left: 10px;
+	margin-top: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+.header-heading {
+	margin-left: -5px;
+	margin-top: 250px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+.header-description {
+	color: #441006;
+	font-size: 11px;
+	font-family:Tahoma, Geneva, sans-serif;
+	margin: 0px;
+	width: 180px;
+	height: 150px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.header-about-main {
+	float: right;/*left*/
+	width: 200px;
+	margin-left: 0px;/*60px*/
+	margin-top: 0px;/*80px*/
+	overflow: hidden;
+}
+
+/*This hidde the controller for sliding slogan section*/
+#hidden-controller {
+	display: none;
+}
+
+/* Div which holds all the slides in slogan sliding section*/
+#header-slides {
+	float: left;
+	width: 500px;
+	height: 460px;
+	overflow: hidden;
+}
+
+/* This is divider used in header, made of 2px. You can find it in images folder */
+/*#divider-header {
+	width: 2px;
+	height: 170px;
+	background-repeat: repeat-y;
+	background-image: url(../images/divider-header.jpg);
+	float: left;
+	margin-top: 40px;
+}*/
+
+/**************/
+/*NAVIGATION */
+/************/
+
+#navigation {
+	margin-top: 10px;
+	height: 60px;
+	margin-bottom: 10px;
+}
+
+/* Menu is composed using kwicks plugin. Following three classes take care only of href borders in different browsers */
+.kwicks li a {
+	border: 0px;
+	text-decoration: none;
+}
+.kwicks img a {
+	border: 0px;
+	text-decoration: none;
+}
+.kwicks img {
+	border: 0px;
+	text-decoration: none;
+}
+
+/* Navigation - rounded corners - left */
+#nav-bg-left {
+	background-image: url(../images/nav_left.png);
+	width: 10px;
+	float: left;
+	height: 60px;
+}
+
+/* Navigation - rounded corners - right */
+#nav-bg-right {
+	background-image: url(../images/nav_right.png);
+	width: 10px;
+	float: right;
+	height: 60px;
+}
+
+/* Main, 920 px wide section ofnavigation with all the links images etc */
+
+#nav-main {
+	width: 920px;
+	float: left;
+	height: 60px;
+	background-image:url(../images/bg-nav.jpg);
+}
+
+.kwicks {
+	/* recommended styles for kwicks ul container */
+	list-style: none;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.kwicks a {
+	border: none;
+	text-decoration: none;
+}
+.kwicks li{
+	/* these are required, but the values are up to you (must be pixel) */
+	width: 100px;
+	height: 58px;
+	/*do not change these */
+	display: block;
+	overflow: hidden;
+	padding: 0;  /* if you need padding, do so with an inner div (or implement your own box-model hack) */
+	margin: 0px;
+	position: relative;
+}
+.kwicks.horizontal li {
+	/* This is optional and will be disregarded by the script.  However, it should be provided for non-JS enabled browsers. */
+	margin-right: 5px; /*Set to same as spacing option. */	
+	float: left;
+}
+
+#kwick1 {
+}
+
+/***********/
+/* SEARCH */
+/*********/
+
+/* Class used for styling whole search part of nav section */
+.search {
+	float: right;
+	padding-right: 10px;
+	padding-top: 15px;
+}
+
+/* Input search text */
+.input-text {
+	background-color: #f5f5f5;
+	padding: 5px;
+	color: #222222;
+	border: 1px solid #bcbbba;
+	width: 160px;
+}
+
+/* Submit button for search */
+.submit-button {
+	background-color: #f5f5f5;
+	border: 1px solid #666666;
+	cursor: pointer;
+	padding: 5px;
+	width: 110px;
+	margin-left: 10px;
+}
+
+/* Submit button for search on hover*/
+.submit-button:hover {
+	background-image: url(../images/bg-nav.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #666666;
+}
+
+/*****************************/
+/* START OF FEATURED SECTION */
+/*****************************/
+
+#featured {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+/* Featured - rounded corners - left */
+#featured-bg-left {
+	width: 10px;
+	height: 200px;
+	background-image:url(../images/spotlight_left.png);
+	float: left;
+}
+
+/* Featured - rounded corners - right */
+#featured-bg-right {
+	width: 10px;
+	height: 200px;
+	background-image:url(../images/spotlight_right.png);
+	float: right;
+}
+
+/* Main, 920 px wide section of featured section */
+#featured-main {
+	width: 920px;
+	height: 198px;
+	float: left;
+	border-top: 1px solid #bcbbba;
+	border-bottom: 1px solid #bcbbba;
+	background-color: #f5f5f5;
+}
+
+/* Box with featured service number 1 */
+.featured-left {
+	width: 272px;
+	float: left;
+	padding-left:10px;
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+	
+}
+
+/* Box with featured service number 2 */
+.featured-center {
+	display: inline;
+	width: 272px;
+	float: left;
+	padding-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+	height: 160px;
+	margin-bottom: 20px;
+	border-left: 1px solid #A9ABAB;	
+}
+
+/* Box with featured service number 3 */
+.featured-right {
+	width: 272px;
+	float: left;
+	border-left: 1px solid #A9ABAB;
+	padding-left: 20px;
+	margin-right: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+}
+
+/* Class that styles icons in featured services boxes */
+.featured-icon {
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	display: inline;
+	background-image: url(../images/featured-icon-3.jpg);
+}
+
+/* Class that styles headers in featured services boxes */
+.featured-header {
+	margin: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #222222;
+	font-weight: bold;
+	float: left;
+	line-height: 16px;
+	width: 190px;
+	margin-bottom: 10px;
+	
+}
+
+/* Class that styles descriptions in featured services boxes */
+.featured-description {
+	margin-top: 0px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #666666;
+	font-size: 0.7em;
+	line-height: 20px;
+	text-align: justify;
+	height: 110px;
+	display: inline;
+	width: 264px;
+	overflow: hidden;
+}
+
+
+/* LEarn more button background -left rounded corners */
+.learn-more-bg-left {
+	background-image:url(../images/learn-more-bg-left.jpg);
+	height: 30px;
+	width: 10px;
+	float: left;
+}
+
+/* LEarn more button background -right rounded corners */
+.learn-more-bg-right {
+	background-image:url(../images/learn-more-bg-right.jpg);
+	height: 30px;
+	width: 10px;
+	float: right;
+}
+
+/* LEarn more button background -center */
+.learn-more-main {
+	width: 70px;
+	height: 28px;
+	background-color: #aad16c;
+	border-top: 1px solid #7fa949;
+	border-bottom: 1px solid #7fa949;
+	float: left;
+}
+
+/* LEarn more button href styling */
+.learn-more-main a{
+	color: #222222;
+	text-decoration: none;
+	line-height: 11px;
+	padding-left: 7px;
+}
+
+.learn-more-main p{
+	line-height: 12px;
+}
+
+
+/* LEarn more button href styling on hover */
+.learn-more-main a:hover {
+	text-decoration: underline;
+}
+
+/* Class that styles learn more buttons in  in featured services boxes */
+.learn_more {
+	width: 90px;
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #222222;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	text-align: center;
+	bottom: 10px;
+}
+
+/*Learn more button-text styling */
+.learn-more-main p {
+	margin: 0px;
+	margin-top: 7px;
+}
+
+/****************/
+/* MAINCONTENT */
+/**************/
+
+/* Top rounded corners of MainContent */
+#maincontent-bg-top {
+	width: 940px;
+	height: 10px;
+	background-image:url(../images/content_top.png);
+	background-repeat: no-repeat;
+}
+
+/* Lower rounded corners of MainContent */
+#maincontent-bg-bottom {
+	width: 940px;
+	height: 10px;
+	background-image: url(../images/content_end.png);
+	background-repeat: no-repeat;
+}
+
+/* Main viewport content, including sidebars */
+#maincontent-main {
+	border-left: 1px solid #bcbbba;
+	border-right: 1px solid #bcbbba;
+	background-color: #f5f5f5;
+	height: auto;
+	width: 938px;
+	overflow: hidden;
+}
+
+/* maincontent without sidebars */
+#maincontent-main-core {
+	width: 570px;
+	float:left;
+	padding-left: 20px;
+	margin-right: 20px;
+	padding-top: 10px;
+	font-weight: bold;
+}
+
+
+/* maincontent full page */
+#maincontent-full {
+	width: 900px;
+	float:left;
+	padding-left: 20px;
+	margin-right: 20px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+/* sidebar collumn */
+#maincontent-main-sidebar {
+	margin-top: 10px;
+	width: 290px;
+	margin-right: 20px;
+	float: right;
+	margin-left: 10px;
+}
+
+/* sidebar element */
+.sidebar {
+	margin-bottom: 20px;
+	height: auto;
+	width: 290px;
+}
+
+/* Top rounded corners of sidebar element */
+.sidebar-bg-top {
+	width: 290px;
+	height: 10px;
+	background-image:url(../images/bg-sidebar-top.jpg);
+	background-repeat: no-repeat;
+}
+
+/* Bottom rounded corners of sidebar element */
+.sidebar-bg-bottom {
+	width: 290px;
+	height: 10px;
+	background-image: url(../images/bg-sidebar-bottom.jpg);
+	background-repeat: no-repeat;
+}
+
+
+/* Sidebar element main section */
+.sidebar-main {
+	width: 288px;
+	background-color: #aad16c;
+	border-right: 1px solid #7fa949;
+	border-left: 1px solid #7fa949;
+	height: auto;
+	padding-bottom: 0px;
+}
+
+/* Styling used for image which is used as a header of sidebar elemtn */
+.img-sidebar-header {
+	margin-top: 3px;
+	margin-left: 14px;
+	margin-bottom: 0px;
+	background-image: url(../images/map.jpg);
+}
+
+/* Small image icons in quick contact sidebar */
+.img-sidebar-contact {
+	margin-left: 20px;
+	float: left;
+	margin-right: 20px;
+}
+
+/* Every single one line of contact info in quick contact sidebar */
+.sidebar-contact-line {
+	padding-bottom: 3px;
+}
+
+/*Contact info in quick contact sidebar */
+.sidebar-contact-info {
+	float: left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #222222;
+	margin: 0px;
+	margin-top: 0px;
+	line-height: 16px;
+}
+
+/* General sidebar text */
+.sidebar-text {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #222222;
+	margin: 0px;
+	margin-left: 20px;
+	margin-top: 0px;
+	line-height: 18px;
+	text-align: justify;
+	margin-right: 20px;
+}
+
+.contact-main-info {
+	float: left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #222222;
+	margin: 0px;
+	margin-top: 0px;
+	line-height: 16px;
+	margin-top: 10px;
+}
+
+/* This class is used to style section name of every subpage, eg.: Services, Contact etc */
+.section-name {
+	color: #222222;
+	margin: 0px;
+	font-size: 21px;
+	font-family:Tahoma, Geneva, sans-serif;
+	padding-top: 0px;
+}
+
+/* This class is used to style subheaders , eg.: Service 1 , Service 2 */
+.subheading {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 16px;
+	color: #222222;
+	margin: 0px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+/* Class used to style general text */
+.general-text {
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	line-height: 18px;
+	text-align: justify;
+	
+}
+
+/***********/
+/* FOOTER */
+/*********/
+
+/* toprounded corners footer */
+#footer-bg-top {
+	width: 940px;
+	height: 10px;
+	background-image:url(../images/endbox_top.png);
+}
+
+/* Main section of footer, 920 px wide */
+#footer-main {
+	width: 938px;
+	border-left: 1px solid #88b150;
+	border-right: 1px solid #88b150;
+	background-color: #aad16c;
+}
+
+/* bottom rounded corners footer */
+#footer-bg-bottom {
+	height: 10px;
+	width: 940px;
+	;
+	background-image:url(../images/endbox_end.png);
+}
+
+/* Footer text, left part */
+.footer-text-left {
+	margin: 0px;
+
+	padding-left: 20px;
+	color: #222222;
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+	float: left;
+}
+
+/* Footer text - right part */
+.footer-text-right {
+margin: 0px;
+
+	padding-right: 20px;
+	color: #222222;
+	font-size: 11px;
+	font-family: Tahoma, Geneva, sans-serif;
+	float: right;
+}
+
+/* Class used to style image on the left side of mainContent */
+.main-image-noborder-left {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-image: none;
+}
+
+
+/* Class used to style image on the left side of mainContent */
+.main-image-noborder-right {
+	float: right;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-image: none;
+}
+
+/* Class used to style image on the left side of mainContent */
+.main-image-left {
+	float: left;
+	margin-right: 15px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	background-image: none;
+	padding: 3px;
+	background-color: #CDD3D8;
+	border: 1px solid #999;
+}
+
+/* Class used to style image on the left side of mainContent */
+.main-image-right {
+	padding: 5px;
+	border: 1px solid #bcbbba;
+	background-color: #e6e7eb;
+	float: right;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/* Class used to style UL (used in service section */
+.list {
+	list-style: url(../images/list.gif);
+	float: left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	color: #999;
+	line-height: 18px;
+	font-weight: bold;
+	margin: 0px;
+	padding-left: 20px;
+}
+
+/* Class used to every single service (on services page) */
+.service {
+	border-bottom: 1px dotted #bcbbba;
+	padding-bottom: 10px;
+	margin-top: 10px;
+}
+/* Class used style image of team member) */
+.icon-team {
+	float: left;
+}
+/* Class used style description of team member) */
+.data-team {
+	float: left;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	font-weight: bold;
+	margin: 0px;
+	margin-left: 10px;
+}
+
+/* This styles every data line in team member description */
+.team-member-data-line {
+	margin-bottom: 4px;
+}
+
+/* This is used to avoid borders and padding of whole contact form */
+.contact-fieldset {
+	border: none;
+	padding: 0px;
+}
+
+/*Styling for labels in contact form */
+.contact-label {
+	font-family: Tahoma;
+	color: #222222;
+	font-size: 11px;
+	float: left;
+	padding-top: 4px;
+	margin-right: 20px;
+}
+
+/*Styling for input fields in contact form */
+.contact-input {
+	float: left;
+	border: 1px solid #222222;
+	padding: 4px;
+	width: 230px;
+}
+
+/* subject select in contact section */
+.contact-select {
+	float: left;
+	padding: 2px;
+}
+
+/* message body text field in contact section */
+.contact-body {
+	float: left;
+	padding: 5px;
+	border: 1px solid #222222;
+	font-family: Tahoma;
+	font-size: 12px;
+}
+
+/* Contact submit button */
+.contact-button {
+	border: 1px solid #222222;
+	margin-left: 315px;
+	margin-top: 10px;
+	padding: 5px;
+	background-image:url(../images/bg-nav.jpg);
+	background-repeat:repeat-x;
+}
+
+#contact-form {
+	float: left;
+}
+
+#contact-maininfo {
+	float: right;
+}
+
+.contact-form-all {
+	margin-top: 10px;
+}
+
+/* class used to clear float */
+.clear {
+	clear: both;
+}
+
+.slide {
+	width: 500px;
+}
+	
+	
+	
+	
+	.topMenuSep
+	{
+		font-family: Verdana;
+		font-weight: bold;
+		font-size: 9px;
+		color: #FFFFFF;
+		padding-left: 14 px;
+		padding-right: 14 px;
+	}
+	a.topMenu
+	{
+		font-family: Verdana;
+		font-weight: bold;
+		font-size: 9px;
+		color: #FFFFFF;
+		text-decoration: none;
+	}
+	a.topMenu:HOVER
+	{
+		text-decoration: underline;
+	}
+
+	a.logOutlink
+	{
+		font-family: Verdana;
+		font-weight: bold;
+		font-size: 11px;
+		color: Navy;
+		text-decoration: underline;
+	}
+	a.logOutlink:HOVER
+	{
+		text-decoration: none;
+	}
+
+	.searchForm
+	{
+		font-family: Verdana;
+		font-weight: bold;
+		font-size: 9px;
+	}
+
+	Input, Textarea,.btnS
+	{
+		font-family: verdana;
+		font-size: 10px;
+		color: #000000;
+		background-color: #ffffff;
+		border: 1px solid #666666;
+		padding-left: 2px;
+		padding-right: 3px;
+		vertical-align:middle;
+	}
+	.noborder
+	{
+		border:0px !important;
+		background-color: transparent;
+	}
+	.RepTabLabel
+	{
+		font-family: verdana;
+		font-size: 8pt;
+		font-weight: bold;
+		color: #ffffff;
+		background-color: #AAD16C;
+		border-right: 1px solid #ffffff;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.RepTabLabel A{color: #ffffff;}
+	
+	.RepTabValueLigth, SELECT
+	{
+		font-family: verdana;
+		font-size: 8pt;
+		color: #000000;
+		background-color: #F5F5F5;
+		border-right: 1px solid #eeeeee;
+		padding-top: 2px;
+		padding-left: 2px;
+		padding-right: 3px;
+	}
+
+	.RepTabValueGrey
+	{
+		font-family: verdana;
+		font-size: 8pt;
+		color: #000000;
+		background-color: #eeeeee;
+		border-right: 1px solid #ffffff;
+		padding-top: 2px;
+		padding-left: 2px;
+		padding-right: 3px;
+	}
+
+	.LigthBG TD{
+		font-family: verdana;
+		font-size: 8pt;
+		color: #000000;
+		background-color: #F5F5F5;
+		border-right: 1px solid #eeeeee;
+		padding-top: 2px;
+		padding-left: 2px;
+		padding-right: 3px;
+	}
+	.GreyBG TD{
+		font-family: verdana;
+		font-size: 8pt;
+		color: #000000;
+		background-color: #eeeeee;
+		border-right: 1px solid #ffffff;
+		padding-top: 2px;
+		padding-left: 2px;
+		padding-right: 3px;
+	}
+
+	TD
+	{
+		font-family: verdana;
+		font-size: 10px;
+		color: #000000;
+	}
+	.ItemTitle
+	{
+		font-family: Verdana;
+		font-size: 11px;
+		color: #444444;
+		font-style: italic;
+		padding-bottom: 3px;
+	}
+	.dateFormat
+	{
+		font-family: Verdana;
+		font-size: 9px;
+		color: #444444;
+		font-weight:normal;
+		padding-bottom:2px;
+	}
+
+	#print_bar{
+		text-align:right;
+		padding:10px;
+	}
+	a.print_bar{
+		text-decoration:underline;
+	}
+	a.print_bar{
+		text-decoration:none;
+	}
+	.HideShowAdvanced
+	{
+		font-weight: bold;
+		color: Blue;
+	}

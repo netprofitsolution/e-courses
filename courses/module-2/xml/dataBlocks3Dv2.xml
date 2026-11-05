@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Quboid>
+	<setup
+	
+	sceneMode="fluid" 								
+	sceneWidth="800"							
+	sceneHeight="400"								
+	
+	autoQuality="true"
+	freezeOnLeave="false"
+	freezeOnIdle="false"
+	
+	bgEnabled="false"						
+	bgFirstColor="0x252525"
+	bgSecondColor="0x000000"
+	
+	scaleFactor="10"
+	cameraDistance="400"
+	
+	depthEnabled="false"
+	depthAmount="200"
+	depthMultiplier="0.02"
+	
+	curveRadius="350"
+	curveScroll="continuous"
+	curveScrollFactor="200"
+	curveScrollTiltEnabled="true"
+	
+	curveCamIdleZoom="5"
+	curveCamIdleFocus="100"
+	curveCamIdleX="0"
+	curveCamIdleY="-20"
+	curveCamIdleZ="-600"
+	curveCamViewZoom="15"
+	curveCamViewFocus="100"
+	curveCamTiltAmount="50"
+	curveCamTiltMaximum="50"
+	
+	reflectionEnabled="true"
+	reflectionY="-100"
+	reflectionBlur="2"
+	reflectionAlphaStart="0.5"
+	reflectionAlphaEnd="0"
+	
+	cubeDepth="50"
+	cubeColor="0x252525"
+	cubeShaded="false"
+	
+	tooltipEnabled="true"
+	tooltipTextSize="8"
+	tooltipTextColor="0xFFFFFF"
+	tooltipBgColor="0x252525"
+	tooltipGlowColor="0x252525"
+	tooltipGlowAlpha="1"
+	tooltipGlowStrength="2"
+	tooltipGoBackText="Go Back"
+	
+	captionTextSize="26"
+	captionTextColor="0xFFFFFF"
+	captionTitleBgColor="0xCC0099"
+	captionDescriptionBgColor="0xFFFFFF"
+	captionBgAlpha="100"
+	captionPadding="2"
+	captionMargin="10"
+	captionSpacing="2"
+	captionPosition="BR"
+	
+	vidWidth="470"
+	vidHeight="200"
+	vidStart="5"
+	vidBuffer="5"
+	
+	></setup>
+    <!--
+<asset>
+			<media type="image" tooltip="Boy Graffiti on Wall" url="" target="_blank">images/art/boy_graffiti_on_wall-other.jpg</media>
+			<about title="Boy Graffiti on Wall"><![CDATA[<font color="#333333" size="18">Three different colored boys</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Happy Face on the Wall" url="" target="_blank">images/art/happy_face_on_the_wall-other.jpg</media>
+			<about title="Happy Face on the Wall"><![CDATA[<font color="#333333" size="18">I think you know this guy!</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Graffiti Art" url="" target="_blank">images/art/graffiti_art_2-other.jpg</media>
+			<about title="Graffiti Art"><![CDATA[<font color="#333333" size="18">Some nasty alien artwork</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Monkey Draw" url="" target="_blank">images/art/monkey_draw-other.jpg</media>
+			<about title="Monkey Draw"><![CDATA[<font color="#333333" size="18">A Monkey Graffiti</font>]]></about>
+	</asset> 
+	
+	<asset>
+			<media type="image" tooltip="Boy Graffiti on Wall" url="" target="_blank">images/art/boy_graffiti_on_wall-other.jpg</media>
+			<about title="Boy Graffiti on Wall"><![CDATA[<font color="#333333" size="18">Three different colored boys</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Happy Face on the Wall" url="" target="_blank">images/art/happy_face_on_the_wall-other.jpg</media>
+			<about title="Happy Face on the Wall"><![CDATA[<font color="#333333" size="18">I think you know this guy!</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Graffiti Art" url="" target="_blank">images/art/graffiti_art_2-other.jpg</media>
+			<about title="Graffiti Art"><![CDATA[<font color="#333333" size="18">Some nasty alien artwork</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Monkey Draw" url="" target="_blank">images/art/monkey_draw-other.jpg</media>
+			<about title="Monkey Draw"><![CDATA[<font color="#333333" size="18">A Monkey Graffiti</font>]]></about>
+	</asset>
+	
+		<asset>
+			<media type="image" tooltip="Boy Graffiti on Wall" url="" target="_blank">images/art/boy_graffiti_on_wall-other.jpg</media>
+			<about title="Boy Graffiti on Wall"><![CDATA[<font color="#333333" size="18">Three different colored boys</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Happy Face on the Wall" url="" target="_blank">images/art/happy_face_on_the_wall-other.jpg</media>
+			<about title="Happy Face on the Wall"><![CDATA[<font color="#333333" size="18">I think you know this guy!</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Graffiti Art" url="" target="_blank">images/art/graffiti_art_2-other.jpg</media>
+			<about title="Graffiti Art"><![CDATA[<font color="#333333" size="18">Some nasty alien artwork</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Monkey Draw" url="" target="_blank">images/art/monkey_draw-other.jpg</media>
+			<about title="Monkey Draw"><![CDATA[<font color="#333333" size="18">A Monkey Graffiti</font>]]></about>
+	</asset> 
+	
+	<asset>
+			<media type="image" tooltip="Boy Graffiti on Wall" url="" target="_blank">images/art/boy_graffiti_on_wall-other.jpg</media>
+			<about title="Boy Graffiti on Wall"><![CDATA[<font color="#333333" size="18">Three different colored boys</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Happy Face on the Wall" url="" target="_blank">images/art/happy_face_on_the_wall-other.jpg</media>
+			<about title="Happy Face on the Wall"><![CDATA[<font color="#333333" size="18">I think you know this guy!</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Graffiti Art" url="" target="_blank">images/art/graffiti_art_2-other.jpg</media>
+			<about title="Graffiti Art"><![CDATA[<font color="#333333" size="18">Some nasty alien artwork</font>]]></about>
+	</asset>
+	
+	<asset>
+			<media type="image" tooltip="Monkey Draw" url="" target="_blank">images/art/monkey_draw-other.jpg</media>
+			<about title="Monkey Draw"><![CDATA[<font color="#333333" size="18">A Monkey Graffiti</font>]]></about>
+	</asset>  
+	
+	-->
+</Quboid>
+
+
+
+

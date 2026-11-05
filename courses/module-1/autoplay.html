@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style class="vjs-styles-defaults">
+      .video-js {
+        width: 300px;
+        height: 150px;
+      }
+
+      .vjs-fluid {
+        padding-top: 56.25%
+      }
+    </style>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/png" href="./favicon.png">
+    <style type="text/css">
+
+        html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; background-color: #333; box-sizing: border-box;}
+        #openfl-content { background: #2b2b2b; width: 1070px; height: 650px; margin: 0; padding: 0; }
+        #openfl-content > div { width: 100% !important; height: 100% !important; }
+        #openfl-content p { margin-top: 0; margin-bottom: 0; line-height: 1.3; min-height: 1em; }
+        #course-name-display {
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Roboto Bold', sans-serif;
+            font-weight: 600;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 40%;
+            flex-shrink: 0;
+        }
+        #brand-logo { padding: 15px; display: flex; align-items: center; flex-shrink: 0; }
+        #brand-logo img { display: block; height: 32px; width: auto; max-width: 220px; object-fit: contain; }
+        /* A course logo can be any colour: a light tile keeps a dark logo readable on the dark bar. */
+        #brand-logo.custom img { background: #fff; border-radius: 6px; padding: 4px 8px; box-sizing: content-box; height: 28px; }
+        #promo {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .content-element { font-family: Arial; cursor: default; }
+        .video-js video:focus, .vjs-poster:focus, .vjs-text-track-display:focus { outline: none; }
+        .inside-jackdaw .vjs-youtube .vjs-iframe-blocker { display: block !important; }
+        .vjs-modal-dialog { display: none !important }
+        .is-ios #openfl-content, .is-ios #openfl-content * { cursor: pointer !important; }
+        .visually-hidden { opacity: 0 }
+
+        @font-face {
+            font-family: 'Arial Bold';
+            src: url('fonts/Arial Bold.eot');
+            src: url('fonts/Arial Bold.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Arial Bold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Arial';
+            src: url('fonts/Arial.eot');
+            src: url('fonts/Arial.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Arial.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Arial Black';
+            src: url('fonts/Arial Black.eot');
+            src: url('fonts/Arial Black.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Arial Black.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Medium';
+            src: url('fonts/Roboto/Roboto-Medium.eot');
+            src: url('fonts/Roboto/Roboto-Medium.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto/Roboto-Medium.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Light';
+            src: url('fonts/Roboto/Roboto-Light.eot');
+            src: url('fonts/Roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto/Roboto-Light.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto';
+            src: url('fonts/Roboto/Roboto-Regular.eot');
+            src: url('fonts/Roboto/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Bold';
+            src: url('fonts/Roboto/Roboto-Bold.eot');
+            src: url('fonts/Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Thin';
+            src: url('fonts/Roboto/Roboto-Thin.eot');
+            src: url('fonts/Roboto/Roboto-Thin.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto/Roboto-Thin.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Roboto Black';
+            src: url('fonts/Roboto/Roboto-Black.eot');
+            src: url('fonts/Roboto/Roboto-Black.eot?#iefix') format('embedded-opentype'),
+            url('fonts/Roboto/Roboto-Black.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        .text-carousel {
+            font-family: 'Roboto Light', sans-serif;
+            font-weight: 200; 
+            position: relative;
+            height: 60px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            overflow: hidden;
+            font-size: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 40%;
+            flex-shrink: 0;
+        }
+
+        .line {
+            position: absolute;
+            left: 0;
+            transform: translateX(0);
+            width: 100%;
+            height: 20px;
+            opacity: 0.33;
+            transform-origin: left center;
+            white-space: nowrap;
+        }
+
+        .line.top {
+            transform: translate(0, -20px) scale(0.7);
+            margin-bottom: -3px;
+        }
+
+        .line.middle {
+            transform: translate(0, 0) scale(1);
+            opacity: 1;
+        }
+
+        .line.bottom {
+            transform: translate(0, 20px) scale(0.7);
+        }
+
+        /* Add animation class to trigger upward move */
+        .text-carousel.animate .line.top {
+            transition: all 0.6s ease-in-out;
+            transform: translate(0, -40px) scale(0.7);
+            opacity: 0;
+        }
+
+        .text-carousel.animate .line.middle {
+            transition: all 0.6s ease-in-out;
+            transform: translate(0, -20px) scale(0.7);
+            opacity: 0.33;
+        }
+
+        .text-carousel.animate .line.bottom {
+            transition: all 0.6s ease-in-out;
+            transform: translate(0, 0) scale(1);
+            opacity: 1;
+        }
+
+            /* The player is a light design; opt out of Chrome's auto-dark inversion so the page,
+           preloader and stage keep their real colours. */
+        :root { color-scheme: only light; }
+        /* HTML preloader: on screen from the first byte, until Room reports its first screen
+           (room:ready). Same layout as the player's own Preloader.hx on the 1070x650 stage:
+           the two brand gears large in the bottom-right corner, overflowing the stage edges,
+           the loading text and a slim bar just above centre. Sizes/positions are stage
+           percentages so it scales exactly like the player does. */
+        #room-preloader { position: fixed; inset: 0; z-index: 10000; display: flex; align-items: flex-start; justify-content: center; background: #f3f3f3; transition: opacity .35s ease; }
+        #room-preloader.is-done { opacity: 0; pointer-events: none; }
+        #room-preloader .rp-stage { position: relative; width: min(100vw, calc(100vh * 1070 / 650)); aspect-ratio: 1070 / 650; overflow: hidden; container-type: inline-size; background: #f3f3f3; }
+        #room-preloader .rp-gear { position: absolute; display: block; transform-origin: 50% 50%; will-change: transform; }
+        #room-preloader .rp-gear-big   { width: 35.05%; left: 52.57%; top: 72.77%; animation: rp-spin-cw 10s linear infinite; }
+        #room-preloader .rp-gear-small { width: 25.51%; left: 79.77%; top: 55.92%; animation: rp-spin-ccw 6s linear infinite; }
+        @keyframes rp-spin-cw  { to { transform: rotate(360deg); } }
+        @keyframes rp-spin-ccw { to { transform: rotate(-360deg); } }
+        /* Roboto Light for the loading text — the same file Lime preloads for the player, so it is
+           cached by the time Room needs it. Arial has no light face; the fallbacks below do. */
+        @font-face { font-family: "Roboto Preloader"; font-weight: 300; font-style: normal; font-display: swap; src: url("fonts/Roboto/Roboto-Light.ttf") format("truetype"); }
+        #room-preloader .rp-text { position: absolute; left: 17.3%; width: 65.4%; top: 43.85%; text-align: center; color: #414141; font-weight: 300; font-size: 3.36cqw; line-height: 1.25; font-family: "Roboto Preloader", Roboto, "Helvetica Neue", "Segoe UI", system-ui, sans-serif; }
+        #room-preloader .rp-bar { position: absolute; left: 42.15%; top: 52.77%; width: 15.7%; height: 2.15%; box-sizing: border-box; border: 0.14cqw solid #4d4d4d; border-radius: 999px; }
+        #room-preloader .rp-bar > i { position: absolute; left: 0.37cqw; top: 0.28cqw; bottom: 0.28cqw; width: 0; max-width: calc(100% - 0.74cqw); border-radius: 999px; background: #4d4d4d; transition: width .3s ease; }
+        @supports not (width: 1cqw) {
+            #room-preloader .rp-text { font-size: 28px; }
+            #room-preloader .rp-bar { border-width: 1.5px; }
+            #room-preloader .rp-bar > i { left: 4px; top: 3px; bottom: 3px; max-width: calc(100% - 8px); }
+        }
+    </style>
+
+    <!-- A script here used to inject a second @font-face set pointing at SVG and WOFF copies of the
+         fonts. SVG fonts are dead and the WOFF copies are no longer shipped (the player loads the
+         TTF files declared above), so it only produced 404s. -->
+
+
+    <!-- Room's own runtime bundle (Room/src/index.js via webpack): video.js + its YouTube/Vimeo
+         plugins and stylesheet, screenfull, spin.js. VideojsPlayer calls window.videojs for every
+         <Video>; without it the raw <video> falls back to the 300x150 .video-js default above.
+         Deferred: Room itself is embedded from body onload, which runs after deferred scripts. -->
+    <link rel="stylesheet" type="text/css" href="js/bundle.css">
+    <script src="js/bundle.js" type="text/javascript" defer></script>
+
+    <title>OpeneLMS</title>
+
+    <script type="text/javascript" name="cmifrag" src="js/fs_scorm.js"></script>
+</head>
+<body id="room-body">
+
+    <div id="autoplay-check" style="display: none;"><video id="testVideo" width="400" controls><source src="data:video/mp4;base64,AAAAHGZ0eXBtcDQyAAAAAGlzb21tcDQyAAAC2G1vb3YAAABsbXZoZAAAAAB8AAABsAAAFIBAAAB0gAAAAAAABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIVdHJhawAAAFx0a2hkAAAAB3wAAAGwAABUAQAAAAABAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAAAGdlb2QAAAAAAAAAOXBycAAAAAEAAwACABIAAAABAAEAAABAAAD2AAABAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" type="video/mp4"></video></div>
+    <script>
+        var _IframeAutoplayAvailable = true;
+        const testVideo = document.getElementById('testVideo');
+        testVideo.play().then(() => {
+            _IframeAutoplayAvailable = true;
+        }).catch((error) => {
+            _IframeAutoplayAvailable = false;
+        });
+        const IframeAutoplayDenied = () => !_IframeAutoplayAvailable;
+    </script>
+
+    <div style="display: flex; flex-direction: column; justify-self: center; position: relative;">
+        <div id="openfl-content"></div>
+    <div id="room-preloader" role="status" aria-live="polite">
+        <div class="rp-stage">
+            <svg xmlns="http://www.w3.org/2000/svg" class="rp-gear rp-gear-big" aria-hidden="true" viewBox="0 0 250 250"><path style="fill:#7A858B;fill-opacity:1;stroke-width:1.26238763" d="m 244.06926,150.81563 -28.52998,-17.79964 c 0.2525,-2.65104 0.37873,-5.17581 0.37873,-7.82682 0,-2.65106 -0.12625,-5.30203 -0.37873,-7.95305 l 28.52998,-17.799633 c 1.89359,-1.26244 2.77725,-3.660957 2.14606,-5.807016 l -4.54461,-14.138759 c -0.75742,-2.14606 -2.77725,-3.660919 -5.17578,-3.408462 l -33.57953,2.272308 c -2.77726,-4.544577 -5.80699,-8.836696 -9.34167,-12.75011 l 12.62388,-31.180989 c 0.88367,-2.146059 0.12624,-4.544577 -1.64111,-5.933226 l -11.99269,-8.710486 c -1.89358,-1.388611 -4.41835,-1.262363 -6.18569,0.252495 l -25.75273,21.586882 c -4.79708,-2.019888 -9.84664,-3.660956 -15.02242,-4.923358 L 137.39743,4.1261663 C 136.89249,1.8538589 134.87266,0.339 132.47413,0.339 h -14.89619 c -2.27229,0 -4.29212,1.5148589 -4.92333,3.7871663 L 104.44909,36.695766 C 99.273314,37.83192 94.223759,39.473027 89.426682,41.619124 L 63.673958,20.032242 c -1.767344,-1.514858 -4.292121,-1.514858 -6.185705,-0.252495 l -11.992689,8.710448 c -1.893583,1.38865 -2.524776,3.787205 -1.641103,5.933226 L 56.478343,65.604448 C 53.0699,69.517862 49.91393,73.809981 47.136672,78.354558 L 13.557137,76.08225 C 11.28484,75.956191 9.1387801,77.344652 8.3813466,79.490712 L 3.8367491,93.503261 c -0.7574335,2.146021 0.1262478,4.544577 2.1460605,5.806941 L 34.512788,117.10988 c -0.252457,2.65101 -0.378725,5.17577 -0.378725,7.82678 0,2.65106 0.126211,5.30204 0.378725,7.82684 L 5.9828096,150.56313 c -1.8935838,1.2624 -2.7772576,3.66097 -2.1460605,5.80703 l 4.5445975,14.13875 c 0.7574335,2.14602 2.7772534,3.66088 5.1757904,3.40846 l 33.579535,-2.27231 c 2.777258,4.54458 5.806988,8.83671 9.341671,12.75012 l -12.623882,31.18099 c -0.883673,2.14602 -0.126248,4.54457 1.641103,5.93318 l 11.992689,8.71052 c 1.893584,1.38858 4.418361,1.26237 6.185705,-0.25211 l 25.752724,-21.58684 c 4.797077,2.01981 9.846632,3.66092 15.022408,4.92332 l 8.20552,32.5696 c 0.50496,2.2723 2.52479,3.78716 4.92333,3.78716 h 14.89619 c 2.27229,0 4.29212,-1.51486 4.9233,-3.78716 l 8.20554,-32.5696 c 5.17578,-1.13615 10.22534,-2.77726 15.02242,-4.92332 l 25.75273,21.58684 c 1.76734,1.51486 4.29211,1.51486 6.18569,0.25211 l 11.99269,-8.71052 c 1.89359,-1.38861 2.52478,-3.78716 1.64111,-5.93318 l -12.62388,-31.18099 c 3.40844,-3.91341 6.56441,-8.20554 9.34167,-12.75012 l 33.57953,2.27231 c 2.27229,0.12606 4.41836,-1.26244 5.17578,-3.40846 l 4.54461,-13.8863 c 0.63119,-2.27226 -0.12625,-4.54462 -2.14606,-5.80698 z m -119.04324,31.05479 c -31.433461,0 -56.807461,-25.37405 -56.807461,-56.80746 0,-31.433489 25.374,-56.807499 56.807461,-56.807499 31.43348,0 56.80748,25.37401 56.80748,56.807499 0,31.43341 -25.374,56.80746 -56.80748,56.80746 z" id="gearBig" /></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" class="rp-gear rp-gear-small" aria-hidden="true" viewBox="0 0 182 182"><path style="fill:#A3ACB1;fill-opacity:1;stroke-width:1.2581811" id="gearSmall" d="M 172.34138,123.7127 147.05195,99.304033 c 0.37746,-2.768042 0.62909,-5.536085 0.62909,-8.304053 0,-2.768005 -0.25163,-5.53601 -0.62909,-8.303978 l 25.28943,-24.408776 c 1.63565,-1.635638 2.0131,-4.151989 0.88073,-6.039243 l -7.42326,-12.833448 c -1.13238,-2.013081 -3.5229,-2.893832 -5.66181,-2.264735 l -33.84507,9.687999 c -4.27781,-3.397102 -9.18472,-6.290934 -14.34325,-8.304015 L 103.39307,4.4370457 C 102.88982,2.1723107 100.87672,0.6625 98.486179,0.6625 H 83.639645 c -2.264731,0 -4.277816,1.5098107 -4.906906,3.7745457 L 70.17711,38.533784 c -5.158546,2.013081 -10.065454,4.906913 -14.343255,8.304015 L 21.988788,37.1498 c -2.264724,-0.629097 -4.529457,0.377556 -5.661821,2.264735 L 8.9037019,52.247983 C 7.771346,54.261064 8.1488013,56.777415 9.7844343,58.287226 L 35.073862,82.696002 c -0.377455,2.767968 -0.629091,5.535973 -0.629091,8.303978 0,2.767968 0.251626,5.536011 0.629091,8.304053 L 9.658613,123.7127 c -1.6356334,1.63567 -2.0130888,4.15202 -0.8807231,6.03927 l 7.4232651,12.8335 c 1.132356,2.01311 3.522909,2.89383 5.661811,2.26473 l 33.845058,-9.68801 c 4.277821,3.39712 9.184728,6.29091 14.343263,8.30399 l 8.55564,34.09677 c 0.503267,2.26474 2.516351,3.77455 4.906899,3.77455 h 14.84653 c 2.264724,0 4.277814,-1.50981 4.906904,-3.77455 l 8.55564,-34.09677 c 5.15852,-2.01308 10.06542,-4.90687 14.34326,-8.30399 l 33.84506,9.68801 c 2.26473,0.6291 4.52945,-0.37759 5.6618,-2.26473 l 7.42328,-12.8335 c 1.25818,-1.88725 0.88073,-4.4036 -0.75492,-6.03927 z M 91.0629,119.05748 c -15.60143,0 -28.183246,-12.58183 -28.183246,-28.183327 0,-15.601415 12.581816,-28.183246 28.183246,-28.183246 15.60145,0 28.18326,12.581831 28.18326,28.183246 0,15.601497 -12.70764,28.183327 -28.18326,28.183327 z" /></svg>
+            <div class="rp-text" id="room-preloader-text">Loading…</div>
+            <div class="rp-bar"><i id="room-preloader-bar"></i></div>
+        </div>
+    </div>
+    <script>
+    (function () {
+        var el = document.getElementById('room-preloader');
+        var text = document.getElementById('room-preloader-text');
+        var bar = document.getElementById('room-preloader-bar');
+        var done = false;
+        function finish() {
+            if (done || !el) return;
+            done = true;
+            el.className += ' is-done';
+            setTimeout(function () { if (el.parentNode) el.parentNode.removeChild(el); }, 400);
+        }
+        // Room (room.js) narrates its start-up with these window events.
+        window.addEventListener('room:loading', function (e) {
+            if (e.detail && e.detail.text) text.textContent = e.detail.text;
+        });
+        window.addEventListener('room:progress', function (e) {
+            var d = e.detail || {};
+            if (typeof d.value === 'number') bar.style.width = Math.max(0, Math.min(100, d.value * 100)) + '%';
+            if (d.text) text.textContent = d.text;
+        });
+        window.addEventListener('room:ready', finish);
+        // Safety nets: a player build without the events, or a start-up that
+        // never reaches the first screen, must not leave the gears up forever.
+        window.__roomPreloaderFinish = finish;
+        setTimeout(finish, 120000);
+    })();
+    </script>
+        <div style="display: flex; color: #ddd;">
+            <!-- The course's own logo (menu_logo, else logo) when it has one, else the Open eLMS logo (SCOR-8691). -->
+            <div id="brand-logo"><img src="assets/openelms-logo-white.svg" alt="Open eLMS"></div>
+            <div id="course-name-display"></div>
+            <div class="text-carousel">
+                <div class="line top"> </div>
+                <div class="line middle"> </div>
+                <div class="line bottom"> </div>
+            </div>
+        </div>
+        <div id="promo"><img src="images/promo.jpg" width="1070" height="650"></div>
+    </div>
+
+    <script type="text/javascript" name="earlyInit">
+        <!--
+
+        const hidePromo = () => {
+            document.getElementById('promo').style.display = 'none';
+        };
+
+        // Store course data
+        let courseName = '';
+        let screenTitles = [];
+        let currentScreenIndex = -1;
+
+        const carousel = document.querySelector('.text-carousel');
+
+        // Load and parse XML on page load
+        function loadCourseData() {
+            fetch('xml/information.xml')
+                .then(response => response.text())
+                .then(xmlString => {
+                    const parser = new DOMParser();
+                    const xmlDoc = parser.parseFromString(xmlString, 'text/xml');
+
+                    // Extract course name (handle CDATA)
+                    const courseNameNode = xmlDoc.querySelector('scorm course_name');
+                    if (courseNameNode) {
+                        courseName = courseNameNode.textContent.trim();
+                        const courseNameDisplay = document.getElementById('course-name-display');
+                        if (courseNameDisplay) {
+                            courseNameDisplay.textContent = courseName;
+                        }
+                    }
+
+                    // The course's branding logo, as Room's menu shows it (paths are relative to the course root).
+                    const logoNode = xmlDoc.querySelector('settings > menu_logo') || xmlDoc.querySelector('settings > logo');
+                    const logoPath = logoNode ? logoNode.textContent.trim() : '';
+                    if (logoPath) {
+                        const box = document.getElementById('brand-logo');
+                        const img = document.createElement('img');
+                        img.alt = courseName;
+                        img.onload = () => { box.replaceChildren(img); box.classList.add('custom'); };
+                        img.src = logoPath;
+                    }
+
+                    // Extract screen titles (only screens with Section tags, excluding those with Quizes)
+                    const screens = xmlDoc.querySelectorAll('screens > screen');
+                    screens.forEach(screen => {
+                        const hasQuiz = screen.querySelector('Quizes') !== null;
+                        const sectionNode = screen.querySelector('Section');
+
+                        // Only include screens that have a Section tag and no Quizes tag
+                        if (!hasQuiz && sectionNode && sectionNode.textContent.trim()) {
+                            // Strip HTML tags from section title
+                            const tempDiv = document.createElement('div');
+                            tempDiv.innerHTML = sectionNode.textContent.trim();
+                            const cleanTitle = tempDiv.textContent || tempDiv.innerText || '';
+                            screenTitles.push(cleanTitle.trim());
+                        }
+                    });
+                })
+                .catch(error => console.error('Error loading course data:', error));
+        }
+
+        const titleChange = (title) =>
+        {
+            const previousIndex = currentScreenIndex;
+
+            const index = screenTitles.indexOf(title);
+            if (index == -1) return;
+            
+            carousel.classList.add('animate');
+            setTimeout(() => {
+                carousel.classList.remove('animate');
+                // Rotate lines
+                carousel.querySelector('.top').textContent = carousel.querySelector('.middle').textContent;
+                carousel.querySelector('.middle').textContent = screenTitles[index] ?? ' ';
+                carousel.querySelector('.bottom').textContent = screenTitles[index+1] ?? ' ';
+            }, 600);
+        };
+
+        // Load course data when page loads
+        document.addEventListener('DOMContentLoaded', loadCourseData);
+
+        const gainFocus = () =>
+        {
+            setTimeout(() => {
+                var element2focus = document.getElementById('openfl-content').getElementsByTagName('a').item(0);
+                if (element2focus) element2focus.focus();
+            }, 1000);
+        };
+
+        const decodeHtmlEntities = (html) =>
+        {
+            var txt = document.createElement("textarea");
+            txt.innerHTML = html;
+            return txt.value;
+        };
+
+        function setFullScreen()
+        {
+            if (window.screenfull && screenfull.isEnabled && !screenfull.isFullscreen)
+            {
+                screenfull.request();
+                // Awoid locking orientation on unsuported Apple devices
+                if (!(/iPhone|iPad|iPod/i.test(navigator.userAgent))) screen.orientation.lock("landscape");
+            }
+        }
+
+        function closeThis()
+        {
+            if (window.screenfull && screenfull.isFullscreen) {
+                screenfull.exit();
+            }
+            if (typeof closeRoom === "function") {
+                closeRoom();
+            }
+        }
+
+
+        function html5Actions() {
+            var room,
+                afterJsLoad = function () {
+                    setTimeout(function () {
+                        if (typeof lime !== "undefined") {
+                            lime.embed('room', 'openfl-content', 1070, 650, { resizable: false, parameters: {} });
+                            // Room is running: if it never reports room:ready (old build), drop the HTML preloader anyway.
+                            setTimeout(function () { if (window.__roomPreloaderFinish) window.__roomPreloaderFinish(); }, 20000);
+                        }
+                    }, 500);
+                };
+
+
+            room = document.createElement("script");
+            room.src = './room.js';
+            document.body.appendChild(room);
+            room.onload = function () {
+                afterJsLoad();
+            };
+            window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+        }
+
+        function getRestUrl() {
+            var getUrl = top.window.location;
+            return getUrl.protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1] + '/api/index.php';
+        }
+
+        // window.addEventListener('resize', function(e) {
+        //     e.stopImmediatePropagation();
+        // }, true);
+
+        html5Actions(); // Default to HTML5
+
+        //-->
+    </script>
+    <script type="text/javascript" src="./js/rest.js"></script>
+</body>
+</html>

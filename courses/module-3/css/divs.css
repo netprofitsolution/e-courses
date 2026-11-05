@@ -1,0 +1,35 @@
+body {
+	background-color:#000000;
+	font-family:Arial,Helvetica,sans-serif;
+	margin:0;
+	padding:0;
+}
+#Quboid {
+	width:100%;
+	max-width:1680px;
+	max-height:1200px;
+	height:100%;
+	position:absolute;
+	color:#00ADF1;
+	font-size:47px;
+	letter-spacing:-5px;
+	line-height:37px;
+	outline:none;
+}
+#Quboid a {
+	color:#2FC6FF;
+	text-decoration:none;
+	border:none;
+	background:none;
+}
+#Quboid a:hover{
+	color:#06BBFF;
+	text-decoration:none;
+	border:none;
+	background:#none;
+}
+#Quboid p {
+	padding:50px;
+	margin:0 auto;
+	width: 600px;
+}
